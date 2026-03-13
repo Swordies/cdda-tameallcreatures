@@ -1,12 +1,12 @@
 # Tame All Creatures
 
 **Author:** Swordie
-**Version:** 1.0.0 (0.H Backport)
+**Version:** 1.0.0 
 **Target:** Cataclysm: Dark Days Ahead 0.H (Herbert)
 
 ## Overview
 
-This mod lets you tame and befriend every creature in CDDA; zombies, mi-go, robots, nether beings, all of them. It adds craftable taming treats, a corpse-to-treat conversion system, throwable pacification bombs that deploy visible gas clouds for crowd control, throwable healing incense for patching up your tamed creatures, command items for ordering pets around, and 8 new taming-focused professions. Vanilla faction relationships are preserved; untamed creatures still fight, flee, or coexist with each other as normal.
+This mod lets you tame and befriend every creature in CDDA: zombies, mi-go, robots, nether beings, all of them! It adds craftable taming treats, a corpse-to-treat conversion system, throwable pacification bombs that deploy visible gas clouds for crowd control, throwable healing incense for patching up your tamed creatures, command items for ordering pets around, and 8 new taming-focused professions. Vanilla faction relationships are preserved; untamed creatures still fight, flee, or coexist with each other as normal.
 
 ## Features
 
