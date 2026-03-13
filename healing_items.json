@@ -1,0 +1,307 @@
+[
+  {
+    "type": "TOOL",
+    "id": "healing_incense_meat",
+    "name": {
+      "str": "meaty healing incense",
+      "str_pl": "meaty healing incenses"
+    },
+    "description": "A tightly packed bundle of medicinal herbs mixed with rendered animal fat and bone marrow extract.  Wield it and activate to light it, then throw it.  After a few seconds it starts filling the area with a huge cloud of warm, restorative vapor that lasts about three hours.  Anything standing in the cloud slowly heals up.  Good for setting up a recovery area near your tamed creatures.",
+    "weight": "400 g",
+    "volume": "500 ml",
+    "price": "30 USD",
+    "price_postapoc": "60 USD",
+    "material": [
+      "flesh",
+      "veggy"
+    ],
+    "symbol": "=",
+    "color": "light_red",
+    "flags": [
+      "TRADER_AVOID",
+      "BOMB",
+      "GRENADE"
+    ],
+    "use_action": {
+      "need_wielding": true,
+      "target": "healing_incense_meat_act",
+      "msg": "You activate the meaty healing incense.",
+      "target_timer": "180 minutes",
+      "menu_text": "Activate",
+      "type": "transform"
+    },
+    "melee_damage": {
+      "bash": 1
+    }
+  },
+  {
+    "type": "TOOL",
+    "id": "healing_incense_meat_act",
+    "copy-from": "healing_incense_meat",
+    "name": {
+      "str": "active meaty healing incense",
+      "str_pl": "active meaty healing incenses"
+    },
+    "description": "This healing incense has been lit and is filling the area with warm, restorative meaty vapor.  Creatures in the cloud slowly heal.  If you're holding it, you should throw it where you want the healing zone.",
+    "use_action": {
+      "type": "message",
+      "message": "You've already activated the %s; try throwing it instead.",
+      "name": "Activate"
+    },
+    "emits": [
+      "emit_heal_meat_stream"
+    ],
+    "flags": [
+      "TRADER_AVOID",
+      "SPAWN_ACTIVE"
+    ],
+    "countdown_action": {
+      "type": "explosion",
+      "fields_radius": 0
+    },
+    "countdown_interval": 10800
+  },
+  {
+    "type": "TOOL",
+    "id": "healing_incense_veggie",
+    "name": {
+      "str": "herbal healing incense",
+      "str_pl": "herbal healing incenses"
+    },
+    "description": "A tightly packed bundle of rare medicinal herbs, dried flowers, and concentrated plant extracts.  Wield it and activate to light it, then throw it.  After a few seconds it starts filling the area with a huge cloud of soothing botanical vapor that lasts about three hours.  Anything standing in the cloud slowly heals up.  Good for setting up a recovery area near your tamed creatures.",
+    "weight": "250 g",
+    "volume": "500 ml",
+    "price": "30 USD",
+    "price_postapoc": "60 USD",
+    "material": [
+      "veggy"
+    ],
+    "symbol": "=",
+    "color": "light_green",
+    "flags": [
+      "TRADER_AVOID",
+      "BOMB",
+      "GRENADE"
+    ],
+    "use_action": {
+      "need_wielding": true,
+      "target": "healing_incense_veggie_act",
+      "msg": "You activate the herbal healing incense.",
+      "target_timer": "180 minutes",
+      "menu_text": "Activate",
+      "type": "transform"
+    },
+    "melee_damage": {
+      "bash": 1
+    }
+  },
+  {
+    "type": "TOOL",
+    "id": "healing_incense_veggie_act",
+    "copy-from": "healing_incense_veggie",
+    "name": {
+      "str": "active herbal healing incense",
+      "str_pl": "active herbal healing incenses"
+    },
+    "description": "This healing incense has been lit and is filling the area with soothing herbal vapor.  Creatures in the cloud slowly heal.  If you're holding it, you should throw it where you want the healing zone.",
+    "use_action": {
+      "type": "message",
+      "message": "You've already activated the %s; try throwing it instead.",
+      "name": "Activate"
+    },
+    "emits": [
+      "emit_heal_veggie_stream"
+    ],
+    "flags": [
+      "TRADER_AVOID",
+      "SPAWN_ACTIVE"
+    ],
+    "countdown_action": {
+      "type": "explosion",
+      "fields_radius": 0
+    },
+    "countdown_interval": 10800
+  },
+  {
+    "type": "TOOL",
+    "id": "healing_incense_tech",
+    "name": {
+      "str": "nanite repair canister"
+    },
+    "description": "A pressurized canister full of concentrated nanite repair solution.  Wield it and activate to open the valve, then throw it.  After a few seconds it starts filling the area with a huge cloud of microscopic repair nanites that lasts about three hours.  Robots and mechanical creatures in the cloud get their systems slowly patched up.  Good for setting up a repair area near your tamed machines.",
+    "weight": "800 g",
+    "volume": "750 ml",
+    "price": "100 USD",
+    "price_postapoc": "200 USD",
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "symbol": "=",
+    "color": "light_cyan",
+    "flags": [
+      "TRADER_AVOID",
+      "BOMB",
+      "GRENADE"
+    ],
+    "use_action": {
+      "need_wielding": true,
+      "target": "healing_incense_tech_act",
+      "msg": "You activate the nanite repair canister.",
+      "target_timer": "180 minutes",
+      "menu_text": "Activate",
+      "type": "transform"
+    },
+    "melee_damage": {
+      "bash": 1
+    }
+  },
+  {
+    "type": "TOOL",
+    "id": "healing_incense_tech_act",
+    "copy-from": "healing_incense_tech",
+    "name": {
+      "str": "active nanite repair canister"
+    },
+    "description": "This repair canister has been activated and is filling the area with microscopic repair nanites.  Mechanical creatures in the cloud get their systems slowly patched up.  If you're holding it, you should throw it where you want the repair zone.",
+    "use_action": {
+      "type": "message",
+      "message": "You've already activated the %s; try throwing it instead.",
+      "name": "Activate"
+    },
+    "emits": [
+      "emit_heal_tech_stream"
+    ],
+    "flags": [
+      "TRADER_AVOID",
+      "SPAWN_ACTIVE"
+    ],
+    "countdown_action": {
+      "type": "explosion",
+      "fields_radius": 0
+    },
+    "countdown_interval": 10800
+  },
+  {
+    "type": "TOOL",
+    "id": "healing_incense_eldritch",
+    "name": {
+      "str": "eldritch mending censer"
+    },
+    "description": "A disturbing vessel of strange matter that weeps with otherworldly energy.  Wield it and activate to rupture the seal, then throw it.  After a few seconds it starts filling the area with a huge cloud of dimensional mending miasma that lasts about three hours.  Nether creatures in the cloud have their forms slowly reconstituted.  Good for setting up a recovery area near your tamed eldritch creatures.",
+    "weight": "500 g",
+    "volume": "500 ml",
+    "price": "200 USD",
+    "price_postapoc": "400 USD",
+    "material": [
+      "stone",
+      "flesh"
+    ],
+    "symbol": "=",
+    "color": "pink",
+    "flags": [
+      "TRADER_AVOID",
+      "BOMB",
+      "GRENADE"
+    ],
+    "use_action": {
+      "need_wielding": true,
+      "target": "healing_incense_eldritch_act",
+      "msg": "You activate the eldritch mending censer.",
+      "target_timer": "180 minutes",
+      "menu_text": "Activate",
+      "type": "transform"
+    },
+    "melee_damage": {
+      "bash": 1
+    }
+  },
+  {
+    "type": "TOOL",
+    "id": "healing_incense_eldritch_act",
+    "copy-from": "healing_incense_eldritch",
+    "name": {
+      "str": "active eldritch mending censer"
+    },
+    "description": "This mending censer has been activated and is filling the area with dimensional mending miasma.  Nether creatures in the cloud slowly reconstitute.  If you're holding it, you should throw it where you want the mending zone.",
+    "use_action": {
+      "type": "message",
+      "message": "You've already activated the %s; try throwing it instead.",
+      "name": "Activate"
+    },
+    "emits": [
+      "emit_heal_eldritch_stream"
+    ],
+    "flags": [
+      "TRADER_AVOID",
+      "SPAWN_ACTIVE"
+    ],
+    "countdown_action": {
+      "type": "explosion",
+      "fields_radius": 0
+    },
+    "countdown_interval": 10800
+  },
+  {
+    "type": "TOOL",
+    "id": "healing_incense_universal",
+    "name": {
+      "str": "universal healing incense",
+      "str_pl": "universal healing incenses"
+    },
+    "description": "A sophisticated healing device that combines medicinal herbs, nanite solutions, and stabilized dimensional energy in one package.  Wield it and activate to start the reaction, then throw it.  After a few seconds it starts filling the area with a huge cloud of restorative mist that lasts about three hours.  Anything standing in the cloud slowly heals up, regardless of what it is.  Good for setting up a universal recovery area.",
+    "weight": "800 g",
+    "volume": "750 ml",
+    "price": "400 USD",
+    "price_postapoc": "800 USD",
+    "material": [
+      "flesh",
+      "veggy"
+    ],
+    "symbol": "=",
+    "color": "white",
+    "flags": [
+      "TRADER_AVOID",
+      "BOMB",
+      "GRENADE"
+    ],
+    "use_action": {
+      "need_wielding": true,
+      "target": "healing_incense_universal_act",
+      "msg": "You activate the universal healing incense.",
+      "target_timer": "180 minutes",
+      "menu_text": "Activate",
+      "type": "transform"
+    },
+    "melee_damage": {
+      "bash": 1
+    }
+  },
+  {
+    "type": "TOOL",
+    "id": "healing_incense_universal_act",
+    "copy-from": "healing_incense_universal",
+    "name": {
+      "str": "active universal healing incense",
+      "str_pl": "active universal healing incenses"
+    },
+    "description": "This healing device has been activated and is filling the area with a shimmering restorative mist.  Anything in the cloud slowly heals, regardless of what it is.  If you're holding it, you should throw it where you want the healing zone.",
+    "use_action": {
+      "type": "message",
+      "message": "You've already activated the %s; try throwing it instead.",
+      "name": "Activate"
+    },
+    "emits": [
+      "emit_heal_universal_stream"
+    ],
+    "flags": [
+      "TRADER_AVOID",
+      "SPAWN_ACTIVE"
+    ],
+    "countdown_action": {
+      "type": "explosion",
+      "fields_radius": 0
+    },
+    "countdown_interval": 10800
+  }
+]

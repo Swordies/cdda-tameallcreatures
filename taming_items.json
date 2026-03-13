@@ -1,0 +1,156 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "comestible_type": "FOOD",
+    "id": "taming_treat_meat",
+    "name": {
+      "str": "meaty taming treat"
+    },
+    "description": "A pungent lump of processed meat.  The smell is overpowering; carnivorous creatures and even the undead can't resist it.  Use on a creature to try taming it.  Note: tamed zombies may still lash out at friendly NPCs; it seems their rotting brains can't tell friend from food.",
+    "weight": "250 g",
+    "volume": "250 ml",
+    "price": "5 USD",
+    "price_postapoc": "10 USD",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "red",
+    "spoils_in": "3 days",
+    "quench": 1,
+    "calories": 300,
+    "fun": -20,
+    "flags": [
+      "TRADER_AVOID"
+    ],
+    "use_action": [
+      "PETFOOD"
+    ],
+    "petfood": [
+      "TAMEFOOD_MEAT"
+    ]
+  },
+  {
+    "type": "COMESTIBLE",
+    "comestible_type": "FOOD",
+    "id": "taming_treat_veggie",
+    "name": {
+      "str": "herbal taming treat"
+    },
+    "description": "A compressed ball of dried herbs, seeds, and sweet-smelling plants.  Bugs, herbivores, and even some fungal creatures find it appealing.  Use on a creature to try taming it.",
+    "weight": "150 g",
+    "volume": "250 ml",
+    "price": "5 USD",
+    "price_postapoc": "10 USD",
+    "material": [
+      "veggy"
+    ],
+    "symbol": "%",
+    "color": "green",
+    "spoils_in": "14 days",
+    "calories": 200,
+    "fun": -10,
+    "flags": [
+      "TRADER_AVOID"
+    ],
+    "use_action": [
+      "PETFOOD"
+    ],
+    "petfood": [
+      "TAMEFOOD_VEGGIE"
+    ]
+  },
+  {
+    "type": "COMESTIBLE",
+    "comestible_type": "FOOD",
+    "id": "taming_treat_tech",
+    "name": {
+      "str": "electronic taming module"
+    },
+    "description": "A small device that broadcasts pacifying signals on frequencies robots and cyborgs respond to.  Contains a compact battery and a chunk of scrap metal as a peace offering.  Use on a mechanical creature to try taming it.",
+    "weight": "500 g",
+    "volume": "500 ml",
+    "price": "20 USD",
+    "price_postapoc": "50 USD",
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "symbol": ";",
+    "color": "cyan",
+    "calories": 0,
+    "flags": [
+      "INEDIBLE",
+      "TRADER_AVOID"
+    ],
+    "use_action": [
+      "PETFOOD"
+    ],
+    "petfood": [
+      "TAMEFOOD_TECH"
+    ]
+  },
+  {
+    "type": "COMESTIBLE",
+    "comestible_type": "FOOD",
+    "id": "taming_treat_eldritch",
+    "name": {
+      "str": "eldritch taming offering"
+    },
+    "description": "A disturbing lump of strange matter that pulses with otherworldly energy.  Nether creatures, mi-go, and other horrors seem drawn to it; or at the very least, it makes them less eager to eat you.  Can be made from tainted flesh; butcher zombie or mutant corpses and process the remains with a taming treat toolkit.  Use on an eldritch creature to try taming it.",
+    "weight": "300 g",
+    "volume": "250 ml",
+    "price": "50 USD",
+    "price_postapoc": "100 USD",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "*",
+    "color": "magenta",
+    "spoils_in": "7 days",
+    "calories": 0,
+    "fun": -50,
+    "flags": [
+      "INEDIBLE",
+      "TRADER_AVOID"
+    ],
+    "use_action": [
+      "PETFOOD"
+    ],
+    "petfood": [
+      "TAMEFOOD_ELDRITCH"
+    ]
+  },
+  {
+    "type": "COMESTIBLE",
+    "comestible_type": "FOOD",
+    "id": "taming_treat_universal",
+    "name": {
+      "str": "universal taming treat"
+    },
+    "description": "A foul-smelling concoction of meats, herbs, and something not entirely of this world.  Every creature seems drawn to it, no matter what it is.  Use on ANY creature to try taming it.  Note: tamed zombies may still lash out at friendly NPCs; it seems their rotting brains can't tell friend from food.",
+    "weight": "500 g",
+    "volume": "500 ml",
+    "price": "100 USD",
+    "price_postapoc": "250 USD",
+    "material": [
+      "flesh",
+      "veggy"
+    ],
+    "symbol": "*",
+    "color": "yellow",
+    "spoils_in": "5 days",
+    "quench": 1,
+    "calories": 500,
+    "fun": -30,
+    "flags": [
+      "TRADER_AVOID"
+    ],
+    "use_action": [
+      "PETFOOD"
+    ],
+    "petfood": [
+      "TAMEFOOD_ANY"
+    ]
+  }
+]

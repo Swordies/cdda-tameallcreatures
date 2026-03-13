@@ -1,0 +1,162 @@
+[
+  {
+    "type": "emit",
+    "id": "emit_pacify_meat",
+    "field": "fd_pacify_meat",
+    "intensity": 3,
+    "qty": 100,
+    "chance": 100
+  },
+  {
+    "type": "emit",
+    "id": "emit_pacify_veggie",
+    "field": "fd_pacify_veggie",
+    "intensity": 3,
+    "qty": 100,
+    "chance": 100
+  },
+  {
+    "type": "emit",
+    "id": "emit_pacify_tech",
+    "field": "fd_pacify_tech",
+    "intensity": 3,
+    "qty": 100,
+    "chance": 100
+  },
+  {
+    "type": "emit",
+    "id": "emit_pacify_eldritch",
+    "field": "fd_pacify_eldritch",
+    "intensity": 3,
+    "qty": 100,
+    "chance": 100
+  },
+  {
+    "type": "emit",
+    "id": "emit_pacify_universal",
+    "field": "fd_pacify_universal",
+    "intensity": 3,
+    "qty": 100,
+    "chance": 100
+  },
+  {
+    "type": "emit",
+    "id": "emit_heal_meat",
+    "field": "fd_heal_meat",
+    "intensity": 3,
+    "qty": 100,
+    "chance": 100
+  },
+  {
+    "type": "emit",
+    "id": "emit_heal_veggie",
+    "field": "fd_heal_veggie",
+    "intensity": 3,
+    "qty": 100,
+    "chance": 100
+  },
+  {
+    "type": "emit",
+    "id": "emit_heal_tech",
+    "field": "fd_heal_tech",
+    "intensity": 3,
+    "qty": 100,
+    "chance": 100
+  },
+  {
+    "type": "emit",
+    "id": "emit_heal_eldritch",
+    "field": "fd_heal_eldritch",
+    "intensity": 3,
+    "qty": 100,
+    "chance": 100
+  },
+  {
+    "type": "emit",
+    "id": "emit_heal_universal",
+    "field": "fd_heal_universal",
+    "intensity": 3,
+    "qty": 100,
+    "chance": 100
+  },
+  {
+    "type": "emit",
+    "id": "emit_pacify_meat_stream",
+    "//": "Steady stream of pacifying meaty aroma (from active pacification bomb)",
+    "field": "fd_pacify_meat",
+    "intensity": 3,
+    "qty": 40
+  },
+  {
+    "type": "emit",
+    "id": "emit_pacify_veggie_stream",
+    "//": "Steady stream of pacifying herbal aroma (from active pacification bomb)",
+    "field": "fd_pacify_veggie",
+    "intensity": 3,
+    "qty": 40
+  },
+  {
+    "type": "emit",
+    "id": "emit_pacify_tech_stream",
+    "//": "Steady stream of pacifying EM interference (from active pacification bomb)",
+    "field": "fd_pacify_tech",
+    "intensity": 3,
+    "qty": 40
+  },
+  {
+    "type": "emit",
+    "id": "emit_pacify_eldritch_stream",
+    "//": "Steady stream of pacifying dimensional miasma (from active pacification bomb)",
+    "field": "fd_pacify_eldritch",
+    "intensity": 3,
+    "qty": 40
+  },
+  {
+    "type": "emit",
+    "id": "emit_pacify_universal_stream",
+    "//": "Steady stream of universal pacifying cloud (from active pacification bomb)",
+    "field": "fd_pacify_universal",
+    "intensity": 3,
+    "qty": 40
+  },
+  {
+    "type": "emit",
+    "id": "emit_heal_meat_stream",
+    "//": "Steady stream of restorative meaty vapor (from active healing incense)",
+    "field": "fd_heal_meat",
+    "intensity": 3,
+    "qty": 40
+  },
+  {
+    "type": "emit",
+    "id": "emit_heal_veggie_stream",
+    "//": "Steady stream of restorative herbal vapor (from active healing incense)",
+    "field": "fd_heal_veggie",
+    "intensity": 3,
+    "qty": 40
+  },
+  {
+    "type": "emit",
+    "id": "emit_heal_tech_stream",
+    "//": "Steady stream of nanite repair cloud (from active healing incense)",
+    "field": "fd_heal_tech",
+    "intensity": 3,
+    "qty": 40
+  },
+  {
+    "type": "emit",
+    "id": "emit_heal_eldritch_stream",
+    "//": "Steady stream of eldritch mending miasma (from active healing incense)",
+    "field": "fd_heal_eldritch",
+    "intensity": 3,
+    "qty": 40
+  },
+  {
+    "type": "emit",
+    "id": "emit_heal_universal_stream",
+    "//": "Steady stream of universal restorative mist (from active healing incense)",
+    "field": "fd_heal_universal",
+    "intensity": 3,
+    "qty": 40
+  }
+]

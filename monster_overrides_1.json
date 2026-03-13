@@ -1,0 +1,3625 @@
+[
+  {
+    "id": "mon_EMP_hack",
+    "type": "MONSTER",
+    "copy-from": "mon_EMP_hack",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_TECH"
+      ],
+      "feed": "The %s's sensors analyze the offering.  After processing, its threat assessment of you drops to zero.",
+      "pet": "The %s beeps cheerfully."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_XEDRA_officer",
+    "type": "MONSTER",
+    "copy-from": "mon_XEDRA_officer",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_XEDRA_soldier",
+    "type": "MONSTER",
+    "copy-from": "mon_XEDRA_soldier",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_absence",
+    "type": "MONSTER",
+    "copy-from": "mon_absence",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH"
+      ],
+      "feed": "The %s warps around the food, absorbs it, and its reality-bending aura stabilizes near you.",
+      "pet": "The %s shimmers peacefully near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_afs_headless_horror",
+    "type": "MONSTER",
+    "copy-from": "mon_afs_headless_horror",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_albino_penguin",
+    "type": "MONSTER",
+    "copy-from": "mon_albino_penguin",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH"
+      ],
+      "feed": "The %s regards the offering with alien curiosity, consumes it, and the air around it grows less oppressive.",
+      "pet": "The %s hums at a frequency that feels almost comforting."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_alpha_razorclaw",
+    "type": "MONSTER",
+    "copy-from": "mon_alpha_razorclaw",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s snarls but accepts the food, and its aggression seems to ebb slightly.",
+      "pet": "The %s grunts and stays close."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_amalgamation_breather",
+    "type": "MONSTER",
+    "copy-from": "mon_amalgamation_breather",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_amalgamation_breather_hub",
+    "type": "MONSTER",
+    "copy-from": "mon_amalgamation_breather_hub",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_amalgamation_corroder",
+    "type": "MONSTER",
+    "copy-from": "mon_amalgamation_corroder",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_amalgamation_jumper",
+    "type": "MONSTER",
+    "copy-from": "mon_amalgamation_jumper",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_amalgamation_soldier",
+    "type": "MONSTER",
+    "copy-from": "mon_amalgamation_soldier",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_amalgamation_spotter",
+    "type": "MONSTER",
+    "copy-from": "mon_amalgamation_spotter",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_amalgamation_swarmer",
+    "type": "MONSTER",
+    "copy-from": "mon_amalgamation_swarmer",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_amalgamation_zapper",
+    "type": "MONSTER",
+    "copy-from": "mon_amalgamation_zapper",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_amigara_horror",
+    "type": "MONSTER",
+    "copy-from": "mon_amigara_horror",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH"
+      ],
+      "feed": "The %s lets out a low, rumbling sound as it consumes the offering.  Against all reason, it seems... fond of you.",
+      "pet": "The %s emits a low rumble that is somehow soothing."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_ant",
+    "type": "MONSTER",
+    "copy-from": "mon_ant",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_ant_acid",
+    "type": "MONSTER",
+    "copy-from": "mon_ant_acid",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_ant_acid_larva",
+    "type": "MONSTER",
+    "copy-from": "mon_ant_acid_larva",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_ant_acid_queen",
+    "type": "MONSTER",
+    "copy-from": "mon_ant_acid_queen",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_ant_acid_small",
+    "type": "MONSTER",
+    "copy-from": "mon_ant_acid_small",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_ant_acid_soldier",
+    "type": "MONSTER",
+    "copy-from": "mon_ant_acid_soldier",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_ant_acid_soldier_mega",
+    "type": "MONSTER",
+    "copy-from": "mon_ant_acid_soldier_mega",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_ant_fungus",
+    "type": "MONSTER",
+    "copy-from": "mon_ant_fungus",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
+      "pet": "The %s releases a puff of harmless spores near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_ant_larva",
+    "type": "MONSTER",
+    "copy-from": "mon_ant_larva",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_ant_queen",
+    "type": "MONSTER",
+    "copy-from": "mon_ant_queen",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_ant_small",
+    "type": "MONSTER",
+    "copy-from": "mon_ant_small",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_ant_soldier",
+    "type": "MONSTER",
+    "copy-from": "mon_ant_soldier",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_ant_soldier_mega",
+    "type": "MONSTER",
+    "copy-from": "mon_ant_soldier_mega",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_antlion_giant",
+    "type": "MONSTER",
+    "copy-from": "mon_antlion_giant",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s buzzes around the offering, devours it, and seems calmer in your presence.",
+      "pet": "The %s buzzes circles around you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_antlion_larva",
+    "type": "MONSTER",
+    "copy-from": "mon_antlion_larva",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_aphid",
+    "type": "MONSTER",
+    "copy-from": "mon_aphid",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_aphid_small",
+    "type": "MONSTER",
+    "copy-from": "mon_aphid_small",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_archunk_medium",
+    "type": "MONSTER",
+    "copy-from": "mon_archunk_medium",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH"
+      ],
+      "feed": "The %s lets out a low, rumbling sound as it consumes the offering.  Against all reason, it seems... fond of you.",
+      "pet": "The %s emits a low rumble that is somehow soothing."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_archunk_strong",
+    "type": "MONSTER",
+    "copy-from": "mon_archunk_strong",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH"
+      ],
+      "feed": "The %s lets out a low, rumbling sound as it consumes the offering.  Against all reason, it seems... fond of you.",
+      "pet": "The %s emits a low rumble that is somehow soothing."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_archunk_weak",
+    "type": "MONSTER",
+    "copy-from": "mon_archunk_weak",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH"
+      ],
+      "feed": "The %s lets out a low, rumbling sound as it consumes the offering.  Against all reason, it seems... fond of you.",
+      "pet": "The %s emits a low rumble that is somehow soothing."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_bat",
+    "type": "MONSTER",
+    "copy-from": "mon_bat",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_bear",
+    "type": "MONSTER",
+    "copy-from": "mon_bear",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_bear_cub",
+    "type": "MONSTER",
+    "copy-from": "mon_bear_cub",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_bear_mutant_3headed",
+    "type": "MONSTER",
+    "copy-from": "mon_bear_mutant_3headed",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_beaver",
+    "type": "MONSTER",
+    "copy-from": "mon_beaver",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_beaver_mutant_avian",
+    "type": "MONSTER",
+    "copy-from": "mon_beaver_mutant_avian",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_beaver_mutant_huge",
+    "type": "MONSTER",
+    "copy-from": "mon_beaver_mutant_huge",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_bee",
+    "type": "MONSTER",
+    "copy-from": "mon_bee",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s buzzes around the offering, devours it, and seems calmer in your presence.",
+      "pet": "The %s buzzes circles around you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_bee_fungus",
+    "type": "MONSTER",
+    "copy-from": "mon_bee_fungus",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
+      "pet": "The %s releases a puff of harmless spores near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_bee_mega",
+    "type": "MONSTER",
+    "copy-from": "mon_bee_mega",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s buzzes around the offering, devours it, and seems calmer in your presence.",
+      "pet": "The %s buzzes circles around you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_bee_mega_fungus",
+    "type": "MONSTER",
+    "copy-from": "mon_bee_mega_fungus",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
+      "pet": "The %s releases a puff of harmless spores near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_bee_small",
+    "type": "MONSTER",
+    "copy-from": "mon_bee_small",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s buzzes around the offering, devours it, and seems calmer in your presence.",
+      "pet": "The %s buzzes circles around you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_bee_small_fungus",
+    "type": "MONSTER",
+    "copy-from": "mon_bee_small_fungus",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
+      "pet": "The %s releases a puff of harmless spores near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_beekeeper",
+    "type": "MONSTER",
+    "copy-from": "mon_beekeeper",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_beekeeper_fungal",
+    "type": "MONSTER",
+    "copy-from": "mon_beekeeper_fungal",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
+      "pet": "The %s releases a puff of harmless spores near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_bestial_stalker",
+    "type": "MONSTER",
+    "copy-from": "mon_bestial_stalker",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_better_half",
+    "type": "MONSTER",
+    "copy-from": "mon_better_half",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH"
+      ],
+      "feed": "The %s warps around the food, absorbs it, and its reality-bending aura stabilizes near you.",
+      "pet": "The %s shimmers peacefully near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_big_rat",
+    "type": "MONSTER",
+    "copy-from": "mon_big_rat",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s snarls but accepts the food, and its aggression seems to ebb slightly.",
+      "pet": "The %s grunts and stays close."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_biollante",
+    "type": "MONSTER",
+    "copy-from": "mon_biollante",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s's tendrils wrap around the food and it seems to regard you less as prey.",
+      "pet": "The %s sways its fronds toward you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_biollante_sprig",
+    "type": "MONSTER",
+    "copy-from": "mon_biollante_sprig",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s's tendrils wrap around the food and it seems to regard you less as prey.",
+      "pet": "The %s sways its fronds toward you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_biollante_sprout",
+    "type": "MONSTER",
+    "copy-from": "mon_biollante_sprout",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s's tendrils wrap around the food and it seems to regard you less as prey.",
+      "pet": "The %s sways its fronds toward you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_black_rat",
+    "type": "MONSTER",
+    "copy-from": "mon_black_rat",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_black_ratkin",
+    "type": "MONSTER",
+    "copy-from": "mon_black_ratkin",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_blank",
+    "type": "MONSTER",
+    "copy-from": "mon_blank",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH"
+      ],
+      "feed": "The %s regards the offering with alien curiosity, consumes it, and the air around it grows less oppressive.",
+      "pet": "The %s hums at a frequency that feels almost comforting."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_blob",
+    "type": "MONSTER",
+    "copy-from": "mon_blob",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s engulfs the food and quivers in what might be contentment.",
+      "pet": "The %s quivers happily near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_blob_brain",
+    "type": "MONSTER",
+    "copy-from": "mon_blob_brain",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s engulfs the food and quivers in what might be contentment.",
+      "pet": "The %s quivers happily near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_blob_large",
+    "type": "MONSTER",
+    "copy-from": "mon_blob_large",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s engulfs the food and quivers in what might be contentment.",
+      "pet": "The %s quivers happily near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_blob_small",
+    "type": "MONSTER",
+    "copy-from": "mon_blob_small",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s engulfs the food and quivers in what might be contentment.",
+      "pet": "The %s quivers happily near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_blood_sacrifice",
+    "type": "MONSTER",
+    "copy-from": "mon_blood_sacrifice",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_bluejay",
+    "type": "MONSTER",
+    "copy-from": "mon_bluejay",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_bluejay_chick",
+    "type": "MONSTER",
+    "copy-from": "mon_bluejay_chick",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_boar_wild",
+    "type": "MONSTER",
+    "copy-from": "mon_boar_wild",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_boar_wild_piglet",
+    "type": "MONSTER",
+    "copy-from": "mon_boar_wild_piglet",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_bobcat",
+    "type": "MONSTER",
+    "copy-from": "mon_bobcat",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_boomer",
+    "type": "MONSTER",
+    "copy-from": "mon_boomer",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_boomer_claymore",
+    "type": "MONSTER",
+    "copy-from": "mon_boomer_claymore",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_boomer_fungus",
+    "type": "MONSTER",
+    "copy-from": "mon_boomer_fungus",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
+      "pet": "The %s releases a puff of harmless spores near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_boomer_glutton",
+    "type": "MONSTER",
+    "copy-from": "mon_boomer_glutton",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_boomer_huge",
+    "type": "MONSTER",
+    "copy-from": "mon_boomer_huge",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_breather",
+    "type": "MONSTER",
+    "copy-from": "mon_breather",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH"
+      ],
+      "feed": "The %s regards the offering with alien curiosity, consumes it, and the air around it grows less oppressive.",
+      "pet": "The %s hums at a frequency that feels almost comforting."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_breather_hub",
+    "type": "MONSTER",
+    "copy-from": "mon_breather_hub",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH"
+      ],
+      "feed": "The %s regards the offering with alien curiosity, consumes it, and the air around it grows less oppressive.",
+      "pet": "The %s hums at a frequency that feels almost comforting."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_broken_cyborg",
+    "type": "MONSTER",
+    "copy-from": "mon_broken_cyborg",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_TECH"
+      ],
+      "feed": "The %s's sensors analyze the offering.  After processing, its threat assessment of you drops to zero.",
+      "pet": "The %s beeps cheerfully."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_brute_pupa",
+    "type": "MONSTER",
+    "copy-from": "mon_brute_pupa",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_brute_pupa_decoy",
+    "type": "MONSTER",
+    "copy-from": "mon_brute_pupa_decoy",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_bullfrog_frog",
+    "type": "MONSTER",
+    "copy-from": "mon_bullfrog_frog",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_bullfrog_tadpole",
+    "type": "MONSTER",
+    "copy-from": "mon_bullfrog_tadpole",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_butterfly",
+    "type": "MONSTER",
+    "copy-from": "mon_butterfly",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s buzzes around the offering, devours it, and seems calmer in your presence.",
+      "pet": "The %s buzzes circles around you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_butterfly_cocoon",
+    "type": "MONSTER",
+    "copy-from": "mon_butterfly_cocoon",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_butterfly_giant",
+    "type": "MONSTER",
+    "copy-from": "mon_butterfly_giant",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s buzzes around the offering, devours it, and seems calmer in your presence.",
+      "pet": "The %s buzzes circles around you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_butterfly_titan",
+    "type": "MONSTER",
+    "copy-from": "mon_butterfly_titan",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s buzzes around the offering, devours it, and seems calmer in your presence.",
+      "pet": "The %s buzzes circles around you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_c4_hack",
+    "type": "MONSTER",
+    "copy-from": "mon_c4_hack",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_TECH"
+      ],
+      "feed": "The %s's sensors analyze the offering.  After processing, its threat assessment of you drops to zero.",
+      "pet": "The %s beeps cheerfully."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cardinal",
+    "type": "MONSTER",
+    "copy-from": "mon_cardinal",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cardinal_chick",
+    "type": "MONSTER",
+    "copy-from": "mon_cardinal_chick",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_carrion_grub",
+    "type": "MONSTER",
+    "copy-from": "mon_carrion_grub",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat",
+    "type": "MONSTER",
+    "copy-from": "mon_cat",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_bengal",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_bengal",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_bengal_kitten",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_bengal_kitten",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_black",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_black",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_black_kitten",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_black_kitten",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_calico",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_calico",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_calico_kitten",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_calico_kitten",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_chonker",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_chonker",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_chonker_kitten",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_chonker_kitten",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_devon_rex",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_devon_rex",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_devon_rex_kitten",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_devon_rex_kitten",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_isherwood",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_isherwood",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_kitten",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_kitten",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_liquid",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_liquid",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_longhair",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_longhair",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_longhair_kitten",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_longhair_kitten",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_maine_coon",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_maine_coon",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_maine_coon_kitten",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_maine_coon_kitten",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_mutant_prism",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_mutant_prism",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_persian",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_persian",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_persian_kitten",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_persian_kitten",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_siamese",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_siamese",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_siamese_kitten",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_siamese_kitten",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_sphynx",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_sphynx",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_sphynx_kitten",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_sphynx_kitten",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_tabby",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_tabby",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_tabby_kitten",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_tabby_kitten",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_void",
+    "type": "MONSTER",
+    "copy-from": "mon_cat_void",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_caterpillar_butterfly",
+    "type": "MONSTER",
+    "copy-from": "mon_caterpillar_butterfly",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_caterpillar_moth",
+    "type": "MONSTER",
+    "copy-from": "mon_caterpillar_moth",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_centipede_giant",
+    "type": "MONSTER",
+    "copy-from": "mon_centipede_giant",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s coils around the food and seems somewhat less hostile.",
+      "pet": "The %s curls up near your feet."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_centipede_larva",
+    "type": "MONSTER",
+    "copy-from": "mon_centipede_larva",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s coils around the food and seems somewhat less hostile.",
+      "pet": "The %s curls up near your feet."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_centipede_mega",
+    "type": "MONSTER",
+    "copy-from": "mon_centipede_mega",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s coils around the food and seems somewhat less hostile.",
+      "pet": "The %s curls up near your feet."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_centipede_mom",
+    "type": "MONSTER",
+    "copy-from": "mon_centipede_mom",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s coils around the food and seems somewhat less hostile.",
+      "pet": "The %s curls up near your feet."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_centipede_small",
+    "type": "MONSTER",
+    "copy-from": "mon_centipede_small",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s coils around the food and seems somewhat less hostile.",
+      "pet": "The %s curls up near your feet."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_charred_nightmare",
+    "type": "MONSTER",
+    "copy-from": "mon_charred_nightmare",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_ANY"
+      ],
+      "feed": "The creature shudders and seems appeased.",
+      "pet": "The creature tolerates your presence."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_chicken",
+    "type": "MONSTER",
+    "copy-from": "mon_chicken",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s pecks at the treat eagerly and ruffles its feathers contentedly near you.",
+      "pet": "The %s chirps and preens near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_chicken_chick",
+    "type": "MONSTER",
+    "copy-from": "mon_chicken_chick",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s pecks at the treat eagerly and ruffles its feathers contentedly near you.",
+      "pet": "The %s chirps and preens near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_child",
+    "type": "MONSTER",
+    "copy-from": "mon_child",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_chipmunk",
+    "type": "MONSTER",
+    "copy-from": "mon_chipmunk",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_chud",
+    "type": "MONSTER",
+    "copy-from": "mon_chud",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cicada",
+    "type": "MONSTER",
+    "copy-from": "mon_cicada",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cicada_nymph",
+    "type": "MONSTER",
+    "copy-from": "mon_cicada_nymph",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_civilian_icu",
+    "type": "MONSTER",
+    "copy-from": "mon_civilian_icu",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_civilian_panic",
+    "type": "MONSTER",
+    "copy-from": "mon_civilian_panic",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food warily and seems more inclined to cooperate.",
+      "pet": "The %s nods at you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_civilian_parent",
+    "type": "MONSTER",
+    "copy-from": "mon_civilian_parent",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food warily and seems more inclined to cooperate.",
+      "pet": "The %s nods at you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_civilian_police",
+    "type": "MONSTER",
+    "copy-from": "mon_civilian_police",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food warily and seems more inclined to cooperate.",
+      "pet": "The %s nods at you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_civilian_stationary",
+    "type": "MONSTER",
+    "copy-from": "mon_civilian_stationary",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food warily and seems more inclined to cooperate.",
+      "pet": "The %s nods at you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_civilian_zombiefighter",
+    "type": "MONSTER",
+    "copy-from": "mon_civilian_zombiefighter",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_coot",
+    "type": "MONSTER",
+    "copy-from": "mon_coot",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_coot_chick",
+    "type": "MONSTER",
+    "copy-from": "mon_coot_chick",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cormorant",
+    "type": "MONSTER",
+    "copy-from": "mon_cormorant",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cormorant_chick",
+    "type": "MONSTER",
+    "copy-from": "mon_cormorant_chick",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cougar",
+    "type": "MONSTER",
+    "copy-from": "mon_cougar",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cow",
+    "type": "MONSTER",
+    "copy-from": "mon_cow",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_cow_calf",
+    "type": "MONSTER",
+    "copy-from": "mon_cow_calf",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_coyote",
+    "type": "MONSTER",
+    "copy-from": "mon_coyote",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_coyote_mutant_shark",
+    "type": "MONSTER",
+    "copy-from": "mon_coyote_mutant_shark",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_coyote_mutant_venom",
+    "type": "MONSTER",
+    "copy-from": "mon_coyote_mutant_venom",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_coyote_wolf",
+    "type": "MONSTER",
+    "copy-from": "mon_coyote_wolf",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_MEAT",
+        "TAMEFOOD_ANY"
+      ],
+      "feed": "The creature devours the offering eagerly.",
+      "pet": "The creature purrs contentedly."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_crawler",
+    "type": "MONSTER",
+    "copy-from": "mon_crawler",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH"
+      ],
+      "feed": "The %s writhes around the food, consumes it, and its chaotic movements become almost calm in your vicinity.",
+      "pet": "The %s writhes gently nearby."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_crayfish_giant_larva",
+    "type": "MONSTER",
+    "copy-from": "mon_crayfish_giant_larva",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s snarls but accepts the food, and its aggression seems to ebb slightly.",
+      "pet": "The %s grunts and stays close."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_crayfish_mega",
+    "type": "MONSTER",
+    "copy-from": "mon_crayfish_mega",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s snarls but accepts the food, and its aggression seems to ebb slightly.",
+      "pet": "The %s grunts and stays close."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_crayfish_small",
+    "type": "MONSTER",
+    "copy-from": "mon_crayfish_small",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s snarls but accepts the food, and its aggression seems to ebb slightly.",
+      "pet": "The %s grunts and stays close."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_creeper_hub",
+    "type": "MONSTER",
+    "copy-from": "mon_creeper_hub",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s's tendrils wrap around the food and it seems to regard you less as prey.",
+      "pet": "The %s sways its fronds toward you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_creeper_vine",
+    "type": "MONSTER",
+    "copy-from": "mon_creeper_vine",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s's tendrils wrap around the food and it seems to regard you less as prey.",
+      "pet": "The %s sways its fronds toward you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_crow",
+    "type": "MONSTER",
+    "copy-from": "mon_crow",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s pecks at the treat eagerly and ruffles its feathers contentedly near you.",
+      "pet": "The %s chirps and preens near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_crow_chick",
+    "type": "MONSTER",
+    "copy-from": "mon_crow_chick",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s pecks at the treat eagerly and ruffles its feathers contentedly near you.",
+      "pet": "The %s chirps and preens near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_crow_mutant",
+    "type": "MONSTER",
+    "copy-from": "mon_crow_mutant",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s snarls but accepts the food, and its aggression seems to ebb slightly.",
+      "pet": "The %s grunts and stays close."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_crow_mutant_small",
+    "type": "MONSTER",
+    "copy-from": "mon_crow_mutant_small",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s pecks at the treat eagerly and ruffles its feathers contentedly near you.",
+      "pet": "The %s chirps and preens near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_crows_m240",
+    "type": "MONSTER",
+    "copy-from": "mon_crows_m240",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_TECH"
+      ],
+      "feed": "The %s's sensors analyze the offering.  After processing, its threat assessment of you drops to zero.",
+      "pet": "The %s beeps cheerfully."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dark_reflection",
+    "type": "MONSTER",
+    "copy-from": "mon_dark_reflection",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH"
+      ],
+      "feed": "The %s warps around the food, absorbs it, and its reality-bending aura stabilizes near you.",
+      "pet": "The %s shimmers peacefully near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dark_wyrm",
+    "type": "MONSTER",
+    "copy-from": "mon_dark_wyrm",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s snarls but accepts the food, and its aggression seems to ebb slightly.",
+      "pet": "The %s grunts and stays close."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_darkman",
+    "type": "MONSTER",
+    "copy-from": "mon_darkman",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH"
+      ],
+      "feed": "The %s regards the offering with alien curiosity, consumes it, and the air around it grows less oppressive.",
+      "pet": "The %s hums at a frequency that feels almost comforting."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_debug_dragger",
+    "type": "MONSTER",
+    "copy-from": "mon_debug_dragger",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_debug_grabber",
+    "type": "MONSTER",
+    "copy-from": "mon_debug_grabber",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_debug_grabber_left",
+    "type": "MONSTER",
+    "copy-from": "mon_debug_grabber_left",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_debug_grabber_mid",
+    "type": "MONSTER",
+    "copy-from": "mon_debug_grabber_mid",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_debug_grabber_right",
+    "type": "MONSTER",
+    "copy-from": "mon_debug_grabber_right",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_debug_grabber_strong",
+    "type": "MONSTER",
+    "copy-from": "mon_debug_grabber_strong",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_debug_puller_incompetent",
+    "type": "MONSTER",
+    "copy-from": "mon_debug_puller_incompetent",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_debug_puller_strong",
+    "type": "MONSTER",
+    "copy-from": "mon_debug_puller_strong",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_debug_puller_weak",
+    "type": "MONSTER",
+    "copy-from": "mon_debug_puller_weak",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_deer",
+    "type": "MONSTER",
+    "copy-from": "mon_deer",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_deer_fawn",
+    "type": "MONSTER",
+    "copy-from": "mon_deer_fawn",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_deer_mutant_spider",
+    "type": "MONSTER",
+    "copy-from": "mon_deer_mutant_spider",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_deer_mutant_spider_fawn",
+    "type": "MONSTER",
+    "copy-from": "mon_deer_mutant_spider_fawn",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dementia",
+    "type": "MONSTER",
+    "copy-from": "mon_dementia",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dermatik",
+    "type": "MONSTER",
+    "copy-from": "mon_dermatik",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s buzzes around the offering, devours it, and seems calmer in your presence.",
+      "pet": "The %s buzzes circles around you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dermatik_incubator_deer",
+    "type": "MONSTER",
+    "copy-from": "mon_dermatik_incubator_deer",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dermatik_incubator_dog",
+    "type": "MONSTER",
+    "copy-from": "mon_dermatik_incubator_dog",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dermatik_incubator_spider",
+    "type": "MONSTER",
+    "copy-from": "mon_dermatik_incubator_spider",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s wraps the morsel in silk, consumes it, and regards you with its many eyes more peacefully.",
+      "pet": "The %s weaves a small web nearby and rests."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dermatik_larva",
+    "type": "MONSTER",
+    "copy-from": "mon_dermatik_larva",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dermatik_midwife",
+    "type": "MONSTER",
+    "copy-from": "mon_dermatik_midwife",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_devourer",
+    "type": "MONSTER",
+    "copy-from": "mon_devourer",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_devourer_lab_sec",
+    "type": "MONSTER",
+    "copy-from": "mon_devourer_lab_sec",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dispatch",
+    "type": "MONSTER",
+    "copy-from": "mon_dispatch",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_TECH"
+      ],
+      "feed": "The %s's sensors analyze the offering.  After processing, its threat assessment of you drops to zero.",
+      "pet": "The %s beeps cheerfully."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dispatch_military",
+    "type": "MONSTER",
+    "copy-from": "mon_dispatch_military",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_TECH"
+      ],
+      "feed": "The %s's sensors analyze the offering.  After processing, its threat assessment of you drops to zero.",
+      "pet": "The %s beeps cheerfully."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_diving_beetle_small",
+    "type": "MONSTER",
+    "copy-from": "mon_diving_beetle_small",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_diving_larva",
+    "type": "MONSTER",
+    "copy-from": "mon_diving_larva",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dog",
+    "type": "MONSTER",
+    "copy-from": "mon_dog",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dog_antimemetic",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_antimemetic",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dog_auscattle",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_auscattle",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dog_auscattle_pup",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_auscattle_pup",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dog_bcollie",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_bcollie",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dog_bcollie_pup",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_bcollie_pup",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dog_beagle",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_beagle",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dog_beagle_pup",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_beagle_pup",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dog_boxer",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_boxer",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  },
+  {
+    "id": "mon_dog_boxer_pup",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_boxer_pup",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD"
+      ]
+    }
+  }
+]

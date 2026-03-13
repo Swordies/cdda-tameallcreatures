@@ -1,0 +1,239 @@
+[
+  {
+    "type": "recipe",
+    "result": "taming_treat_meat",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 3,
+    "time": "30 m",
+    "autolearn": true,
+    "batch_time_factors": [
+      67,
+      5
+    ],
+    "components": [
+      [
+        [
+          "meat_cooked",
+          2
+        ],
+        [
+          "fish_cooked",
+          2
+        ],
+        [
+          "meat_smoked",
+          2
+        ],
+        [
+          "mutant_meat_cooked",
+          2
+        ],
+        [
+          "mutant_human_cooked",
+          2
+        ]
+      ],
+      [
+        [
+          "salt",
+          2
+        ],
+        [
+          "seasoning_salt",
+          2
+        ]
+      ],
+      [
+        [
+          "wild_herbs",
+          1
+        ],
+        [
+          "seasoning_italian",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "taming_treat_veggie",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 3,
+    "time": "30 m",
+    "autolearn": true,
+    "batch_time_factors": [
+      67,
+      5
+    ],
+    "components": [
+      [
+        [
+          "veggy_cooked",
+          2
+        ],
+        [
+          "dry_fruit",
+          2
+        ]
+      ],
+      [
+        [
+          "wild_herbs",
+          2
+        ]
+      ],
+      [
+        [
+          "birdfood",
+          1
+        ],
+        [
+          "cattlefodder",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "taming_treat_tech",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "difficulty": 4,
+    "time": "45 m",
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "e_scrap",
+          3
+        ]
+      ],
+      [
+        [
+          "cable",
+          2
+        ],
+        [
+          "wire",
+          1
+        ]
+      ],
+      [
+        [
+          "light_battery_cell",
+          1
+        ],
+        [
+          "battery",
+          1
+        ]
+      ]
+    ],
+    "tools": [
+      [
+        [
+          "soldering_iron",
+          10
+        ],
+        [
+          "toolset",
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "taming_treat_eldritch",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 5,
+    "time": "60 m",
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "meat_tainted",
+          2
+        ],
+        [
+          "veggy_tainted",
+          2
+        ],
+        [
+          "meat_mutant_tainted",
+          2
+        ]
+      ],
+      [
+        [
+          "slime_scrap",
+          1
+        ]
+      ],
+      [
+        [
+          "wild_herbs",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "taming_treat_universal",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "90 m",
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "taming_treat_meat",
+          1
+        ]
+      ],
+      [
+        [
+          "taming_treat_veggie",
+          1
+        ]
+      ],
+      [
+        [
+          "slime_scrap",
+          1
+        ],
+        [
+          "tanning_hide",
+          1
+        ]
+      ],
+      [
+        [
+          "mutagen",
+          1
+        ],
+        [
+          "purifier",
+          1
+        ]
+      ]
+    ]
+  }
+]

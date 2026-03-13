@@ -1,0 +1,195 @@
+[
+  {
+    "id": "meat",
+    "copy-from": "meat",
+    "type": "COMESTIBLE",
+    "name": {
+      "str": "chunk of meat"
+    },
+    "extend": {
+      "petfood": [
+        "TAMEFOOD_MEAT"
+      ]
+    },
+    "use_action": [
+      "PETFOOD"
+    ]
+  },
+  {
+    "id": "meat_cooked",
+    "copy-from": "meat_cooked",
+    "type": "COMESTIBLE",
+    "name": {
+      "str": "cooked meat"
+    },
+    "extend": {
+      "petfood": [
+        "TAMEFOOD_MEAT"
+      ]
+    },
+    "use_action": [
+      "PETFOOD"
+    ]
+  },
+  {
+    "id": "meat_smoked",
+    "copy-from": "meat_smoked",
+    "type": "COMESTIBLE",
+    "name": {
+      "str": "smoked meat"
+    },
+    "extend": {
+      "petfood": [
+        "TAMEFOOD_MEAT"
+      ]
+    },
+    "use_action": [
+      "PETFOOD"
+    ]
+  },
+  {
+    "id": "fish_cooked",
+    "copy-from": "fish_cooked",
+    "type": "COMESTIBLE",
+    "name": {
+      "str": "cooked fish"
+    },
+    "extend": {
+      "petfood": [
+        "TAMEFOOD_MEAT"
+      ]
+    },
+    "use_action": [
+      "PETFOOD"
+    ]
+  },
+  {
+    "id": "meat_tainted",
+    "copy-from": "meat_tainted",
+    "type": "COMESTIBLE",
+    "name": {
+      "str": "tainted meat"
+    },
+    "extend": {
+      "petfood": [
+        "TAMEFOOD_MEAT",
+        "TAMEFOOD_ELDRITCH"
+      ]
+    },
+    "use_action": [
+      "PETFOOD"
+    ]
+  },
+  {
+    "id": "veggy_tainted",
+    "copy-from": "veggy_tainted",
+    "type": "COMESTIBLE",
+    "name": {
+      "str_sp": "tainted veggy"
+    },
+    "extend": {
+      "petfood": [
+        "TAMEFOOD_ELDRITCH"
+      ]
+    },
+    "use_action": [
+      "PETFOOD"
+    ]
+  },
+  {
+    "id": "human_flesh",
+    "copy-from": "human_flesh",
+    "type": "COMESTIBLE",
+    "name": {
+      "str": "chunk of human flesh",
+      "str_pl": "chunks of human flesh"
+    },
+    "extend": {
+      "petfood": [
+        "TAMEFOOD_MEAT",
+        "TAMEFOOD_ELDRITCH"
+      ]
+    },
+    "use_action": [
+      "PETFOOD"
+    ]
+  },
+  {
+    "id": "dogfood",
+    "copy-from": "dogfood",
+    "type": "COMESTIBLE",
+    "name": {
+      "str_sp": "wet dog food"
+    },
+    "extend": {
+      "petfood": [
+        "TAMEFOOD_MEAT"
+      ]
+    }
+  },
+  {
+    "id": "dogfood_dry",
+    "copy-from": "dogfood_dry",
+    "type": "COMESTIBLE",
+    "name": {
+      "str_sp": "dry dog food"
+    },
+    "extend": {
+      "petfood": [
+        "TAMEFOOD_MEAT"
+      ]
+    }
+  },
+  {
+    "id": "catfood",
+    "copy-from": "catfood",
+    "type": "COMESTIBLE",
+    "name": {
+      "str_sp": "wet cat food"
+    },
+    "extend": {
+      "petfood": [
+        "TAMEFOOD_MEAT"
+      ]
+    }
+  },
+  {
+    "id": "catfood_dry",
+    "copy-from": "catfood_dry",
+    "type": "COMESTIBLE",
+    "name": {
+      "str_sp": "dry cat food"
+    },
+    "extend": {
+      "petfood": [
+        "TAMEFOOD_MEAT"
+      ]
+    }
+  },
+  {
+    "id": "birdfood",
+    "copy-from": "birdfood",
+    "type": "COMESTIBLE",
+    "name": {
+      "str_sp": "bird food"
+    },
+    "extend": {
+      "petfood": [
+        "TAMEFOOD_VEGGIE"
+      ]
+    }
+  },
+  {
+    "id": "cattlefodder",
+    "copy-from": "cattlefodder",
+    "type": "COMESTIBLE",
+    "name": {
+      "str_sp": "cattle fodder"
+    },
+    "extend": {
+      "petfood": [
+        "TAMEFOOD_VEGGIE"
+      ]
+    }
+  }
+]

@@ -1,0 +1,1391 @@
+[
+  {
+    "type": "mutation",
+    "id": "PROF_BEAST_TAMER",
+    "name": "Beast Tamer",
+    "points": 0,
+    "description": "You've got years of experience handling wild and dangerous animals.  You can read their body language and get close without setting them off.  Creatures tend to be a bit less hostile around you.",
+    "valid": false,
+    "purifiable": false,
+    "player_display": true,
+    "social_modifiers": {
+      "persuade": 5
+    }
+  },
+  {
+    "type": "mutation",
+    "id": "PROF_INSECT_HANDLER",
+    "name": "Insect Handler",
+    "points": 0,
+    "description": "Years of working with exotic arthropods gave you a feel for how insects behave.  You know which pheromones to avoid giving off and how to move without triggering a swarm.",
+    "valid": false,
+    "purifiable": false,
+    "player_display": true
+  },
+  {
+    "type": "mutation",
+    "id": "PROF_DEMONOLOGIST",
+    "name": "Demonologist",
+    "points": 0,
+    "description": "Your academic work on the occult and extraplanar entities left you better prepared than most for things that shouldn't exist.  Where others see only madness, you see patterns; and chances to communicate.",
+    "valid": false,
+    "purifiable": false,
+    "player_display": true
+  },
+  {
+    "type": "mutation",
+    "id": "PROF_MECH_WHISPERER",
+    "name": "Machine Whisperer",
+    "points": 0,
+    "description": "You've got a near-supernatural knack for understanding machines.  Robots and automated systems seem to respond to you differently, like they recognize something in your electromagnetic signature.",
+    "valid": false,
+    "purifiable": false,
+    "player_display": true
+  },
+  {
+    "type": "mutation",
+    "id": "PROF_MYCOLOGIST",
+    "name": "Mycologist",
+    "points": 0,
+    "description": "Years of studying fungal biology and ecology gave you a good understanding of mycological organisms.  You know how to interact with fungal growths without setting off a hostile response.",
+    "valid": false,
+    "purifiable": false,
+    "player_display": true
+  },
+  {
+    "type": "mutation",
+    "id": "PROF_DINO_WRANGLER",
+    "name": "Dinosaur Wrangler",
+    "points": 0,
+    "description": "Through some mix of bravery, foolishness, and real skill, you've gotten good at handling huge reptilian creatures.  You understand their territorial instincts and know how to project dominance without resorting to violence.",
+    "valid": false,
+    "purifiable": false,
+    "player_display": true
+  },
+  {
+    "type": "mutation",
+    "id": "PROF_NECRO_BINDER",
+    "name": "Necromantic Attunement",
+    "points": 0,
+    "description": "Your research into death and undeath has attuned you to the strange energies that keep the walking dead moving.  You can sense the faint remnants of will in zombies, and with the right bait, redirect their aggression.",
+    "valid": false,
+    "purifiable": false,
+    "player_display": true
+  },
+  {
+    "type": "profession",
+    "id": "beast_tamer",
+    "name": "Beast Tamer",
+    "description": "You made your living working with dangerous animals at a traveling wildlife show; big cats, wolves, bears, the works.  When the Cataclysm hit, your performers bolted into the wilds, but your skills stuck with you.  You know how to calm a snarling predator with nothing but a treat and steady nerves.",
+    "points": 4,
+    "traits": [
+      "PROF_BEAST_TAMER",
+      "ANIMALEMPATH"
+    ],
+    "skills": [
+      {
+        "level": 3,
+        "name": "survival"
+      },
+      {
+        "level": 3,
+        "name": "cooking"
+      },
+      {
+        "level": 2,
+        "name": "dodge"
+      },
+      {
+        "level": 1,
+        "name": "melee"
+      },
+      {
+        "level": 1,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "bullwhip"
+          },
+          {
+            "item": "dog_whistle"
+          },
+          {
+            "item": "pet_carrier"
+          },
+          {
+            "item": "leather_belt"
+          },
+          {
+            "item": "jacket_leather"
+          },
+          {
+            "item": "pants_cargo"
+          },
+          {
+            "item": "boots_hiking"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "gloves_leather"
+          },
+          {
+            "item": "hat_hunting"
+          },
+          {
+            "item": "backpack"
+          },
+          {
+            "item": "knife_hunting"
+          },
+          {
+            "item": "canteen"
+          },
+          {
+            "item": "bandages",
+            "count": 3
+          },
+          {
+            "item": "adhesive_bandages",
+            "count": 5
+          },
+          {
+            "item": "fragrant_treat_meat"
+          },
+          {
+            "item": "tamer_horn_beast"
+          },
+          {
+            "item": "healing_incense_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_toolkit"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "insect_tamer",
+    "name": "Insect Tamer",
+    "description": "Most people swat bugs.  You studied them, bred them, learned to control them.  As an entomologist turned exotic insect handler, you figured out techniques for calming even the nastiest arthropods.  Now that the bugs have grown to monstrous size, your skills are more relevant than ever.",
+    "points": 3,
+    "traits": [
+      "PROF_INSECT_HANDLER",
+      "ANIMALEMPATH"
+    ],
+    "skills": [
+      {
+        "level": 3,
+        "name": "survival"
+      },
+      {
+        "level": 3,
+        "name": "cooking"
+      },
+      {
+        "level": 2,
+        "name": "dodge"
+      },
+      {
+        "level": 2,
+        "name": "traps"
+      },
+      {
+        "level": 1,
+        "name": "firstaid"
+      },
+      {
+        "level": 1,
+        "name": "chemistry"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "terrarium"
+          },
+          {
+            "item": "flashlight"
+          },
+          {
+            "item": "knife_hunting"
+          },
+          {
+            "item": "coat_lab"
+          },
+          {
+            "item": "gloves_rubber"
+          },
+          {
+            "item": "pants_cargo"
+          },
+          {
+            "item": "boots_hiking"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hat_boonie"
+          },
+          {
+            "item": "backpack"
+          },
+          {
+            "item": "canteen"
+          },
+          {
+            "item": "mag_survival"
+          },
+          {
+            "item": "fragrant_treat_veggie"
+          },
+          {
+            "item": "tamer_vial_insect"
+          },
+          {
+            "item": "healing_incense_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_toolkit"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "dino_wrangler",
+    "name": "Dinosaur Wrangler",
+    "description": "When dinosaurs started showing up, most people ran.  You grabbed the biggest piece of meat you could find and walked toward them.  A lifetime of working with large reptiles at zoos and wildlife preserves taught you that size is just a number; what really matters is confidence, timing, and having the right snack.",
+    "points": 5,
+    "traits": [
+      "PROF_DINO_WRANGLER",
+      "ANIMALEMPATH",
+      "TOUGH"
+    ],
+    "skills": [
+      {
+        "level": 3,
+        "name": "survival"
+      },
+      {
+        "level": 3,
+        "name": "cooking"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "dodge"
+      },
+      {
+        "level": 1,
+        "name": "firstaid"
+      },
+      {
+        "level": 1,
+        "name": "bashing"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "bullwhip"
+          },
+          {
+            "item": "horse_tack"
+          },
+          {
+            "item": "jacket_leather"
+          },
+          {
+            "item": "pants_cargo"
+          },
+          {
+            "item": "boots_hiking"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "gloves_leather"
+          },
+          {
+            "item": "hat_hunting"
+          },
+          {
+            "item": "backpack_leather"
+          },
+          {
+            "item": "knife_hunting"
+          },
+          {
+            "item": "canteen"
+          },
+          {
+            "item": "bandages",
+            "count": 3
+          },
+          {
+            "item": "adhesive_bandages",
+            "count": 5
+          },
+          {
+            "item": "fragrant_treat_meat"
+          },
+          {
+            "item": "tamer_horn_beast"
+          },
+          {
+            "item": "healing_incense_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_toolkit"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "demonologist",
+    "name": "Demonologist",
+    "description": "Your colleagues in academia dismissed your research into 'extraplanar entity communication' as pseudoscience, but you knew better.  The things pouring through the rifts aren't mindless; they have wants, drives, and can be bargained with.  Your collection of occult texts and eldritch offerings might just turn the apocalypse's biggest threats into unlikely allies.",
+    "points": 6,
+    "traits": [
+      "PROF_DEMONOLOGIST",
+      "NIGHTVISION"
+    ],
+    "skills": [
+      {
+        "level": 3,
+        "name": "cooking"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "speech"
+      },
+      {
+        "level": 1,
+        "name": "dodge"
+      },
+      {
+        "level": 1,
+        "name": "chemistry"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "coat_lab"
+          },
+          {
+            "item": "pants"
+          },
+          {
+            "item": "boots"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "gloves_leather"
+          },
+          {
+            "item": "backpack"
+          },
+          {
+            "item": "flashlight"
+          },
+          {
+            "item": "knife_butcher"
+          },
+          {
+            "item": "canteen"
+          },
+          {
+            "item": "mag_survival"
+          },
+          {
+            "item": "fragrant_treat_eldritch"
+          },
+          {
+            "item": "tamer_resonator_eldritch"
+          },
+          {
+            "item": "healing_incense_eldritch"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_toolkit"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "machine_whisperer",
+    "name": "Machine Whisperer",
+    "description": "You were a robotics engineer who always felt like machines had a kind of soul.  Your coworkers thought you were eccentric when you talked to the lab bots; they stopped laughing when the bots started listening.  Now, with rogue military drones and security turrets all over the place, your weird talent might be the most useful skill left on Earth.",
+    "points": 5,
+    "traits": [
+      "PROF_MECH_WHISPERER"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "electronics"
+      },
+      {
+        "level": 3,
+        "name": "computer"
+      },
+      {
+        "level": 2,
+        "name": "mechanics"
+      },
+      {
+        "level": 1,
+        "name": "cooking"
+      },
+      {
+        "level": 1,
+        "name": "dodge"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "taming_treat_tech"
+          },
+          {
+            "item": "taming_treat_tech"
+          },
+          {
+            "item": "taming_treat_tech"
+          },
+          {
+            "item": "taming_treat_tech"
+          },
+          {
+            "item": "taming_treat_tech"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "screwdriver"
+          },
+          {
+            "item": "wrench"
+          },
+          {
+            "item": "soldering_iron"
+          },
+          {
+            "item": "coat_lab"
+          },
+          {
+            "item": "pants_cargo"
+          },
+          {
+            "item": "boots_steel"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "gloves_rubber"
+          },
+          {
+            "item": "glasses_safety"
+          },
+          {
+            "item": "backpack"
+          },
+          {
+            "item": "flashlight"
+          },
+          {
+            "item": "canteen"
+          },
+          {
+            "item": "fragrant_treat_tech"
+          },
+          {
+            "item": "tamer_signal_tech"
+          },
+          {
+            "item": "healing_incense_tech"
+          },
+          {
+            "item": "taming_treat_tech"
+          },
+          {
+            "item": "taming_treat_tech"
+          },
+          {
+            "item": "taming_treat_tech"
+          },
+          {
+            "item": "taming_treat_tech"
+          },
+          {
+            "item": "taming_treat_tech"
+          },
+          {
+            "item": "taming_treat_tech"
+          },
+          {
+            "item": "taming_treat_tech"
+          },
+          {
+            "item": "taming_treat_tech"
+          },
+          {
+            "item": "taming_treat_tech"
+          },
+          {
+            "item": "taming_treat_tech"
+          },
+          {
+            "item": "taming_toolkit"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "mycologist_tamer",
+    "name": "Mycologist",
+    "description": "You spent years studying fungi in labs and remote forests.  When the fungal blooms started swallowing whole towns, everyone panicked, but you saw the patterns.  Fungal organisms respond to chemical signals, and with the right prep, their aggression can be steered.  Your spore mask and herbal mixtures are your tools of diplomacy with the mycological kingdom.",
+    "points": 4,
+    "traits": [
+      "PROF_MYCOLOGIST",
+      "STRONGSTOMACH"
+    ],
+    "skills": [
+      {
+        "level": 3,
+        "name": "cooking"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      },
+      {
+        "level": 2,
+        "name": "chemistry"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 1,
+        "name": "dodge"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "mask_gas"
+          },
+          {
+            "item": "coat_lab"
+          },
+          {
+            "item": "gloves_rubber"
+          },
+          {
+            "item": "pants_cargo"
+          },
+          {
+            "item": "boots_rubber"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "backpack"
+          },
+          {
+            "item": "knife_hunting"
+          },
+          {
+            "item": "canteen"
+          },
+          {
+            "item": "flashlight"
+          },
+          {
+            "item": "mag_survival"
+          },
+          {
+            "item": "fragrant_treat_veggie"
+          },
+          {
+            "item": "tamer_vial_insect"
+          },
+          {
+            "item": "healing_incense_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_toolkit"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "zombie_whisperer",
+    "name": "Zombie Whisperer",
+    "description": "You were a mortician who noticed something odd about the recently deceased; they weren't quite gone.  Flickering neural patterns, leftover instincts, even preferences.  While the world burned, you experimented.  Tainted meat, prepared just right, can quiet the hunger that drives the dead.  They won't be your friends exactly, but they might stop trying to eat you.",
+    "points": 5,
+    "traits": [
+      "PROF_NECRO_BINDER",
+      "TOUGH",
+      "STRONGSTOMACH"
+    ],
+    "skills": [
+      {
+        "level": 3,
+        "name": "cooking"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      },
+      {
+        "level": 2,
+        "name": "cutting"
+      },
+      {
+        "level": 1,
+        "name": "dodge"
+      },
+      {
+        "level": 1,
+        "name": "melee"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "knife_butcher"
+          },
+          {
+            "item": "gloves_rubber"
+          },
+          {
+            "item": "coat_lab"
+          },
+          {
+            "item": "pants_cargo"
+          },
+          {
+            "item": "boots_steel"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "mask_gas"
+          },
+          {
+            "item": "backpack"
+          },
+          {
+            "item": "canteen"
+          },
+          {
+            "item": "bandages",
+            "count": 3
+          },
+          {
+            "item": "adhesive_bandages",
+            "count": 5
+          },
+          {
+            "item": "fragrant_treat_meat"
+          },
+          {
+            "item": "tamer_horn_beast"
+          },
+          {
+            "item": "healing_incense_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_toolkit"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "universal_tamer",
+    "name": "Universal Tamer",
+    "description": "Zookeeper, circus trainer, wildlife rehabilitator, and if you're being honest, a bit of a crackpot.  You've spent your life convincing creatures that shouldn't be tameable to eat from your hand.  The Cataclysm just expanded your client list to include things that defy biology, physics, and common sense.  If it exists, you figure it can be befriended.",
+    "points": 8,
+    "traits": [
+      "PROF_BEAST_TAMER",
+      "ANIMALEMPATH",
+      "TOUGH",
+      "ROBUST",
+      "FASTLEARNER"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "cooking"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      },
+      {
+        "level": 2,
+        "name": "dodge"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 1,
+        "name": "electronics"
+      },
+      {
+        "level": 1,
+        "name": "chemistry"
+      },
+      {
+        "level": 1,
+        "name": "speech"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_meat"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_veggie"
+          },
+          {
+            "item": "taming_treat_tech"
+          },
+          {
+            "item": "taming_treat_tech"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_eldritch"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "bullwhip"
+          },
+          {
+            "item": "dog_whistle"
+          },
+          {
+            "item": "pet_carrier"
+          },
+          {
+            "item": "jacket_leather"
+          },
+          {
+            "item": "pants_cargo"
+          },
+          {
+            "item": "boots_hiking"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "gloves_leather"
+          },
+          {
+            "item": "hat_hunting"
+          },
+          {
+            "item": "backpack"
+          },
+          {
+            "item": "knife_hunting"
+          },
+          {
+            "item": "canteen"
+          },
+          {
+            "item": "bandages",
+            "count": 3
+          },
+          {
+            "item": "adhesive_bandages",
+            "count": 5
+          },
+          {
+            "item": "flashlight"
+          },
+          {
+            "item": "fragrant_treat_universal"
+          },
+          {
+            "item": "tamer_whistle_universal"
+          },
+          {
+            "item": "healing_incense_universal"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "taming_treat_universal"
+          },
+          {
+            "item": "taming_toolkit"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    }
+  }
+]

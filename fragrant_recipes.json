@@ -1,0 +1,289 @@
+[
+  {
+    "type": "recipe",
+    "result": "fragrant_treat_meat",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 5,
+    "time": "90 m",
+    "autolearn": true,
+    "batch_time_factors": [
+      67,
+      5
+    ],
+    "components": [
+      [
+        [
+          "taming_treat_meat",
+          3
+        ]
+      ],
+      [
+        [
+          "meat_cooked",
+          4
+        ],
+        [
+          "fish_cooked",
+          4
+        ],
+        [
+          "meat_smoked",
+          4
+        ]
+      ],
+      [
+        [
+          "salt",
+          4
+        ],
+        [
+          "seasoning_salt",
+          4
+        ]
+      ],
+      [
+        [
+          "wild_herbs",
+          3
+        ]
+      ],
+      [
+        [
+          "mutagen",
+          1
+        ],
+        [
+          "purifier",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "fragrant_treat_veggie",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 5,
+    "time": "90 m",
+    "autolearn": true,
+    "batch_time_factors": [
+      67,
+      5
+    ],
+    "components": [
+      [
+        [
+          "taming_treat_veggie",
+          3
+        ]
+      ],
+      [
+        [
+          "veggy_cooked",
+          4
+        ],
+        [
+          "dry_fruit",
+          4
+        ]
+      ],
+      [
+        [
+          "wild_herbs",
+          4
+        ]
+      ],
+      [
+        [
+          "birdfood",
+          2
+        ],
+        [
+          "cattlefodder",
+          2
+        ]
+      ],
+      [
+        [
+          "mutagen",
+          1
+        ],
+        [
+          "purifier",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "fragrant_treat_tech",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "difficulty": 6,
+    "time": "120 m",
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "taming_treat_tech",
+          3
+        ]
+      ],
+      [
+        [
+          "e_scrap",
+          6
+        ]
+      ],
+      [
+        [
+          "cable",
+          4
+        ],
+        [
+          "wire",
+          2
+        ]
+      ],
+      [
+        [
+          "light_battery_cell",
+          2
+        ],
+        [
+          "battery",
+          2
+        ]
+      ],
+      [
+        [
+          "processor",
+          1
+        ],
+        [
+          "RAM",
+          2
+        ]
+      ]
+    ],
+    "tools": [
+      [
+        [
+          "soldering_iron",
+          20
+        ],
+        [
+          "toolset",
+          20
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "fragrant_treat_eldritch",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 7,
+    "time": "120 m",
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "taming_treat_eldritch",
+          3
+        ]
+      ],
+      [
+        [
+          "meat_tainted",
+          4
+        ],
+        [
+          "veggy_tainted",
+          4
+        ]
+      ],
+      [
+        [
+          "slime_scrap",
+          3
+        ]
+      ],
+      [
+        [
+          "wild_herbs",
+          2
+        ]
+      ],
+      [
+        [
+          "mutagen",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "fragrant_treat_universal",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 8,
+    "time": "180 m",
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "fragrant_treat_meat",
+          1
+        ]
+      ],
+      [
+        [
+          "fragrant_treat_veggie",
+          1
+        ]
+      ],
+      [
+        [
+          "taming_treat_tech",
+          1
+        ]
+      ],
+      [
+        [
+          "slime_scrap",
+          2
+        ],
+        [
+          "tanning_hide",
+          2
+        ]
+      ],
+      [
+        [
+          "mutagen",
+          2
+        ],
+        [
+          "purifier",
+          2
+        ]
+      ]
+    ]
+  }
+]

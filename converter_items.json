@@ -1,0 +1,24 @@
+[
+  {
+    "type": "TOOL",
+    "id": "taming_toolkit",
+    "name": {
+      "str": "taming treat toolkit"
+    },
+    "description": "A kit containing grinders, presses, molds, and chemical reagents for converting butchered creature parts into taming treats.  This is a crafting tool; to use it, first butcher a creature to collect its meat or parts, then open the crafting menu (press & or search crafting) and look for treat recipes under Other or Electronics.  The toolkit must be in your inventory.  It is never consumed; you can reuse it forever.  Fresh meat makes meaty treats; plant matter makes veggie treats; electronic parts make tech treats; tainted flesh from zombies and nether creatures makes eldritch treats.  Zombies cannot be converted into meaty treats because of their tainted nature.",
+    "weight": "2000 g",
+    "volume": "2000 ml",
+    "longest_side": "30 cm",
+    "price": "50 USD",
+    "price_postapoc": "100 USD",
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "symbol": ";",
+    "color": "yellow",
+    "flags": [
+      "TRADER_AVOID"
+    ]
+  }
+]

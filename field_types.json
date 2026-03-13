@@ -1,0 +1,572 @@
+[
+  {
+    "type": "field_type",
+    "id": "fd_pacify_meat",
+    "description_affix": "in",
+    "priority": 6,
+    "half_life": "10 minutes",
+    "phase": "gas",
+    "percent_spread": 25,
+    "outdoor_age_speedup": "5 minutes",
+    "intensity_levels": [
+      {
+        "name": "faint meaty pacification haze",
+        "sym": "8",
+        "color": "light_red",
+        "transparent": true,
+        "dangerous": false,
+        "effects": [
+          {
+            "effect_id": "tac_pacified",
+            "min_duration": "5 minutes",
+            "max_duration": "10 minutes",
+            "intensity": 1,
+            "message": "A powerful meaty aroma overwhelms your senses!",
+            "message_npc": "A powerful meaty aroma overwhelms <npcname>!",
+            "message_type": "mixed"
+          }
+        ],
+        "translucency": 2,
+        "concentration": 1
+      },
+      {
+        "name": "meaty pacification haze",
+        "sym": "8",
+        "color": "red",
+        "transparent": true,
+        "dangerous": false,
+        "translucency": 8,
+        "concentration": 2
+      },
+      {
+        "name": "thick meaty pacification haze",
+        "sym": "8",
+        "color": "dark_gray",
+        "transparent": false,
+        "dangerous": false,
+        "translucency": 0,
+        "concentration": 4
+      }
+    ],
+    "display_field": true,
+    "looks_like": "fd_smoke",
+    "dirty_transparency_cache": true,
+    "has_fume": true,
+    "display_items": false,
+    "decay_amount_factor": 5,
+    "gas_absorption_factor": "80m"
+  },
+  {
+    "type": "field_type",
+    "id": "fd_pacify_veggie",
+    "description_affix": "in",
+    "priority": 6,
+    "half_life": "10 minutes",
+    "phase": "gas",
+    "percent_spread": 25,
+    "outdoor_age_speedup": "5 minutes",
+    "intensity_levels": [
+      {
+        "name": "faint herbal pacification haze",
+        "sym": "8",
+        "color": "light_green",
+        "transparent": true,
+        "dangerous": false,
+        "effects": [
+          {
+            "effect_id": "tac_pacified",
+            "min_duration": "5 minutes",
+            "max_duration": "10 minutes",
+            "intensity": 1,
+            "message": "An intoxicating herbal aroma clouds your senses!",
+            "message_npc": "An intoxicating herbal aroma clouds <npcname>!",
+            "message_type": "mixed"
+          }
+        ],
+        "translucency": 2,
+        "concentration": 1
+      },
+      {
+        "name": "herbal pacification haze",
+        "sym": "8",
+        "color": "green",
+        "transparent": true,
+        "dangerous": false,
+        "translucency": 8,
+        "concentration": 2
+      },
+      {
+        "name": "thick herbal pacification haze",
+        "sym": "8",
+        "color": "dark_gray",
+        "transparent": false,
+        "dangerous": false,
+        "translucency": 0,
+        "concentration": 4
+      }
+    ],
+    "display_field": true,
+    "looks_like": "fd_smoke",
+    "dirty_transparency_cache": true,
+    "has_fume": true,
+    "display_items": false,
+    "decay_amount_factor": 5,
+    "gas_absorption_factor": "80m"
+  },
+  {
+    "type": "field_type",
+    "id": "fd_pacify_tech",
+    "description_affix": "in",
+    "priority": 6,
+    "half_life": "10 minutes",
+    "phase": "gas",
+    "percent_spread": 25,
+    "outdoor_age_speedup": "5 minutes",
+    "intensity_levels": [
+      {
+        "name": "faint electronic pacification field",
+        "sym": "8",
+        "color": "light_cyan",
+        "transparent": true,
+        "dangerous": false,
+        "effects": [
+          {
+            "effect_id": "tac_pacified",
+            "min_duration": "5 minutes",
+            "max_duration": "10 minutes",
+            "intensity": 1,
+            "message": "A disorienting electromagnetic haze scrambles your senses!",
+            "message_npc": "A disorienting electromagnetic haze scrambles <npcname>!",
+            "message_type": "mixed"
+          }
+        ],
+        "translucency": 2,
+        "concentration": 1
+      },
+      {
+        "name": "electronic pacification field",
+        "sym": "8",
+        "color": "cyan",
+        "transparent": true,
+        "dangerous": false,
+        "translucency": 8,
+        "concentration": 2
+      },
+      {
+        "name": "intense electronic pacification field",
+        "sym": "8",
+        "color": "dark_gray",
+        "transparent": false,
+        "dangerous": false,
+        "translucency": 0,
+        "concentration": 4
+      }
+    ],
+    "display_field": true,
+    "looks_like": "fd_smoke",
+    "dirty_transparency_cache": true,
+    "has_fume": true,
+    "display_items": false,
+    "decay_amount_factor": 5,
+    "gas_absorption_factor": "80m"
+  },
+  {
+    "type": "field_type",
+    "id": "fd_pacify_eldritch",
+    "description_affix": "in",
+    "priority": 6,
+    "half_life": "10 minutes",
+    "phase": "gas",
+    "percent_spread": 25,
+    "outdoor_age_speedup": "5 minutes",
+    "intensity_levels": [
+      {
+        "name": "faint eldritch pacification miasma",
+        "sym": "8",
+        "color": "pink",
+        "transparent": true,
+        "dangerous": false,
+        "effects": [
+          {
+            "effect_id": "tac_pacified",
+            "min_duration": "5 minutes",
+            "max_duration": "10 minutes",
+            "intensity": 1,
+            "message": "An otherworldly miasma seeps into your mind!",
+            "message_npc": "An otherworldly miasma seeps into <npcname>!",
+            "message_type": "mixed"
+          }
+        ],
+        "translucency": 2,
+        "concentration": 1
+      },
+      {
+        "name": "eldritch pacification miasma",
+        "sym": "8",
+        "color": "magenta",
+        "transparent": true,
+        "dangerous": false,
+        "translucency": 8,
+        "concentration": 2
+      },
+      {
+        "name": "thick eldritch pacification miasma",
+        "sym": "8",
+        "color": "dark_gray",
+        "transparent": false,
+        "dangerous": false,
+        "translucency": 0,
+        "concentration": 4
+      }
+    ],
+    "display_field": true,
+    "looks_like": "fd_smoke",
+    "dirty_transparency_cache": true,
+    "has_fume": true,
+    "display_items": false,
+    "decay_amount_factor": 5,
+    "gas_absorption_factor": "80m"
+  },
+  {
+    "type": "field_type",
+    "id": "fd_pacify_universal",
+    "description_affix": "in",
+    "priority": 6,
+    "half_life": "10 minutes",
+    "phase": "gas",
+    "percent_spread": 25,
+    "outdoor_age_speedup": "5 minutes",
+    "intensity_levels": [
+      {
+        "name": "faint universal pacification cloud",
+        "sym": "8",
+        "color": "white",
+        "transparent": true,
+        "dangerous": false,
+        "effects": [
+          {
+            "effect_id": "tac_pacified",
+            "min_duration": "5 minutes",
+            "max_duration": "10 minutes",
+            "intensity": 1,
+            "message": "An all-encompassing sensory haze overwhelms you!",
+            "message_npc": "An all-encompassing sensory haze overwhelms <npcname>!",
+            "message_type": "mixed"
+          }
+        ],
+        "translucency": 2,
+        "concentration": 1
+      },
+      {
+        "name": "universal pacification cloud",
+        "sym": "8",
+        "color": "light_gray",
+        "transparent": true,
+        "dangerous": false,
+        "translucency": 8,
+        "concentration": 2
+      },
+      {
+        "name": "thick universal pacification cloud",
+        "sym": "8",
+        "color": "dark_gray",
+        "transparent": false,
+        "dangerous": false,
+        "translucency": 0,
+        "concentration": 4
+      }
+    ],
+    "display_field": true,
+    "looks_like": "fd_smoke",
+    "dirty_transparency_cache": true,
+    "has_fume": true,
+    "display_items": false,
+    "decay_amount_factor": 5,
+    "gas_absorption_factor": "80m"
+  },
+  {
+    "type": "field_type",
+    "id": "fd_heal_meat",
+    "description_affix": "in",
+    "priority": 5,
+    "half_life": "10 minutes",
+    "phase": "gas",
+    "percent_spread": 25,
+    "outdoor_age_speedup": "5 minutes",
+    "intensity_levels": [
+      {
+        "name": "faint restorative meaty vapor",
+        "sym": "5",
+        "color": "light_red",
+        "transparent": true,
+        "dangerous": false,
+        "effects": [
+          {
+            "effect_id": "tac_regen",
+            "min_duration": "5 minutes",
+            "max_duration": "10 minutes",
+            "intensity": 1,
+            "message": "Warm, restorative meaty vapors soothe your wounds.",
+            "message_npc": "Warm, restorative meaty vapors soothe <npcname>.",
+            "message_type": "good"
+          }
+        ],
+        "translucency": 2,
+        "concentration": 1
+      },
+      {
+        "name": "restorative meaty vapor",
+        "sym": "5",
+        "color": "red",
+        "transparent": true,
+        "dangerous": false,
+        "translucency": 8,
+        "concentration": 2
+      },
+      {
+        "name": "thick restorative meaty vapor",
+        "sym": "5",
+        "color": "dark_gray",
+        "transparent": false,
+        "dangerous": false,
+        "translucency": 0,
+        "concentration": 4
+      }
+    ],
+    "display_field": true,
+    "looks_like": "fd_smoke",
+    "dirty_transparency_cache": true,
+    "has_fume": true,
+    "display_items": false,
+    "decay_amount_factor": 5,
+    "gas_absorption_factor": "80m"
+  },
+  {
+    "type": "field_type",
+    "id": "fd_heal_veggie",
+    "description_affix": "in",
+    "priority": 5,
+    "half_life": "10 minutes",
+    "phase": "gas",
+    "percent_spread": 25,
+    "outdoor_age_speedup": "5 minutes",
+    "intensity_levels": [
+      {
+        "name": "faint restorative herbal vapor",
+        "sym": "5",
+        "color": "light_green",
+        "transparent": true,
+        "dangerous": false,
+        "effects": [
+          {
+            "effect_id": "tac_regen",
+            "min_duration": "5 minutes",
+            "max_duration": "10 minutes",
+            "intensity": 1,
+            "message": "A soothing herbal breeze eases your pain.",
+            "message_npc": "A soothing herbal breeze eases <npcname>.",
+            "message_type": "good"
+          }
+        ],
+        "translucency": 2,
+        "concentration": 1
+      },
+      {
+        "name": "restorative herbal vapor",
+        "sym": "5",
+        "color": "green",
+        "transparent": true,
+        "dangerous": false,
+        "translucency": 8,
+        "concentration": 2
+      },
+      {
+        "name": "thick restorative herbal vapor",
+        "sym": "5",
+        "color": "dark_gray",
+        "transparent": false,
+        "dangerous": false,
+        "translucency": 0,
+        "concentration": 4
+      }
+    ],
+    "display_field": true,
+    "looks_like": "fd_smoke",
+    "dirty_transparency_cache": true,
+    "has_fume": true,
+    "display_items": false,
+    "decay_amount_factor": 5,
+    "gas_absorption_factor": "80m"
+  },
+  {
+    "type": "field_type",
+    "id": "fd_heal_tech",
+    "description_affix": "in",
+    "priority": 5,
+    "half_life": "10 minutes",
+    "phase": "gas",
+    "percent_spread": 25,
+    "outdoor_age_speedup": "5 minutes",
+    "intensity_levels": [
+      {
+        "name": "faint nanite repair cloud",
+        "sym": "5",
+        "color": "light_cyan",
+        "transparent": true,
+        "dangerous": false,
+        "effects": [
+          {
+            "effect_id": "tac_regen",
+            "min_duration": "5 minutes",
+            "max_duration": "10 minutes",
+            "intensity": 1,
+            "message": "Tiny nanites swarm around you, mending your wounds.",
+            "message_npc": "Tiny nanites swarm around <npcname>, mending wounds.",
+            "message_type": "good"
+          }
+        ],
+        "translucency": 2,
+        "concentration": 1
+      },
+      {
+        "name": "nanite repair cloud",
+        "sym": "5",
+        "color": "cyan",
+        "transparent": true,
+        "dangerous": false,
+        "translucency": 8,
+        "concentration": 2
+      },
+      {
+        "name": "thick nanite repair cloud",
+        "sym": "5",
+        "color": "dark_gray",
+        "transparent": false,
+        "dangerous": false,
+        "translucency": 0,
+        "concentration": 4
+      }
+    ],
+    "display_field": true,
+    "looks_like": "fd_smoke",
+    "dirty_transparency_cache": true,
+    "has_fume": true,
+    "display_items": false,
+    "decay_amount_factor": 5,
+    "gas_absorption_factor": "80m"
+  },
+  {
+    "type": "field_type",
+    "id": "fd_heal_eldritch",
+    "description_affix": "in",
+    "priority": 5,
+    "half_life": "10 minutes",
+    "phase": "gas",
+    "percent_spread": 25,
+    "outdoor_age_speedup": "5 minutes",
+    "intensity_levels": [
+      {
+        "name": "faint eldritch mending miasma",
+        "sym": "5",
+        "color": "pink",
+        "transparent": true,
+        "dangerous": false,
+        "effects": [
+          {
+            "effect_id": "tac_regen",
+            "min_duration": "5 minutes",
+            "max_duration": "10 minutes",
+            "intensity": 1,
+            "message": "Otherworldly energies knit your flesh back together.",
+            "message_npc": "Otherworldly energies knit <npcname> back together.",
+            "message_type": "good"
+          }
+        ],
+        "translucency": 2,
+        "concentration": 1
+      },
+      {
+        "name": "eldritch mending miasma",
+        "sym": "5",
+        "color": "magenta",
+        "transparent": true,
+        "dangerous": false,
+        "translucency": 8,
+        "concentration": 2
+      },
+      {
+        "name": "thick eldritch mending miasma",
+        "sym": "5",
+        "color": "dark_gray",
+        "transparent": false,
+        "dangerous": false,
+        "translucency": 0,
+        "concentration": 4
+      }
+    ],
+    "display_field": true,
+    "looks_like": "fd_smoke",
+    "dirty_transparency_cache": true,
+    "has_fume": true,
+    "display_items": false,
+    "decay_amount_factor": 5,
+    "gas_absorption_factor": "80m"
+  },
+  {
+    "type": "field_type",
+    "id": "fd_heal_universal",
+    "description_affix": "in",
+    "priority": 5,
+    "half_life": "10 minutes",
+    "phase": "gas",
+    "percent_spread": 25,
+    "outdoor_age_speedup": "5 minutes",
+    "intensity_levels": [
+      {
+        "name": "faint universal restorative mist",
+        "sym": "5",
+        "color": "white",
+        "transparent": true,
+        "dangerous": false,
+        "effects": [
+          {
+            "effect_id": "tac_regen",
+            "min_duration": "5 minutes",
+            "max_duration": "10 minutes",
+            "intensity": 1,
+            "message": "A shimmering restorative mist envelops you, healing all.",
+            "message_npc": "A shimmering restorative mist envelops <npcname>.",
+            "message_type": "good"
+          }
+        ],
+        "translucency": 2,
+        "concentration": 1
+      },
+      {
+        "name": "universal restorative mist",
+        "sym": "5",
+        "color": "light_gray",
+        "transparent": true,
+        "dangerous": false,
+        "translucency": 8,
+        "concentration": 2
+      },
+      {
+        "name": "thick universal restorative mist",
+        "sym": "5",
+        "color": "dark_gray",
+        "transparent": false,
+        "dangerous": false,
+        "translucency": 0,
+        "concentration": 4
+      }
+    ],
+    "display_field": true,
+    "looks_like": "fd_smoke",
+    "dirty_transparency_cache": true,
+    "has_fume": true,
+    "display_items": false,
+    "decay_amount_factor": 5,
+    "gas_absorption_factor": "80m"
+  }
+]

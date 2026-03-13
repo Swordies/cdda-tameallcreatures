@@ -1,0 +1,241 @@
+[
+  {
+    "type": "recipe",
+    "result": "tamer_horn_beast",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "survival",
+    "difficulty": 3,
+    "time": "60 m",
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "bone",
+          6
+        ]
+      ],
+      [
+        [
+          "scrap_copper",
+          2
+        ],
+        [
+          "copper_wire",
+          5
+        ]
+      ],
+      [
+        [
+          "leather",
+          2
+        ],
+        [
+          "fur",
+          2
+        ]
+      ]
+    ],
+    "tools": [
+      [
+        [
+          "knife_hunting",
+          -1
+        ],
+        [
+          "knife_butcher",
+          -1
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tamer_vial_insect",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "skill_used": "chemistry",
+    "difficulty": 4,
+    "time": "45 m",
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "bottle_glass",
+          1
+        ]
+      ],
+      [
+        [
+          "wild_herbs",
+          3
+        ]
+      ],
+      [
+        [
+          "slime_scrap",
+          1
+        ]
+      ],
+      [
+        [
+          "duct_tape",
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tamer_signal_tech",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "difficulty": 5,
+    "time": "60 m",
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "e_scrap",
+          4
+        ]
+      ],
+      [
+        [
+          "cable",
+          3
+        ],
+        [
+          "wire",
+          2
+        ]
+      ],
+      [
+        [
+          "light_battery_cell",
+          1
+        ],
+        [
+          "battery",
+          1
+        ]
+      ],
+      [
+        [
+          "scrap",
+          3
+        ]
+      ]
+    ],
+    "tools": [
+      [
+        [
+          "soldering_iron",
+          10
+        ],
+        [
+          "toolset",
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tamer_resonator_eldritch",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "90 m",
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "glass_shard",
+          4
+        ]
+      ],
+      [
+        [
+          "slime_scrap",
+          2
+        ]
+      ],
+      [
+        [
+          "rock",
+          2
+        ]
+      ],
+      [
+        [
+          "meat_tainted",
+          1
+        ],
+        [
+          "veggy_tainted",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tamer_whistle_universal",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "mechanics",
+    "difficulty": 5,
+    "time": "90 m",
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "scrap",
+          4
+        ]
+      ],
+      [
+        [
+          "bone",
+          3
+        ]
+      ],
+      [
+        [
+          "e_scrap",
+          2
+        ]
+      ],
+      [
+        [
+          "wire",
+          2
+        ],
+        [
+          "cable",
+          3
+        ]
+      ]
+    ],
+    "tools": [
+      [
+        [
+          "soldering_iron",
+          10
+        ],
+        [
+          "toolset",
+          10
+        ]
+      ]
+    ]
+  }
+]

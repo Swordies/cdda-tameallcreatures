@@ -1,0 +1,361 @@
+[
+  {
+    "type": "recipe",
+    "result": "taming_toolkit",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [
+      [
+        "cooking",
+        2
+      ]
+    ],
+    "difficulty": 3,
+    "time": "60 m",
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "steel_chunk",
+          3
+        ],
+        [
+          "scrap",
+          6
+        ]
+      ],
+      [
+        [
+          "plastic_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "duct_tape",
+          100
+        ],
+        [
+          "superglue",
+          2
+        ]
+      ],
+      [
+        [
+          "knife_hunting",
+          1
+        ],
+        [
+          "knife_butcher",
+          1
+        ],
+        [
+          "knife_steak",
+          1
+        ]
+      ],
+      [
+        [
+          "pot",
+          1
+        ],
+        [
+          "pot_copper",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "//": "MEATY TREAT FROM FRESH MEAT - animals, dinosaurs, humans. Zombies only drop tainted meat; use the eldritch recipe for those.",
+    "type": "recipe",
+    "result": "taming_treat_meat",
+    "id_suffix": "from_corpse",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "30 m",
+    "autolearn": true,
+    "result_mult": 3,
+    "batch_time_factors": [
+      67,
+      5
+    ],
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "meat",
+          3
+        ],
+        [
+          "meat_cooked",
+          3
+        ],
+        [
+          "fish_cooked",
+          3
+        ],
+        [
+          "meat_smoked",
+          3
+        ],
+        [
+          "human_flesh",
+          3
+        ],
+        [
+          "mutant_meat",
+          3
+        ],
+        [
+          "mutant_meat_cooked",
+          3
+        ],
+        [
+          "mutant_meat_scrap",
+          3
+        ],
+        [
+          "mutant_meat_scrap_cooked",
+          3
+        ],
+        [
+          "mutant_human_flesh",
+          3
+        ],
+        [
+          "mutant_human_cooked",
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "//": "VEGGIE TREAT FROM FRESH PLANT MATTER - fungi, insects, plants, herbivores",
+    "type": "recipe",
+    "result": "taming_treat_veggie",
+    "id_suffix": "from_corpse",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "30 m",
+    "autolearn": true,
+    "result_mult": 3,
+    "batch_time_factors": [
+      67,
+      5
+    ],
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "veggy",
+          3
+        ],
+        [
+          "veggy_cooked",
+          3
+        ],
+        [
+          "dry_fruit",
+          3
+        ],
+        [
+          "birdfood",
+          3
+        ],
+        [
+          "cattlefodder",
+          3
+        ],
+        [
+          "wild_herbs",
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "//": "TECH TREAT FROM ELECTRONIC PARTS - robots, cyborgs. Soldering iron still needed.",
+    "type": "recipe",
+    "result": "taming_treat_tech",
+    "id_suffix": "from_corpse",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "difficulty": 3,
+    "time": "45 m",
+    "autolearn": true,
+    "result_mult": 3,
+    "batch_time_factors": [
+      67,
+      5
+    ],
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ],
+      [
+        [
+          "soldering_iron",
+          10
+        ],
+        [
+          "toolset",
+          10
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "e_scrap",
+          6
+        ],
+        [
+          "processor",
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "//": "ELDRITCH TREAT FROM TAINTED FLESH - nether creatures, mutants, and zombies. Zombie corpses produce tainted meat when butchered; this is their only treat path.",
+    "type": "recipe",
+    "result": "taming_treat_eldritch",
+    "id_suffix": "from_corpse",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": "45 m",
+    "autolearn": true,
+    "result_mult": 3,
+    "batch_time_factors": [
+      67,
+      5
+    ],
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "meat_tainted",
+          3
+        ],
+        [
+          "veggy_tainted",
+          3
+        ],
+        [
+          "meat_mutant_tainted",
+          3
+        ],
+        [
+          "meat_mutant_tainted_cooked",
+          3
+        ],
+        [
+          "meat_mutant_tainted_smoked",
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "//": "UNIVERSAL TREAT FROM ANY 2 SPECIALTY TREATS - this is a combo recipe, not a corpse conversion",
+    "type": "recipe",
+    "result": "taming_treat_universal",
+    "id_suffix": "from_corpse",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 5,
+    "time": "60 m",
+    "autolearn": true,
+    "result_mult": 2,
+    "batch_time_factors": [
+      67,
+      5
+    ],
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "taming_treat_meat",
+          2
+        ],
+        [
+          "taming_treat_veggie",
+          2
+        ],
+        [
+          "taming_treat_tech",
+          2
+        ],
+        [
+          "taming_treat_eldritch",
+          2
+        ]
+      ],
+      [
+        [
+          "taming_treat_meat",
+          2
+        ],
+        [
+          "taming_treat_veggie",
+          2
+        ],
+        [
+          "taming_treat_tech",
+          2
+        ],
+        [
+          "taming_treat_eldritch",
+          2
+        ]
+      ]
+    ]
+  }
+]

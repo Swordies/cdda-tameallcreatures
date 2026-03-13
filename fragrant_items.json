@@ -1,0 +1,299 @@
+[
+  {
+    "type": "TOOL",
+    "id": "fragrant_treat_meat",
+    "name": {
+      "str": "fragrant meaty pacification bomb"
+    },
+    "description": "A large, sealed container packed with powerfully-scented seasoned meat, rare herbs, and concentrated pheromone extracts.  Wield it and activate to pull the pin, then throw it.  After a few seconds it starts flooding the area with a huge cloud of pacifying aroma that lasts about three hours.  Carnivorous creatures that wander in become dazed and sluggish; easy to walk up to and tame with a regular treat.",
+    "weight": "500 g",
+    "volume": "500 ml",
+    "price": "25 USD",
+    "price_postapoc": "50 USD",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "*",
+    "color": "light_red",
+    "flags": [
+      "TRADER_AVOID",
+      "BOMB",
+      "GRENADE"
+    ],
+    "use_action": {
+      "need_wielding": true,
+      "target": "fragrant_treat_meat_act",
+      "msg": "You activate the fragrant meaty pacification bomb.",
+      "target_timer": "180 minutes",
+      "menu_text": "Activate",
+      "type": "transform"
+    },
+    "melee_damage": {
+      "bash": 1
+    }
+  },
+  {
+    "type": "TOOL",
+    "id": "fragrant_treat_meat_act",
+    "copy-from": "fragrant_treat_meat",
+    "name": {
+      "str": "active meaty pacification bomb"
+    },
+    "description": "This pacification bomb has been activated and is flooding the area with a thick, pacifying meaty aroma.  Carnivorous creatures nearby become dazed and docile.  If you're holding it, you should throw it where you want the cloud to form.",
+    "use_action": {
+      "type": "message",
+      "message": "You've already activated the %s; try throwing it instead.",
+      "name": "Activate"
+    },
+    "emits": [
+      "emit_pacify_meat_stream"
+    ],
+    "flags": [
+      "TRADER_AVOID",
+      "SPAWN_ACTIVE"
+    ],
+    "countdown_action": {
+      "type": "explosion",
+      "fields_radius": 0
+    },
+    "countdown_interval": 10800
+  },
+  {
+    "type": "TOOL",
+    "id": "fragrant_treat_veggie",
+    "name": {
+      "str": "fragrant herbal pacification bomb"
+    },
+    "description": "A big sphere of compressed herbs, rare seeds, and concentrated floral extracts sealed in a thin shell.  Wield it and activate to pull the pin, then throw it.  After a few seconds it starts flooding the area with a huge cloud of intoxicating botanical scent that lasts about three hours.  Herbivorous creatures, insects, and fungi that wander in become dazed and sluggish; easy to tame.",
+    "weight": "300 g",
+    "volume": "500 ml",
+    "price": "25 USD",
+    "price_postapoc": "50 USD",
+    "material": [
+      "veggy"
+    ],
+    "symbol": "*",
+    "color": "light_green",
+    "flags": [
+      "TRADER_AVOID",
+      "BOMB",
+      "GRENADE"
+    ],
+    "use_action": {
+      "need_wielding": true,
+      "target": "fragrant_treat_veggie_act",
+      "msg": "You activate the fragrant herbal pacification bomb.",
+      "target_timer": "180 minutes",
+      "menu_text": "Activate",
+      "type": "transform"
+    },
+    "melee_damage": {
+      "bash": 1
+    }
+  },
+  {
+    "type": "TOOL",
+    "id": "fragrant_treat_veggie_act",
+    "copy-from": "fragrant_treat_veggie",
+    "name": {
+      "str": "active herbal pacification bomb"
+    },
+    "description": "This pacification bomb has been activated and is flooding the area with a thick, intoxicating botanical mist.  Herbivores, insects, and fungi become dazed and docile.  If you're holding it, you should throw it where you want the cloud to form.",
+    "use_action": {
+      "type": "message",
+      "message": "You've already activated the %s; try throwing it instead.",
+      "name": "Activate"
+    },
+    "emits": [
+      "emit_pacify_veggie_stream"
+    ],
+    "flags": [
+      "TRADER_AVOID",
+      "SPAWN_ACTIVE"
+    ],
+    "countdown_action": {
+      "type": "explosion",
+      "fields_radius": 0
+    },
+    "countdown_interval": 10800
+  },
+  {
+    "type": "TOOL",
+    "id": "fragrant_treat_tech",
+    "name": {
+      "str": "fragrant electronic pacification bomb"
+    },
+    "description": "A heavy device loaded with broad-spectrum pacifying signal generators and EMP dampeners.  Wield it and activate to pull the pin, then throw it.  After a few seconds it starts flooding the area with a huge cloud of electromagnetic interference that lasts about three hours.  Robots and cyborgs that enter the field get their hostility protocols scrambled, leaving them confused and easy to tame.",
+    "weight": "1000 g",
+    "volume": "1000 ml",
+    "price": "100 USD",
+    "price_postapoc": "250 USD",
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "symbol": "*",
+    "color": "light_cyan",
+    "flags": [
+      "TRADER_AVOID",
+      "BOMB",
+      "GRENADE"
+    ],
+    "use_action": {
+      "need_wielding": true,
+      "target": "fragrant_treat_tech_act",
+      "msg": "You activate the fragrant electronic pacification bomb.",
+      "target_timer": "180 minutes",
+      "menu_text": "Activate",
+      "type": "transform"
+    },
+    "melee_damage": {
+      "bash": 1
+    }
+  },
+  {
+    "type": "TOOL",
+    "id": "fragrant_treat_tech_act",
+    "copy-from": "fragrant_treat_tech",
+    "name": {
+      "str": "active electronic pacification bomb"
+    },
+    "description": "This pacification bomb has been activated and is flooding the area with broad-spectrum electromagnetic interference.  Robots and cyborgs have their hostility protocols scrambled.  If you're holding it, you should throw it where you want the field to form.",
+    "use_action": {
+      "type": "message",
+      "message": "You've already activated the %s; try throwing it instead.",
+      "name": "Activate"
+    },
+    "emits": [
+      "emit_pacify_tech_stream"
+    ],
+    "flags": [
+      "TRADER_AVOID",
+      "SPAWN_ACTIVE"
+    ],
+    "countdown_action": {
+      "type": "explosion",
+      "fields_radius": 0
+    },
+    "countdown_interval": 10800
+  },
+  {
+    "type": "TOOL",
+    "id": "fragrant_treat_eldritch",
+    "name": {
+      "str": "fragrant eldritch pacification bomb"
+    },
+    "description": "A pulsating mass of strange matter soaked in concentrated otherworldly energy, sealed in a thin membrane.  Wield it and activate to pull the pin, then throw it.  After a few seconds it starts flooding the area with a huge cloud of dimensional miasma that lasts about three hours.  Nether creatures that enter the cloud have their aggression suppressed, leaving them dazed and easy to tame.  Handle with caution.",
+    "weight": "600 g",
+    "volume": "500 ml",
+    "price": "250 USD",
+    "price_postapoc": "500 USD",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "*",
+    "color": "pink",
+    "flags": [
+      "TRADER_AVOID",
+      "BOMB",
+      "GRENADE"
+    ],
+    "use_action": {
+      "need_wielding": true,
+      "target": "fragrant_treat_eldritch_act",
+      "msg": "You activate the fragrant eldritch pacification bomb.",
+      "target_timer": "180 minutes",
+      "menu_text": "Activate",
+      "type": "transform"
+    },
+    "melee_damage": {
+      "bash": 1
+    }
+  },
+  {
+    "type": "TOOL",
+    "id": "fragrant_treat_eldritch_act",
+    "copy-from": "fragrant_treat_eldritch",
+    "name": {
+      "str": "active eldritch pacification bomb"
+    },
+    "description": "This pacification bomb has been activated and is flooding the area with dimensional miasma.  Nether creatures have their aggression suppressed.  If you're holding it, you should throw it where you want the cloud to form.",
+    "use_action": {
+      "type": "message",
+      "message": "You've already activated the %s; try throwing it instead.",
+      "name": "Activate"
+    },
+    "emits": [
+      "emit_pacify_eldritch_stream"
+    ],
+    "flags": [
+      "TRADER_AVOID",
+      "SPAWN_ACTIVE"
+    ],
+    "countdown_action": {
+      "type": "explosion",
+      "fields_radius": 0
+    },
+    "countdown_interval": 10800
+  },
+  {
+    "type": "TOOL",
+    "id": "fragrant_treat_universal",
+    "name": {
+      "str": "fragrant universal pacification bomb"
+    },
+    "description": "A complex device combining the strongest pacifying agents from every taming discipline.  Wield it and activate to pull the pin, then throw it.  After a few seconds it starts flooding the area with a huge cloud of mixed aroma, electromagnetic interference, and dimensional resonance that lasts about three hours.  Just about anything that walks into the cloud becomes dazed and sluggish; easy to approach and tame.",
+    "weight": "1000 g",
+    "volume": "1000 ml",
+    "price": "500 USD",
+    "price_postapoc": "1000 USD",
+    "material": [
+      "flesh",
+      "veggy"
+    ],
+    "symbol": "*",
+    "color": "white",
+    "flags": [
+      "TRADER_AVOID",
+      "BOMB",
+      "GRENADE"
+    ],
+    "use_action": {
+      "need_wielding": true,
+      "target": "fragrant_treat_universal_act",
+      "msg": "You activate the fragrant universal pacification bomb.",
+      "target_timer": "180 minutes",
+      "menu_text": "Activate",
+      "type": "transform"
+    },
+    "melee_damage": {
+      "bash": 1
+    }
+  },
+  {
+    "type": "TOOL",
+    "id": "fragrant_treat_universal_act",
+    "copy-from": "fragrant_treat_universal",
+    "name": {
+      "str": "active universal pacification bomb"
+    },
+    "description": "This pacification bomb has been activated and is flooding the area with a mixture of pacifying aroma, EM interference, and dimensional resonance.  Almost anything nearby becomes dazed and docile.  If you're holding it, you should throw it where you want the cloud to form.",
+    "use_action": {
+      "type": "message",
+      "message": "You've already activated the %s; try throwing it instead.",
+      "name": "Activate"
+    },
+    "emits": [
+      "emit_pacify_universal_stream"
+    ],
+    "flags": [
+      "TRADER_AVOID",
+      "SPAWN_ACTIVE"
+    ],
+    "countdown_action": {
+      "type": "explosion",
+      "fields_radius": 0
+    },
+    "countdown_interval": 10800
+  }
+]

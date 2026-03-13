@@ -1,0 +1,339 @@
+[
+  {
+    "type": "recipe",
+    "result": "healing_incense_meat",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "skills_required": [
+      [
+        "firstaid",
+        3
+      ]
+    ],
+    "difficulty": 5,
+    "time": "90 m",
+    "autolearn": true,
+    "batch_time_factors": [
+      67,
+      5
+    ],
+    "components": [
+      [
+        [
+          "meat_cooked",
+          3
+        ],
+        [
+          "fish_cooked",
+          3
+        ],
+        [
+          "meat_smoked",
+          3
+        ]
+      ],
+      [
+        [
+          "bone",
+          4
+        ],
+        [
+          "bone_human",
+          4
+        ]
+      ],
+      [
+        [
+          "wild_herbs",
+          4
+        ]
+      ],
+      [
+        [
+          "rag",
+          2
+        ],
+        [
+          "cotton_ball",
+          4
+        ]
+      ],
+      [
+        [
+          "aspirin",
+          4
+        ],
+        [
+          "codeine",
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "healing_incense_veggie",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "skills_required": [
+      [
+        "firstaid",
+        3
+      ]
+    ],
+    "difficulty": 5,
+    "time": "90 m",
+    "autolearn": true,
+    "batch_time_factors": [
+      67,
+      5
+    ],
+    "components": [
+      [
+        [
+          "wild_herbs",
+          6
+        ]
+      ],
+      [
+        [
+          "veggy_cooked",
+          3
+        ],
+        [
+          "dry_fruit",
+          3
+        ]
+      ],
+      [
+        [
+          "birdfood",
+          2
+        ],
+        [
+          "cattlefodder",
+          2
+        ]
+      ],
+      [
+        [
+          "rag",
+          2
+        ],
+        [
+          "cotton_ball",
+          4
+        ]
+      ],
+      [
+        [
+          "aspirin",
+          4
+        ],
+        [
+          "codeine",
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "healing_incense_tech",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [
+      [
+        "firstaid",
+        3
+      ]
+    ],
+    "difficulty": 6,
+    "time": "120 m",
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "e_scrap",
+          8
+        ]
+      ],
+      [
+        [
+          "cable",
+          4
+        ],
+        [
+          "wire",
+          2
+        ]
+      ],
+      [
+        [
+          "light_battery_cell",
+          2
+        ],
+        [
+          "battery",
+          2
+        ]
+      ],
+      [
+        [
+          "processor",
+          1
+        ],
+        [
+          "RAM",
+          2
+        ]
+      ],
+      [
+        [
+          "superglue",
+          1
+        ],
+        [
+          "duct_tape",
+          50
+        ]
+      ]
+    ],
+    "tools": [
+      [
+        [
+          "soldering_iron",
+          20
+        ],
+        [
+          "toolset",
+          20
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "healing_incense_eldritch",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "skills_required": [
+      [
+        "firstaid",
+        3
+      ]
+    ],
+    "difficulty": 7,
+    "time": "120 m",
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "meat_tainted",
+          4
+        ],
+        [
+          "veggy_tainted",
+          4
+        ]
+      ],
+      [
+        [
+          "slime_scrap",
+          4
+        ]
+      ],
+      [
+        [
+          "wild_herbs",
+          3
+        ]
+      ],
+      [
+        [
+          "rag",
+          2
+        ],
+        [
+          "cotton_ball",
+          4
+        ]
+      ],
+      [
+        [
+          "aspirin",
+          4
+        ],
+        [
+          "codeine",
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "healing_incense_universal",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "skills_required": [
+      [
+        "firstaid",
+        4
+      ]
+    ],
+    "difficulty": 8,
+    "time": "180 m",
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "healing_incense_meat",
+          1
+        ]
+      ],
+      [
+        [
+          "healing_incense_veggie",
+          1
+        ]
+      ],
+      [
+        [
+          "wild_herbs",
+          4
+        ]
+      ],
+      [
+        [
+          "mutagen",
+          1
+        ],
+        [
+          "purifier",
+          1
+        ]
+      ],
+      [
+        [
+          "aspirin",
+          6
+        ],
+        [
+          "codeine",
+          3
+        ]
+      ]
+    ]
+  }
+]

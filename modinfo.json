@@ -1,0 +1,15 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "tame_all_creatures",
+    "name": "Tame All Creatures",
+    "authors": [
+      "Swordie"
+    ],
+    "description": "Lets you tame and befriend ALL creatures; zombies, mi-go, robots, nether beings, everything.  Adds craftable taming treats, pacification bombs that deploy big visible gas clouds to daze monsters for easier taming, healing incense clouds to patch up your tamed creatures, command items, a corpse-to-treat conversion toolkit, and 8 new taming-focused professions.  Preserves vanilla faction relationships so untamed creatures still behave naturally.",
+    "category": "creatures",
+    "dependencies": [
+      "dda"
+    ]
+  }
+]
