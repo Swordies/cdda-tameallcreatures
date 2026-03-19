@@ -52,6 +52,109 @@
       "hurt_tick": [
         5
       ]
-    }
+    },
+    "enchantments": [
+      {
+        "//": "The base_mods hurt healing only works on player characters; monsters ignore negative HURT values. This enchantment provides REGEN_HP which the monster process_effects loop honors directly, granting tamed creatures 5 HP per turn while affected.",
+        "condition": "ALWAYS",
+        "values": [
+          {
+            "value": "REGEN_HP",
+            "add": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "tac_adrenaline_spike",
+    "name": [
+      "Adrenaline Spike"
+    ],
+    "desc": [
+      "A surge of primal fury; muscles tense and reflexes sharpen to a razor edge."
+    ],
+    "rating": "good",
+    "apply_message": "A jolt of adrenaline hits and everything sharpens.",
+    "remove_message": "The adrenaline rush fades; exhaustion creeps in.",
+    "max_duration": "120 s",
+    "max_intensity": 1,
+    "show_in_info": true,
+    "base_mods": {
+      "speed_mod": [
+        30
+      ],
+      "str_mod": [
+        3
+      ],
+      "dex_mod": [
+        2
+      ]
+    },
+    "enchantments": [
+      {
+        "condition": "ALWAYS",
+        "values": [
+          {
+            "value": "MELEE_DAMAGE",
+            "add": 8
+          },
+          {
+            "value": "SPEED",
+            "add": 15
+          },
+          {
+            "value": "ATTACK_SPEED",
+            "add": -30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "tac_adrenaline_crash",
+    "name": [
+      "Adrenaline Crash"
+    ],
+    "desc": [
+      "The rush is gone; muscles ache, vision blurs, and every movement costs twice the effort."
+    ],
+    "rating": "bad",
+    "apply_message": "Your body buckles as the adrenaline wears off.",
+    "remove_message": "You shake off the fatigue; your body feels normal again.",
+    "max_duration": "90 s",
+    "max_intensity": 1,
+    "show_in_info": true,
+    "base_mods": {
+      "speed_mod": [
+        -25
+      ],
+      "str_mod": [
+        -2
+      ],
+      "dex_mod": [
+        -2
+      ],
+      "per_mod": [
+        -3
+      ]
+    },
+    "enchantments": [
+      {
+        "condition": "ALWAYS",
+        "values": [
+          {
+            "value": "SPEED",
+            "add": -10
+          },
+          {
+            "value": "ATTACK_SPEED",
+            "add": 20
+          }
+        ]
+      }
+    ]
   }
 ]

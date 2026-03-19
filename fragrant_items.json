@@ -1,6 +1,9 @@
 [
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "fragrant_treat_meat",
     "name": {
       "str": "fragrant meaty pacification bomb"
@@ -21,19 +24,22 @@
       "GRENADE"
     ],
     "use_action": {
+      "type": "transform",
       "need_wielding": true,
       "target": "fragrant_treat_meat_act",
       "msg": "You activate the fragrant meaty pacification bomb.",
-      "target_timer": "180 minutes",
-      "menu_text": "Activate",
-      "type": "transform"
+      "target_timer": "3 hours",
+      "menu_text": "Activate"
     },
     "melee_damage": {
       "bash": 1
     }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "fragrant_treat_meat_act",
     "copy-from": "fragrant_treat_meat",
     "name": {
@@ -55,11 +61,13 @@
     "countdown_action": {
       "type": "explosion",
       "fields_radius": 0
-    },
-    "countdown_interval": 10800
+    }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "fragrant_treat_veggie",
     "name": {
       "str": "fragrant herbal pacification bomb"
@@ -80,19 +88,22 @@
       "GRENADE"
     ],
     "use_action": {
+      "type": "transform",
       "need_wielding": true,
       "target": "fragrant_treat_veggie_act",
       "msg": "You activate the fragrant herbal pacification bomb.",
-      "target_timer": "180 minutes",
-      "menu_text": "Activate",
-      "type": "transform"
+      "target_timer": "3 hours",
+      "menu_text": "Activate"
     },
     "melee_damage": {
       "bash": 1
     }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "fragrant_treat_veggie_act",
     "copy-from": "fragrant_treat_veggie",
     "name": {
@@ -114,11 +125,13 @@
     "countdown_action": {
       "type": "explosion",
       "fields_radius": 0
-    },
-    "countdown_interval": 10800
+    }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "fragrant_treat_tech",
     "name": {
       "str": "fragrant electronic pacification bomb"
@@ -140,19 +153,22 @@
       "GRENADE"
     ],
     "use_action": {
+      "type": "transform",
       "need_wielding": true,
       "target": "fragrant_treat_tech_act",
       "msg": "You activate the fragrant electronic pacification bomb.",
-      "target_timer": "180 minutes",
-      "menu_text": "Activate",
-      "type": "transform"
+      "target_timer": "3 hours",
+      "menu_text": "Activate"
     },
     "melee_damage": {
       "bash": 1
     }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "fragrant_treat_tech_act",
     "copy-from": "fragrant_treat_tech",
     "name": {
@@ -174,11 +190,13 @@
     "countdown_action": {
       "type": "explosion",
       "fields_radius": 0
-    },
-    "countdown_interval": 10800
+    }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "fragrant_treat_eldritch",
     "name": {
       "str": "fragrant eldritch pacification bomb"
@@ -199,19 +217,22 @@
       "GRENADE"
     ],
     "use_action": {
+      "type": "transform",
       "need_wielding": true,
       "target": "fragrant_treat_eldritch_act",
       "msg": "You activate the fragrant eldritch pacification bomb.",
-      "target_timer": "180 minutes",
-      "menu_text": "Activate",
-      "type": "transform"
+      "target_timer": "3 hours",
+      "menu_text": "Activate"
     },
     "melee_damage": {
       "bash": 1
     }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "fragrant_treat_eldritch_act",
     "copy-from": "fragrant_treat_eldritch",
     "name": {
@@ -233,11 +254,13 @@
     "countdown_action": {
       "type": "explosion",
       "fields_radius": 0
-    },
-    "countdown_interval": 10800
+    }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "fragrant_treat_universal",
     "name": {
       "str": "fragrant universal pacification bomb"
@@ -259,19 +282,22 @@
       "GRENADE"
     ],
     "use_action": {
+      "type": "transform",
       "need_wielding": true,
       "target": "fragrant_treat_universal_act",
       "msg": "You activate the fragrant universal pacification bomb.",
-      "target_timer": "180 minutes",
-      "menu_text": "Activate",
-      "type": "transform"
+      "target_timer": "3 hours",
+      "menu_text": "Activate"
     },
     "melee_damage": {
       "bash": 1
     }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "fragrant_treat_universal_act",
     "copy-from": "fragrant_treat_universal",
     "name": {
@@ -293,7 +319,6 @@
     "countdown_action": {
       "type": "explosion",
       "fields_radius": 0
-    },
-    "countdown_interval": 10800
+    }
   }
 ]

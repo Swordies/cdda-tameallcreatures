@@ -1,6 +1,9 @@
 [
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [
+      "COMESTIBLE"
+    ],
     "comestible_type": "FOOD",
     "id": "taming_treat_meat",
     "name": {
@@ -31,7 +34,10 @@
     ]
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [
+      "COMESTIBLE"
+    ],
     "comestible_type": "FOOD",
     "id": "taming_treat_veggie",
     "name": {
@@ -61,7 +67,10 @@
     ]
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [
+      "COMESTIBLE"
+    ],
     "comestible_type": "FOOD",
     "id": "taming_treat_tech",
     "name": {
@@ -78,7 +87,6 @@
     ],
     "symbol": ";",
     "color": "cyan",
-    "calories": 0,
     "flags": [
       "INEDIBLE",
       "TRADER_AVOID"
@@ -91,7 +99,10 @@
     ]
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [
+      "COMESTIBLE"
+    ],
     "comestible_type": "FOOD",
     "id": "taming_treat_eldritch",
     "name": {
@@ -108,7 +119,6 @@
     "symbol": "*",
     "color": "magenta",
     "spoils_in": "7 days",
-    "calories": 0,
     "fun": -50,
     "flags": [
       "INEDIBLE",
@@ -122,7 +132,10 @@
     ]
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [
+      "COMESTIBLE"
+    ],
     "comestible_type": "FOOD",
     "id": "taming_treat_universal",
     "name": {

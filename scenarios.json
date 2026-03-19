@@ -1,0 +1,178 @@
+[
+  {
+    "type": "scenario",
+    "id": "tac_beast_tamer_start",
+    "name": "Beast Tamer's Menagerie",
+    "description": "You were traveling with a small group of trained creatures when the Cataclysm struck.  Your show animals scattered, but a loyal dog and cat stayed by your side.  At least you won't face the apocalypse alone.",
+    "points": -2,
+    "start_name": "Wilderness",
+    "professions": [
+      "beast_tamer"
+    ],
+    "pets": [
+      {
+        "name": "mon_dog",
+        "amount": 1
+      },
+      {
+        "name": "mon_cat_tabby",
+        "amount": 1
+      }
+    ],
+    "flags": [
+      "LONE_START"
+    ],
+    "allowed_locs": [
+      "sloc_field"
+    ]
+  },
+  {
+    "type": "scenario",
+    "id": "tac_insect_tamer_start",
+    "name": "Insect Handler's Nest",
+    "description": "Your field research on giant insects was interrupted by the end of the world.  Luckily, a few of the smaller specimens you'd been studying seem to have imprinted on you; they cluster around your feet and refuse to leave.",
+    "points": -2,
+    "start_name": "Wilderness",
+    "professions": [
+      "insect_tamer"
+    ],
+    "pets": [
+      {
+        "name": "mon_bee_small",
+        "amount": 2
+      },
+      {
+        "name": "mon_ant_small",
+        "amount": 1
+      }
+    ],
+    "flags": [
+      "LONE_START"
+    ],
+    "allowed_locs": [
+      "sloc_field"
+    ]
+  },
+  {
+    "type": "scenario",
+    "id": "tac_dino_wrangler_start",
+    "name": "Dinosaur Wrangler's Camp",
+    "description": "You'd been tracking the recently appeared dinosaurs for weeks when everything fell apart.  A young raptor you'd been hand-feeding stuck around; it seems to regard you as some kind of parent.  That's either endearing or terrifying.",
+    "points": -3,
+    "start_name": "Wilderness",
+    "professions": [
+      "dino_wrangler"
+    ],
+    "pets": [
+      {
+        "name": "mon_spawn_raptor",
+        "amount": 1
+      }
+    ],
+    "flags": [
+      "LONE_START"
+    ],
+    "allowed_locs": [
+      "sloc_field"
+    ]
+  },
+  {
+    "type": "scenario",
+    "id": "tac_demonologist_start",
+    "name": "Demonologist's Sanctum",
+    "description": "Your occult studies attracted more attention than you bargained for.  When the barriers between dimensions crumbled, a small nether creature slipped through and latched onto you.  It follows you everywhere now; whether out of loyalty or hunger, you can't quite tell.",
+    "points": -3,
+    "start_name": "Wilderness",
+    "professions": [
+      "demonologist"
+    ],
+    "pets": [
+      {
+        "name": "mon_kreck",
+        "amount": 1
+      }
+    ],
+    "flags": [
+      "LONE_START"
+    ],
+    "allowed_locs": [
+      "sloc_field"
+    ]
+  },
+  {
+    "type": "scenario",
+    "id": "tac_machine_whisperer_start",
+    "name": "Machine Whisperer's Workshop",
+    "description": "You were tinkering in your garage when the world ended.  A small hack-bot you'd been reprogramming whirrs to life and beeps at you; it seems to recognize you as friendly.  Having a flying drone at your side might just keep you alive.",
+    "points": -2,
+    "start_name": "Garage",
+    "professions": [
+      "machine_whisperer"
+    ],
+    "pets": [
+      {
+        "name": "mon_manhack",
+        "amount": 1
+      }
+    ],
+    "flags": [
+      "CITY_START",
+      "LONE_START"
+    ],
+    "allowed_locs": [
+      "sloc_garage"
+    ]
+  },
+  {
+    "type": "scenario",
+    "id": "tac_mycologist_start",
+    "name": "Mycologist's Grove",
+    "description": "Your fungal research garden survived the Cataclysm better than most things.  A young fungaloid has attached itself to you; it sways gently when you approach and shrinks away from strangers.  You're pretty sure it considers you part of its colony.",
+    "points": -2,
+    "start_name": "Wilderness",
+    "professions": [
+      "mycologist_tamer"
+    ],
+    "pets": [
+      {
+        "name": "mon_fungaloid_young",
+        "amount": 1
+      },
+      {
+        "name": "mon_spore",
+        "amount": 2
+      }
+    ],
+    "flags": [
+      "LONE_START"
+    ],
+    "allowed_locs": [
+      "sloc_field"
+    ]
+  },
+  {
+    "type": "scenario",
+    "id": "tac_zombie_whisperer_start",
+    "name": "Zombie Whisperer's Refuge",
+    "description": "Your research into the walking dead paid off in the worst possible way.  You know how to redirect their aggression, and a shambling zombie seems to have fixated on you as a source of treats rather than a meal.  It's as close to a pet zombie as anyone's likely to get.",
+    "points": -3,
+    "start_name": "Shelter",
+    "professions": [
+      "zombie_whisperer"
+    ],
+    "pets": [
+      {
+        "name": "mon_zombie",
+        "amount": 1
+      }
+    ],
+    "flags": [
+      "LONE_START"
+    ],
+    "allowed_locs": [
+      "sloc_shelter_a",
+      "sloc_shelter_b",
+      "sloc_shelter_c"
+    ]
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "type": "SPELL",
+    "id": "tac_spell_adrenaline_spike",
+    "name": "Rally Cry",
+    "description": "A commanding signal that triggers an adrenaline spike in nearby tamed creatures, boosting their damage and speed for a short time.  Afterwards, they suffer a brief crash as the rush wears off.",
+    "valid_targets": [
+      "ally"
+    ],
+    "effect": "attack",
+    "effect_str": "tac_adrenaline_spike",
+    "shape": "blast",
+    "flags": [
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_FAIL",
+      "NO_EXPLOSION_VFX",
+      "NON_MAGICAL"
+    ],
+    "min_damage": 0,
+    "max_damage": 0,
+    "min_aoe": 12,
+    "max_aoe": 12,
+    "min_range": 1,
+    "max_range": 1,
+    "min_duration": 12000,
+    "max_duration": 12000,
+    "energy_source": "NONE",
+    "difficulty": 0,
+    "max_level": 0,
+    "base_casting_time": 100,
+    "base_energy_cost": 0,
+    "extra_effects": [
+      {
+        "id": "tac_spell_adrenaline_crash_delayed",
+        "hit_self": false
+      }
+    ]
+  },
+  {
+    "//": "This spell fires alongside the spike to schedule the crash.",
+    "type": "SPELL",
+    "id": "tac_spell_adrenaline_crash_delayed",
+    "name": "Adrenaline Crash",
+    "description": "The inevitable crash after an adrenaline spike.",
+    "valid_targets": [
+      "ally"
+    ],
+    "effect": "attack",
+    "effect_str": "tac_adrenaline_crash",
+    "shape": "blast",
+    "flags": [
+      "SILENT",
+      "NO_HANDS",
+      "NO_LEGS",
+      "NO_FAIL",
+      "NO_EXPLOSION_VFX",
+      "NON_MAGICAL"
+    ],
+    "min_damage": 0,
+    "max_damage": 0,
+    "min_aoe": 12,
+    "max_aoe": 12,
+    "min_range": 1,
+    "max_range": 1,
+    "min_duration": 21000,
+    "max_duration": 21000,
+    "energy_source": "NONE",
+    "difficulty": 0,
+    "max_level": 0,
+    "base_casting_time": 0,
+    "base_energy_cost": 0
+  }
+]

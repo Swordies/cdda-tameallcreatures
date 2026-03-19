@@ -4,13 +4,16 @@
     "id": "PROF_BEAST_TAMER",
     "name": "Beast Tamer",
     "points": 0,
-    "description": "You've got years of experience handling wild and dangerous animals.  You can read their body language and get close without setting them off.  Creatures tend to be a bit less hostile around you.",
+    "description": "You've got years of experience handling wild and dangerous creatures.  You can read their body language and get close without setting them off.  Creatures tend to be a bit less hostile around you.",
     "valid": false,
     "purifiable": false,
     "player_display": true,
     "social_modifiers": {
       "persuade": 5
-    }
+    },
+    "processed_eocs": [
+      "EOC_TAMER_MORALE_BEAST"
+    ]
   },
   {
     "type": "mutation",
@@ -20,7 +23,10 @@
     "description": "Years of working with exotic arthropods gave you a feel for how insects behave.  You know which pheromones to avoid giving off and how to move without triggering a swarm.",
     "valid": false,
     "purifiable": false,
-    "player_display": true
+    "player_display": true,
+    "processed_eocs": [
+      "EOC_TAMER_MORALE_INSECT"
+    ]
   },
   {
     "type": "mutation",
@@ -30,7 +36,10 @@
     "description": "Your academic work on the occult and extraplanar entities left you better prepared than most for things that shouldn't exist.  Where others see only madness, you see patterns; and chances to communicate.",
     "valid": false,
     "purifiable": false,
-    "player_display": true
+    "player_display": true,
+    "processed_eocs": [
+      "EOC_TAMER_MORALE_ELDRITCH"
+    ]
   },
   {
     "type": "mutation",
@@ -40,7 +49,10 @@
     "description": "You've got a near-supernatural knack for understanding machines.  Robots and automated systems seem to respond to you differently, like they recognize something in your electromagnetic signature.",
     "valid": false,
     "purifiable": false,
-    "player_display": true
+    "player_display": true,
+    "processed_eocs": [
+      "EOC_TAMER_MORALE_MACHINE"
+    ]
   },
   {
     "type": "mutation",
@@ -50,7 +62,10 @@
     "description": "Years of studying fungal biology and ecology gave you a good understanding of mycological organisms.  You know how to interact with fungal growths without setting off a hostile response.",
     "valid": false,
     "purifiable": false,
-    "player_display": true
+    "player_display": true,
+    "processed_eocs": [
+      "EOC_TAMER_MORALE_FUNGAL"
+    ]
   },
   {
     "type": "mutation",
@@ -60,7 +75,10 @@
     "description": "Through some mix of bravery, foolishness, and real skill, you've gotten good at handling huge reptilian creatures.  You understand their territorial instincts and know how to project dominance without resorting to violence.",
     "valid": false,
     "purifiable": false,
-    "player_display": true
+    "player_display": true,
+    "processed_eocs": [
+      "EOC_TAMER_MORALE_DINO"
+    ]
   },
   {
     "type": "mutation",
@@ -70,13 +88,16 @@
     "description": "Your research into death and undeath has attuned you to the strange energies that keep the walking dead moving.  You can sense the faint remnants of will in zombies, and with the right bait, redirect their aggression.",
     "valid": false,
     "purifiable": false,
-    "player_display": true
+    "player_display": true,
+    "processed_eocs": [
+      "EOC_TAMER_MORALE_UNDEAD"
+    ]
   },
   {
     "type": "profession",
     "id": "beast_tamer",
     "name": "Beast Tamer",
-    "description": "You made your living working with dangerous animals at a traveling wildlife show; big cats, wolves, bears, the works.  When the Cataclysm hit, your performers bolted into the wilds, but your skills stuck with you.  You know how to calm a snarling predator with nothing but a treat and steady nerves.",
+    "description": "You made your living working with dangerous creatures at a traveling wildlife show; big cats, wolves, bears, the works.  When the Cataclysm hit, your performers bolted into the wilds, but your skills stuck with you.  You know how to calm a snarling predator with nothing but a treat and steady nerves.",
     "points": 4,
     "traits": [
       "PROF_BEAST_TAMER",
@@ -84,7 +105,7 @@
     ],
     "skills": [
       {
-        "level": 3,
+        "level": 4,
         "name": "survival"
       },
       {
@@ -100,7 +121,7 @@
         "name": "melee"
       },
       {
-        "level": 1,
+        "level": 2,
         "name": "firstaid"
       }
     ],
@@ -108,22 +129,12 @@
       "both": {
         "entries": [
           {
-            "item": "taming_treat_meat"
+            "item": "taming_treat_meat",
+            "count": 13
           },
           {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_universal"
+            "item": "taming_treat_veggie",
+            "count": 2
           },
           {
             "item": "bullwhip"
@@ -168,14 +179,6 @@
             "item": "canteen"
           },
           {
-            "item": "bandages",
-            "count": 3
-          },
-          {
-            "item": "adhesive_bandages",
-            "count": 5
-          },
-          {
             "item": "fragrant_treat_meat"
           },
           {
@@ -185,37 +188,26 @@
             "item": "healing_incense_meat"
           },
           {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
             "item": "taming_toolkit"
+          },
+          {
+            "item": "rope_6",
+            "count": 3
+          },
+          {
+            "item": "attached_ear_plugs_off"
+          },
+          {
+            "item": "bandages",
+            "count": 3
+          },
+          {
+            "item": "adhesive_bandages",
+            "count": 5
+          },
+          {
+            "item": "taming_treat_universal",
+            "count": 2
           }
         ]
       },
@@ -243,14 +235,14 @@
     "id": "insect_tamer",
     "name": "Insect Tamer",
     "description": "Most people swat bugs.  You studied them, bred them, learned to control them.  As an entomologist turned exotic insect handler, you figured out techniques for calming even the nastiest arthropods.  Now that the bugs have grown to monstrous size, your skills are more relevant than ever.",
-    "points": 3,
+    "points": 4,
     "traits": [
       "PROF_INSECT_HANDLER",
       "ANIMALEMPATH"
     ],
     "skills": [
       {
-        "level": 3,
+        "level": 4,
         "name": "survival"
       },
       {
@@ -278,22 +270,8 @@
       "both": {
         "entries": [
           {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_universal"
+            "item": "taming_treat_veggie",
+            "count": 15
           },
           {
             "item": "terrarium"
@@ -344,37 +322,26 @@
             "item": "healing_incense_veggie"
           },
           {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
             "item": "taming_toolkit"
+          },
+          {
+            "item": "rope_6",
+            "count": 3
+          },
+          {
+            "item": "attached_ear_plugs_off"
+          },
+          {
+            "item": "bandages",
+            "count": 3
+          },
+          {
+            "item": "adhesive_bandages",
+            "count": 5
+          },
+          {
+            "item": "taming_treat_universal",
+            "count": 2
           }
         ]
       },
@@ -410,7 +377,7 @@
     ],
     "skills": [
       {
-        "level": 3,
+        "level": 4,
         "name": "survival"
       },
       {
@@ -426,7 +393,7 @@
         "name": "dodge"
       },
       {
-        "level": 1,
+        "level": 2,
         "name": "firstaid"
       },
       {
@@ -438,25 +405,8 @@
       "both": {
         "entries": [
           {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_universal"
-          },
-          {
-            "item": "taming_treat_universal"
+            "item": "taming_treat_meat",
+            "count": 15
           },
           {
             "item": "bullwhip"
@@ -495,14 +445,6 @@
             "item": "canteen"
           },
           {
-            "item": "bandages",
-            "count": 3
-          },
-          {
-            "item": "adhesive_bandages",
-            "count": 5
-          },
-          {
             "item": "fragrant_treat_meat"
           },
           {
@@ -512,37 +454,26 @@
             "item": "healing_incense_meat"
           },
           {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
             "item": "taming_toolkit"
+          },
+          {
+            "item": "rope_6",
+            "count": 3
+          },
+          {
+            "item": "attached_ear_plugs_off"
+          },
+          {
+            "item": "bandages",
+            "count": 3
+          },
+          {
+            "item": "adhesive_bandages",
+            "count": 5
+          },
+          {
+            "item": "taming_treat_universal",
+            "count": 2
           }
         ]
       },
@@ -570,7 +501,7 @@
     "id": "demonologist",
     "name": "Demonologist",
     "description": "Your colleagues in academia dismissed your research into 'extraplanar entity communication' as pseudoscience, but you knew better.  The things pouring through the rifts aren't mindless; they have wants, drives, and can be bargained with.  Your collection of occult texts and eldritch offerings might just turn the apocalypse's biggest threats into unlikely allies.",
-    "points": 6,
+    "points": 5,
     "traits": [
       "PROF_DEMONOLOGIST",
       "NIGHTVISION"
@@ -581,7 +512,7 @@
         "name": "cooking"
       },
       {
-        "level": 2,
+        "level": 4,
         "name": "survival"
       },
       {
@@ -605,25 +536,8 @@
       "both": {
         "entries": [
           {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_universal"
-          },
-          {
-            "item": "taming_treat_universal"
+            "item": "taming_treat_eldritch",
+            "count": 15
           },
           {
             "item": "coat_lab"
@@ -668,37 +582,26 @@
             "item": "healing_incense_eldritch"
           },
           {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
             "item": "taming_toolkit"
+          },
+          {
+            "item": "rope_6",
+            "count": 3
+          },
+          {
+            "item": "attached_ear_plugs_off"
+          },
+          {
+            "item": "bandages",
+            "count": 3
+          },
+          {
+            "item": "adhesive_bandages",
+            "count": 5
+          },
+          {
+            "item": "taming_treat_universal",
+            "count": 2
           }
         ]
       },
@@ -726,11 +629,15 @@
     "id": "machine_whisperer",
     "name": "Machine Whisperer",
     "description": "You were a robotics engineer who always felt like machines had a kind of soul.  Your coworkers thought you were eccentric when you talked to the lab bots; they stopped laughing when the bots started listening.  Now, with rogue military drones and security turrets all over the place, your weird talent might be the most useful skill left on Earth.",
-    "points": 5,
+    "points": 4,
     "traits": [
       "PROF_MECH_WHISPERER"
     ],
     "skills": [
+      {
+        "level": 4,
+        "name": "survival"
+      },
       {
         "level": 4,
         "name": "electronics"
@@ -744,34 +651,24 @@
         "name": "mechanics"
       },
       {
-        "level": 1,
+        "level": 2,
         "name": "cooking"
       },
       {
         "level": 1,
         "name": "dodge"
+      },
+      {
+        "level": 1,
+        "name": "firstaid"
       }
     ],
     "items": {
       "both": {
         "entries": [
           {
-            "item": "taming_treat_tech"
-          },
-          {
-            "item": "taming_treat_tech"
-          },
-          {
-            "item": "taming_treat_tech"
-          },
-          {
-            "item": "taming_treat_tech"
-          },
-          {
-            "item": "taming_treat_tech"
-          },
-          {
-            "item": "taming_treat_universal"
+            "item": "taming_treat_tech",
+            "count": 15
           },
           {
             "item": "screwdriver"
@@ -822,37 +719,29 @@
             "item": "healing_incense_tech"
           },
           {
-            "item": "taming_treat_tech"
-          },
-          {
-            "item": "taming_treat_tech"
-          },
-          {
-            "item": "taming_treat_tech"
-          },
-          {
-            "item": "taming_treat_tech"
-          },
-          {
-            "item": "taming_treat_tech"
-          },
-          {
-            "item": "taming_treat_tech"
-          },
-          {
-            "item": "taming_treat_tech"
-          },
-          {
-            "item": "taming_treat_tech"
-          },
-          {
-            "item": "taming_treat_tech"
-          },
-          {
-            "item": "taming_treat_tech"
-          },
-          {
             "item": "taming_toolkit"
+          },
+          {
+            "item": "rope_6",
+            "count": 3
+          },
+          {
+            "item": "attached_ear_plugs_off"
+          },
+          {
+            "item": "bandages",
+            "count": 3
+          },
+          {
+            "item": "adhesive_bandages",
+            "count": 5
+          },
+          {
+            "item": "taming_treat_universal",
+            "count": 2
+          },
+          {
+            "item": "knife_hunting"
           }
         ]
       },
@@ -891,7 +780,7 @@
         "name": "cooking"
       },
       {
-        "level": 3,
+        "level": 4,
         "name": "survival"
       },
       {
@@ -911,22 +800,12 @@
       "both": {
         "entries": [
           {
-            "item": "taming_treat_veggie"
+            "item": "taming_treat_veggie",
+            "count": 13
           },
           {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_universal"
+            "item": "taming_treat_eldritch",
+            "count": 2
           },
           {
             "item": "mask_gas"
@@ -974,37 +853,26 @@
             "item": "healing_incense_veggie"
           },
           {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
-            "item": "taming_treat_veggie"
-          },
-          {
             "item": "taming_toolkit"
+          },
+          {
+            "item": "rope_6",
+            "count": 3
+          },
+          {
+            "item": "attached_ear_plugs_off"
+          },
+          {
+            "item": "bandages",
+            "count": 3
+          },
+          {
+            "item": "adhesive_bandages",
+            "count": 5
+          },
+          {
+            "item": "taming_treat_universal",
+            "count": 2
           }
         ]
       },
@@ -1048,7 +916,7 @@
         "name": "firstaid"
       },
       {
-        "level": 2,
+        "level": 4,
         "name": "survival"
       },
       {
@@ -1068,25 +936,12 @@
       "both": {
         "entries": [
           {
-            "item": "taming_treat_meat"
+            "item": "taming_treat_meat",
+            "count": 13
           },
           {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_universal"
-          },
-          {
-            "item": "taming_treat_universal"
+            "item": "taming_treat_eldritch",
+            "count": 2
           },
           {
             "item": "knife_butcher"
@@ -1119,14 +974,6 @@
             "item": "canteen"
           },
           {
-            "item": "bandages",
-            "count": 3
-          },
-          {
-            "item": "adhesive_bandages",
-            "count": 5
-          },
-          {
             "item": "fragrant_treat_meat"
           },
           {
@@ -1136,37 +983,26 @@
             "item": "healing_incense_meat"
           },
           {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
-            "item": "taming_treat_meat"
-          },
-          {
             "item": "taming_toolkit"
+          },
+          {
+            "item": "rope_6",
+            "count": 3
+          },
+          {
+            "item": "attached_ear_plugs_off"
+          },
+          {
+            "item": "bandages",
+            "count": 3
+          },
+          {
+            "item": "adhesive_bandages",
+            "count": 5
+          },
+          {
+            "item": "taming_treat_universal",
+            "count": 2
           }
         ]
       },
@@ -1208,7 +1044,7 @@
         "name": "cooking"
       },
       {
-        "level": 3,
+        "level": 4,
         "name": "survival"
       },
       {
@@ -1240,40 +1076,24 @@
       "both": {
         "entries": [
           {
-            "item": "taming_treat_meat"
+            "item": "taming_treat_meat",
+            "count": 2
           },
           {
-            "item": "taming_treat_meat"
+            "item": "taming_treat_veggie",
+            "count": 2
           },
           {
-            "item": "taming_treat_veggie"
+            "item": "taming_treat_tech",
+            "count": 2
           },
           {
-            "item": "taming_treat_veggie"
+            "item": "taming_treat_eldritch",
+            "count": 2
           },
           {
-            "item": "taming_treat_tech"
-          },
-          {
-            "item": "taming_treat_tech"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_eldritch"
-          },
-          {
-            "item": "taming_treat_universal"
-          },
-          {
-            "item": "taming_treat_universal"
-          },
-          {
-            "item": "taming_treat_universal"
-          },
-          {
-            "item": "taming_treat_universal"
+            "item": "taming_treat_universal",
+            "count": 14
           },
           {
             "item": "bullwhip"
@@ -1315,14 +1135,6 @@
             "item": "canteen"
           },
           {
-            "item": "bandages",
-            "count": 3
-          },
-          {
-            "item": "adhesive_bandages",
-            "count": 5
-          },
-          {
             "item": "flashlight"
           },
           {
@@ -1335,37 +1147,22 @@
             "item": "healing_incense_universal"
           },
           {
-            "item": "taming_treat_universal"
-          },
-          {
-            "item": "taming_treat_universal"
-          },
-          {
-            "item": "taming_treat_universal"
-          },
-          {
-            "item": "taming_treat_universal"
-          },
-          {
-            "item": "taming_treat_universal"
-          },
-          {
-            "item": "taming_treat_universal"
-          },
-          {
-            "item": "taming_treat_universal"
-          },
-          {
-            "item": "taming_treat_universal"
-          },
-          {
-            "item": "taming_treat_universal"
-          },
-          {
-            "item": "taming_treat_universal"
-          },
-          {
             "item": "taming_toolkit"
+          },
+          {
+            "item": "rope_6",
+            "count": 3
+          },
+          {
+            "item": "attached_ear_plugs_off"
+          },
+          {
+            "item": "bandages",
+            "count": 3
+          },
+          {
+            "item": "adhesive_bandages",
+            "count": 5
           }
         ]
       },

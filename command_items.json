@@ -1,11 +1,14 @@
 [
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "tamer_horn_beast",
     "name": {
       "str": "beast commander's horn"
     },
-    "description": "A sturdy horn carved from bone with a brass mouthpiece.  Produces a deep, resonant tone that trained animals recognize as a command signal.  Tamed beasts nearby will hear it and switch between passive and aggressive behavior.",
+    "description": "A sturdy horn carved from bone with a brass mouthpiece.  Produces a deep, resonant tone that drives tamed creatures into a frenzy; their damage and speed spike for about two minutes, followed by a brief crash as the rush wears off.  Use sparingly.",
     "weight": "350 g",
     "volume": "500 ml",
     "longest_side": "30 cm",
@@ -21,16 +24,24 @@
       "TRADER_AVOID"
     ],
     "use_action": [
-      "DOG_WHISTLE"
+      {
+        "type": "cast_spell",
+        "spell_id": "tac_spell_adrenaline_spike",
+        "no_fail": true,
+        "level": 0
+      }
     ]
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "tamer_vial_insect",
     "name": {
       "str": "insect pheromone vial"
     },
-    "description": "A sealed glass vial of concentrated synthetic insect pheromones.  Crack it open briefly and it puts out a burst of chemical signals that tamed arthropods interpret as a rallying call.  Nearby tamed creatures will switch between passive and aggressive behavior.  Close it fast to save the contents.",
+    "description": "A sealed glass vial of concentrated synthetic insect pheromones.  Crack it open briefly and it puts out a burst of chemical signals that drive tamed arthropods into a frenzy; their damage and speed spike for about two minutes, followed by a brief crash.  Close it fast to save the contents.",
     "weight": "150 g",
     "volume": "100 ml",
     "price": "15 USD",
@@ -45,16 +56,24 @@
       "TRADER_AVOID"
     ],
     "use_action": [
-      "DOG_WHISTLE"
+      {
+        "type": "cast_spell",
+        "spell_id": "tac_spell_adrenaline_spike",
+        "no_fail": true,
+        "level": 0
+      }
     ]
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "tamer_signal_tech",
     "name": {
       "str": "tech override signal"
     },
-    "description": "A handheld device that puts out a short electromagnetic pulse on frequencies robots and automated systems respond to.  Tamed machines read the signal as a priority command and switch between passive and aggressive behavior.  Short-range, but unmistakable to anything with a receiver.",
+    "description": "A handheld device that puts out a short electromagnetic pulse on frequencies robots and automated systems respond to.  Tamed machines read the signal as a priority override and enter a high-performance combat mode; their damage and speed spike for about two minutes, followed by a brief cooldown cycle.",
     "weight": "400 g",
     "volume": "250 ml",
     "price": "30 USD",
@@ -69,16 +88,24 @@
       "TRADER_AVOID"
     ],
     "use_action": [
-      "DOG_WHISTLE"
+      {
+        "type": "cast_spell",
+        "spell_id": "tac_spell_adrenaline_spike",
+        "no_fail": true,
+        "level": 0
+      }
     ]
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "tamer_resonator_eldritch",
     "name": {
       "str": "eldritch resonator"
     },
-    "description": "A disturbing crystalline device that vibrates at frequencies partially outside normal space-time.  When activated, it puts out a resonance that tamed nether creatures can feel across dimensional boundaries.  They'll switch between passive and aggressive behavior.  Extended use may cause headaches and nosebleeds.",
+    "description": "A disturbing crystalline device that vibrates at frequencies partially outside normal space-time.  When activated, it puts out a resonance that drives tamed nether creatures into a frenzy; their damage and speed spike for about two minutes, followed by a brief period of disorientation.  Extended use may cause headaches and nosebleeds.",
     "weight": "300 g",
     "volume": "250 ml",
     "price": "50 USD",
@@ -93,16 +120,24 @@
       "TRADER_AVOID"
     ],
     "use_action": [
-      "DOG_WHISTLE"
+      {
+        "type": "cast_spell",
+        "spell_id": "tac_spell_adrenaline_spike",
+        "no_fail": true,
+        "level": 0
+      }
     ]
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "tamer_whistle_universal",
     "name": {
       "str": "universal tamer's whistle"
     },
-    "description": "A carefully-made multi-frequency whistle that produces sounds spanning the full audible spectrum and beyond.  Combines ultrasonic tones, subsonic vibrations, pheromone dispersal, and a faint electromagnetic pulse.  When blown, ALL tamed creatures in the area will respond, switching between passive and aggressive behavior.",
+    "description": "A carefully-made multi-frequency whistle that produces sounds spanning the full audible spectrum and beyond.  Combines ultrasonic tones, subsonic vibrations, pheromone dispersal, and a faint electromagnetic pulse.  When blown, ALL tamed creatures in the area enter a frenzied state; their damage and speed spike for about two minutes, followed by a brief crash.",
     "weight": "200 g",
     "volume": "100 ml",
     "price": "75 USD",
@@ -117,7 +152,12 @@
       "TRADER_AVOID"
     ],
     "use_action": [
-      "DOG_WHISTLE"
+      {
+        "type": "cast_spell",
+        "spell_id": "tac_spell_adrenaline_spike",
+        "no_fail": true,
+        "level": 0
+      }
     ]
   }
 ]

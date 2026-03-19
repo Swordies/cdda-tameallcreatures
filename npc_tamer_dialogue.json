@@ -1,0 +1,80 @@
+[
+  {
+    "type": "talk_topic",
+    "id": "TALK_TAC_TAMER",
+    "dynamic_line": {
+      "u_has_any_trait": [
+        "PROF_BEAST_TAMER",
+        "PROF_INSECT_HANDLER",
+        "PROF_DEMONOLOGIST",
+        "PROF_MECH_WHISPERER",
+        "PROF_MYCOLOGIST",
+        "PROF_DINO_WRANGLER",
+        "PROF_NECRO_BINDER"
+      ],
+      "yes": "Well now, a fellow tamer.  I can tell by the way you carry yourself.  What can I do for you?",
+      "no": "You look like someone who could use a friend out here; and I don't mean the human kind.  I'm a tamer.  I make creatures listen."
+    },
+    "responses": [
+      {
+        "text": "I'm interested in taming creatures.  Can you help?",
+        "topic": "TALK_TAC_TAMER_INTRO"
+      },
+      {
+        "text": "About that job...",
+        "topic": "TALK_MISSION_LIST_ASSIGNED",
+        "condition": "has_assigned_mission"
+      },
+      {
+        "text": "Do you have any work for me?",
+        "topic": "TALK_MISSION_LIST",
+        "condition": {
+          "and": [
+            "has_available_mission",
+            {
+              "not": "has_assigned_mission"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Never mind.  Take care.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_TAC_TAMER_INTRO",
+    "dynamic_line": "Taming isn't just about feeding treats to wild creatures.  It's about understanding them; reading their body language, knowing when to push and when to back off.  The treats help, sure, but the real skill is in your head.  I can teach you a few things, if you're willing to put in the work.",
+    "responses": [
+      {
+        "text": "What kind of work?",
+        "topic": "TALK_MISSION_LIST"
+      },
+      {
+        "text": "What can you tell me about taming treats?",
+        "topic": "TALK_TAC_TAMER_TREATS"
+      },
+      {
+        "text": "Maybe later.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_TAC_TAMER_TREATS",
+    "dynamic_line": "There are a few types.  Meaty treats work on carnivores and even zombies.  Herbal treats attract bugs and herbivores.  Electronic modules pacify robots.  Eldritch offerings draw in nether creatures.  And then there's the universal treat; works on everything, but it's harder to make.  You'll need a toolkit to convert raw materials into treats efficiently.",
+    "responses": [
+      {
+        "text": "Sounds useful.  Got any work for me?",
+        "topic": "TALK_MISSION_LIST"
+      },
+      {
+        "text": "Thanks for the info.  I'll be going now.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  }
+]

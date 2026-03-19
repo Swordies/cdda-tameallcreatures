@@ -1,0 +1,1262 @@
+[
+  {
+    "type": "recipe",
+    "result": "tac_armor_dog_simple",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "1 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "leather",
+          8
+        ]
+      ],
+      [
+        [
+          "sinew",
+          4
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_dog_reinforced",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "2 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "leather",
+          12
+        ]
+      ],
+      [
+        [
+          "sinew",
+          6
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_pig_simple",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "1 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "leather",
+          8
+        ]
+      ],
+      [
+        [
+          "sinew",
+          4
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_pig_reinforced",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "2 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "leather",
+          12
+        ]
+      ],
+      [
+        [
+          "sinew",
+          6
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_insect_simple",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "1 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "leather",
+          8
+        ]
+      ],
+      [
+        [
+          "sinew",
+          4
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_insect_reinforced",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "2 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "leather",
+          12
+        ]
+      ],
+      [
+        [
+          "sinew",
+          6
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_human_simple",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "1 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "leather",
+          8
+        ]
+      ],
+      [
+        [
+          "sinew",
+          4
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_human_reinforced",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "2 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "leather",
+          12
+        ]
+      ],
+      [
+        [
+          "sinew",
+          6
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_snake_simple",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "1 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "leather",
+          8
+        ]
+      ],
+      [
+        [
+          "sinew",
+          4
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_snake_reinforced",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "2 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "leather",
+          12
+        ]
+      ],
+      [
+        [
+          "sinew",
+          6
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_flying_insect_simple",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "1 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "leather",
+          8
+        ]
+      ],
+      [
+        [
+          "sinew",
+          4
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_flying_insect_reinforced",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "2 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "leather",
+          12
+        ]
+      ],
+      [
+        [
+          "sinew",
+          6
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_blob_simple",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "1 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "leather",
+          8
+        ]
+      ],
+      [
+        [
+          "sinew",
+          4
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_blob_reinforced",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "2 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "leather",
+          12
+        ]
+      ],
+      [
+        [
+          "sinew",
+          6
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_spider_simple",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "1 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "leather",
+          8
+        ]
+      ],
+      [
+        [
+          "sinew",
+          4
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_spider_reinforced",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "2 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "leather",
+          12
+        ]
+      ],
+      [
+        [
+          "sinew",
+          6
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_horse_simple",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "1 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "leather",
+          8
+        ]
+      ],
+      [
+        [
+          "sinew",
+          4
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_horse_reinforced",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "2 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "leather",
+          12
+        ]
+      ],
+      [
+        [
+          "sinew",
+          6
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_migo_simple",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "1 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "leather",
+          8
+        ]
+      ],
+      [
+        [
+          "sinew",
+          4
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_migo_reinforced",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "2 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "leather",
+          12
+        ]
+      ],
+      [
+        [
+          "sinew",
+          6
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_crab_simple",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "1 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "leather",
+          8
+        ]
+      ],
+      [
+        [
+          "sinew",
+          4
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_crab_reinforced",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "2 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "leather",
+          12
+        ]
+      ],
+      [
+        [
+          "sinew",
+          6
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_fish_simple",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "1 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "leather",
+          8
+        ]
+      ],
+      [
+        [
+          "sinew",
+          4
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_fish_reinforced",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "2 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "leather",
+          12
+        ]
+      ],
+      [
+        [
+          "sinew",
+          6
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_bear_simple",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "1 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "leather",
+          8
+        ]
+      ],
+      [
+        [
+          "sinew",
+          4
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_bear_reinforced",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "2 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "leather",
+          12
+        ]
+      ],
+      [
+        [
+          "sinew",
+          6
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_bird_simple",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "1 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "leather",
+          8
+        ]
+      ],
+      [
+        [
+          "sinew",
+          4
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_bird_reinforced",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "2 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "leather",
+          12
+        ]
+      ],
+      [
+        [
+          "sinew",
+          6
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_kangaroo_simple",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "1 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "leather",
+          8
+        ]
+      ],
+      [
+        [
+          "sinew",
+          4
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_armor_kangaroo_reinforced",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "2 h",
+    "activity_level": "LIGHT_EXERCISE",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "leather",
+          12
+        ]
+      ],
+      [
+        [
+          "sinew",
+          6
+        ]
+      ],
+      [
+        [
+          "fur",
+          4
+        ]
+      ]
+    ]
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_TAMER_MORALE_BEAST",
+    "eoc_type": "ACTIVATION",
+    "effect": [
+      {
+        "u_add_morale": "morale_tamer_beast_bond",
+        "bonus": 10,
+        "max_bonus": 10,
+        "duration": "20 minutes",
+        "decay_start": "10 minutes"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_TAMER_MORALE_INSECT",
+    "eoc_type": "ACTIVATION",
+    "effect": [
+      {
+        "u_add_morale": "morale_tamer_insect_bond",
+        "bonus": 10,
+        "max_bonus": 10,
+        "duration": "20 minutes",
+        "decay_start": "10 minutes"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_TAMER_MORALE_ELDRITCH",
+    "eoc_type": "ACTIVATION",
+    "effect": [
+      {
+        "u_add_morale": "morale_tamer_eldritch_bond",
+        "bonus": 10,
+        "max_bonus": 10,
+        "duration": "20 minutes",
+        "decay_start": "10 minutes"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_TAMER_MORALE_MACHINE",
+    "eoc_type": "ACTIVATION",
+    "effect": [
+      {
+        "u_add_morale": "morale_tamer_machine_bond",
+        "bonus": 10,
+        "max_bonus": 10,
+        "duration": "20 minutes",
+        "decay_start": "10 minutes"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_TAMER_MORALE_FUNGAL",
+    "eoc_type": "ACTIVATION",
+    "effect": [
+      {
+        "u_add_morale": "morale_tamer_fungal_bond",
+        "bonus": 10,
+        "max_bonus": 10,
+        "duration": "20 minutes",
+        "decay_start": "10 minutes"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_TAMER_MORALE_DINO",
+    "eoc_type": "ACTIVATION",
+    "effect": [
+      {
+        "u_add_morale": "morale_tamer_dino_bond",
+        "bonus": 10,
+        "max_bonus": 10,
+        "duration": "20 minutes",
+        "decay_start": "10 minutes"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_TAMER_MORALE_UNDEAD",
+    "eoc_type": "ACTIVATION",
+    "effect": [
+      {
+        "u_add_morale": "morale_tamer_undead_bond",
+        "bonus": 10,
+        "max_bonus": 10,
+        "duration": "20 minutes",
+        "decay_start": "10 minutes"
+      }
+    ]
+  }
+]

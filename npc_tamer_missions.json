@@ -1,0 +1,71 @@
+[
+  {
+    "id": "MISSION_TAC_TAMER_TOOLKIT",
+    "type": "mission_definition",
+    "name": "A Tamer's Errand",
+    "description": "The wandering tamer wants you to prove your dedication by bringing back some creature parts.  In exchange, they'll give you a taming treat toolkit and teach you how to make one.",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 2,
+    "value": 5000,
+    "item": "meat_cooked",
+    "count": 5,
+    "origins": [
+      "ORIGIN_SECONDARY"
+    ],
+    "followup": "MISSION_TAC_TAMER_UNIVERSAL",
+    "dialogue": {
+      "describe": "I could use some help gathering supplies.",
+      "offer": "I need five pieces of cooked meat; any kind will do.  Bring them to me and I'll set you up with a proper taming treat toolkit, plus the know-how to build your own.",
+      "accepted": "Good.  Cooked meat, five pieces.  Don't take too long; the creatures out there won't wait forever.",
+      "rejected": "Suit yourself.  The offer stands if you change your mind.",
+      "advice": "Hunt something, butcher it, cook the meat.  Simple as that.",
+      "inquire": "Got that cooked meat for me yet?",
+      "success": "Well done.  Here's your toolkit, and I'll walk you through how to put one together yourself.  You've earned it.",
+      "success_lie": "That doesn't look like five pieces of cooked meat to me.  Don't try to pull one over on a tamer.",
+      "failure": "Couldn't manage it?  That's a shame."
+    },
+    "end": {
+      "effect": [
+        {
+          "u_buy_item": "taming_toolkit",
+          "count": 1
+        },
+        {
+          "u_learn_recipe": "taming_toolkit"
+        }
+      ]
+    }
+  },
+  {
+    "id": "MISSION_TAC_TAMER_UNIVERSAL",
+    "type": "mission_definition",
+    "name": "The Universal Formula",
+    "description": "The wandering tamer knows the secret recipe for universal taming treats; treats that work on any creature.  They'll teach it to you if you bring them the right ingredients.",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 4,
+    "value": 10000,
+    "item": "taming_treat_meat",
+    "count": 3,
+    "origins": [
+      "ORIGIN_SECONDARY"
+    ],
+    "dialogue": {
+      "describe": "I've got one more thing I can teach you, if you're interested.",
+      "offer": "There's a recipe I've been perfecting; a treat that works on anything.  Beasts, bugs, machines, even the dead.  Bring me three meaty taming treats and I'll teach you the formula.  You'll need to figure out the rest of the ingredients on your own, but the core technique is what matters.",
+      "accepted": "Three meaty taming treats.  You know how to make them by now; get to it.",
+      "rejected": "Your loss.  Universal treats are the holy grail of taming.",
+      "advice": "Use your toolkit to process some butchered meat into meaty taming treats.  Shouldn't be hard for someone with your skills.",
+      "inquire": "Got those three meaty treats ready?",
+      "success": "Perfect.  Pay attention; this is the formula for universal taming treats.  Memorize it well.  With this, there's nothing in this world you can't befriend.",
+      "success_lie": "Those aren't meaty taming treats.  I can smell the difference.  Come back with the real thing.",
+      "failure": "Couldn't get it done?  That's alright; the offer's still open."
+    },
+    "end": {
+      "effect": [
+        {
+          "u_learn_recipe": "taming_treat_universal"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,827 @@
+[
+  {
+    "type": "ITEM",
+    "id": "tac_armor_dog_simple",
+    "name": {
+      "str": "simple canine creature armor"
+    },
+    "description": "A fitted leather harness that covers a dog-like creature from shoulders to flank, offering basic protection against bites and scratches.  You could put this on a friendly creature.",
+    "weight": "2.2 kg",
+    "volume": "4.5 L",
+    "price": "50 USD",
+    "price_postapoc": "20 USD",
+    "material": [
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "brown",
+    "material_thickness": 3,
+    "max_pet_vol": "250 L",
+    "min_pet_vol": "4000 ml",
+    "pet_bodytype": "dog",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_dog_reinforced",
+    "name": {
+      "str": "reinforced canine creature armor"
+    },
+    "description": "A reinforced harness of steel plates riveted over hardened leather, designed to shield a dog-like creature from serious harm in combat.  You could put this on a friendly creature.",
+    "weight": "5.5 kg",
+    "volume": "9 L",
+    "price": "150 USD",
+    "price_postapoc": "40 USD",
+    "material": [
+      "steel",
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 5,
+    "max_pet_vol": "250 L",
+    "min_pet_vol": "4000 ml",
+    "pet_bodytype": "dog",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_pig_simple",
+    "name": {
+      "str": "simple stout creature armor"
+    },
+    "description": "A crude leather wrap shaped to fit stocky, low-slung creatures like boars and large rodents. Covers the back and sides.  You could put this on a friendly creature.",
+    "weight": "1.8 kg",
+    "volume": "3.5 L",
+    "price": "50 USD",
+    "price_postapoc": "20 USD",
+    "material": [
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "brown",
+    "material_thickness": 3,
+    "max_pet_vol": "250 L",
+    "min_pet_vol": "90 ml",
+    "pet_bodytype": "pig",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_pig_reinforced",
+    "name": {
+      "str": "reinforced stout creature armor"
+    },
+    "description": "A reinforced plating system for stocky creatures; hardened steel strips bolted onto a leather base provide solid protection for the torso and flanks.  You could put this on a friendly creature.",
+    "weight": "4.5 kg",
+    "volume": "7 L",
+    "price": "150 USD",
+    "price_postapoc": "40 USD",
+    "material": [
+      "steel",
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 5,
+    "max_pet_vol": "250 L",
+    "min_pet_vol": "90 ml",
+    "pet_bodytype": "pig",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_insect_simple",
+    "name": {
+      "str": "simple arthropod creature armor"
+    },
+    "description": "Leather strips and mesh fitted around an insect-like creature's thorax and abdomen segments, lashed together with sinew.  You could put this on a friendly creature.",
+    "weight": "3 kg",
+    "volume": "6 L",
+    "price": "50 USD",
+    "price_postapoc": "20 USD",
+    "material": [
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "brown",
+    "material_thickness": 3,
+    "max_pet_vol": "1000 L",
+    "min_pet_vol": "5 L",
+    "pet_bodytype": "insect",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_insect_reinforced",
+    "name": {
+      "str": "reinforced arthropod creature armor"
+    },
+    "description": "Steel bands and plating wired around an arthropod's body segments, layered over leather padding. Covers the thorax and abdomen.  You could put this on a friendly creature.",
+    "weight": "7.5 kg",
+    "volume": "12 L",
+    "price": "150 USD",
+    "price_postapoc": "40 USD",
+    "material": [
+      "steel",
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 5,
+    "max_pet_vol": "1000 L",
+    "min_pet_vol": "5 L",
+    "pet_bodytype": "insect",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_human_simple",
+    "name": {
+      "str": "simple humanoid creature armor"
+    },
+    "description": "A leather cuirass and limb guards adapted to fit humanoid creatures, including tamed zombies and feral humans.  You could put this on a friendly creature.",
+    "weight": "4 kg",
+    "volume": "8 L",
+    "price": "50 USD",
+    "price_postapoc": "20 USD",
+    "material": [
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "brown",
+    "material_thickness": 3,
+    "max_pet_vol": "500 L",
+    "min_pet_vol": "40 L",
+    "pet_bodytype": "human",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_human_reinforced",
+    "name": {
+      "str": "reinforced humanoid creature armor"
+    },
+    "description": "A reinforced suit of steel-plated armor fitted for humanoid creatures. Covers the torso, shoulders, and upper limbs.  You could put this on a friendly creature.",
+    "weight": "10 kg",
+    "volume": "16 L",
+    "price": "150 USD",
+    "price_postapoc": "40 USD",
+    "material": [
+      "steel",
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 5,
+    "max_pet_vol": "500 L",
+    "min_pet_vol": "40 L",
+    "pet_bodytype": "human",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_snake_simple",
+    "name": {
+      "str": "simple serpentine creature armor"
+    },
+    "description": "Overlapping leather scales stitched onto a flexible mesh sleeve that slides over a snake-like creature's body.  You could put this on a friendly creature.",
+    "weight": "1.5 kg",
+    "volume": "3 L",
+    "price": "50 USD",
+    "price_postapoc": "20 USD",
+    "material": [
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "brown",
+    "material_thickness": 3,
+    "max_pet_vol": "1000 L",
+    "min_pet_vol": "1500 ml",
+    "pet_bodytype": "snake",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_snake_reinforced",
+    "name": {
+      "str": "reinforced serpentine creature armor"
+    },
+    "description": "Articulated steel rings threaded onto a leather sleeve, forming a flexible mail tube that protects a serpentine creature's body without restricting movement.  You could put this on a friendly creature.",
+    "weight": "4 kg",
+    "volume": "6 L",
+    "price": "150 USD",
+    "price_postapoc": "40 USD",
+    "material": [
+      "steel",
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 5,
+    "max_pet_vol": "1000 L",
+    "min_pet_vol": "1500 ml",
+    "pet_bodytype": "snake",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_flying_insect_simple",
+    "name": {
+      "str": "simple winged insect creature armor"
+    },
+    "description": "A lightweight leather shell that clips around a winged insect's thorax, leaving the wings unobstructed.  You could put this on a friendly creature.",
+    "weight": "1.2 kg",
+    "volume": "2.5 L",
+    "price": "50 USD",
+    "price_postapoc": "20 USD",
+    "material": [
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "brown",
+    "material_thickness": 3,
+    "max_pet_vol": "250 L",
+    "min_pet_vol": "5 L",
+    "pet_bodytype": "flying insect",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_flying_insect_reinforced",
+    "name": {
+      "str": "reinforced winged insect creature armor"
+    },
+    "description": "Thin steel plates mounted on a leather frame, shaped to protect a winged insect's thorax while leaving the wing joints free.  You could put this on a friendly creature.",
+    "weight": "3 kg",
+    "volume": "5 L",
+    "price": "150 USD",
+    "price_postapoc": "40 USD",
+    "material": [
+      "steel",
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 5,
+    "max_pet_vol": "250 L",
+    "min_pet_vol": "5 L",
+    "pet_bodytype": "flying insect",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_blob_simple",
+    "name": {
+      "str": "simple amorphous creature armor"
+    },
+    "description": "A loose cage of leather straps and mesh that wraps around an amorphous creature, providing a crude outer shell.  You could put this on a friendly creature.",
+    "weight": "2.5 kg",
+    "volume": "5 L",
+    "price": "50 USD",
+    "price_postapoc": "20 USD",
+    "material": [
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "brown",
+    "material_thickness": 3,
+    "max_pet_vol": "1000 L",
+    "min_pet_vol": "1000 ml",
+    "pet_bodytype": "blob",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_blob_reinforced",
+    "name": {
+      "str": "reinforced amorphous creature armor"
+    },
+    "description": "A rigid lattice of steel bars and leather webbing that contains and protects an amorphous creature. The open design accommodates shifting mass.  You could put this on a friendly creature.",
+    "weight": "6 kg",
+    "volume": "10 L",
+    "price": "150 USD",
+    "price_postapoc": "40 USD",
+    "material": [
+      "steel",
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 5,
+    "max_pet_vol": "1000 L",
+    "min_pet_vol": "1000 ml",
+    "pet_bodytype": "blob",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_spider_simple",
+    "name": {
+      "str": "simple arachnid creature armor"
+    },
+    "description": "A leather carapace cover shaped to sit over a spider-like creature's abdomen and cephalothorax, secured with sinew ties around the legs.  You could put this on a friendly creature.",
+    "weight": "3 kg",
+    "volume": "6 L",
+    "price": "50 USD",
+    "price_postapoc": "20 USD",
+    "material": [
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "brown",
+    "material_thickness": 3,
+    "max_pet_vol": "500 L",
+    "min_pet_vol": "5 L",
+    "pet_bodytype": "spider",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_spider_reinforced",
+    "name": {
+      "str": "reinforced arachnid creature armor"
+    },
+    "description": "Steel plating bolted onto a leather frame that shields an arachnid's abdomen and cephalothorax. Leg openings are reinforced with steel rings.  You could put this on a friendly creature.",
+    "weight": "7 kg",
+    "volume": "12 L",
+    "price": "150 USD",
+    "price_postapoc": "40 USD",
+    "material": [
+      "steel",
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 5,
+    "max_pet_vol": "500 L",
+    "min_pet_vol": "5 L",
+    "pet_bodytype": "spider",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_horse_simple",
+    "name": {
+      "str": "simple equine creature armor"
+    },
+    "description": "A leather barding covering the neck, barrel, and hindquarters of a horse-sized creature.  You could put this on a friendly creature.",
+    "weight": "12 kg",
+    "volume": "50 L",
+    "price": "50 USD",
+    "price_postapoc": "20 USD",
+    "material": [
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "brown",
+    "material_thickness": 3,
+    "max_pet_vol": "1000 L",
+    "min_pet_vol": "100 L",
+    "pet_bodytype": "horse",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_horse_reinforced",
+    "name": {
+      "str": "reinforced equine creature armor"
+    },
+    "description": "Steel-plated barding layered over hardened leather, protecting the neck, chest, barrel, and hindquarters of a large mount.  You could put this on a friendly creature.",
+    "weight": "30 kg",
+    "volume": "120 L",
+    "price": "150 USD",
+    "price_postapoc": "40 USD",
+    "material": [
+      "steel",
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 5,
+    "max_pet_vol": "1000 L",
+    "min_pet_vol": "100 L",
+    "pet_bodytype": "horse",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_migo_simple",
+    "name": {
+      "str": "simple mi-go creature armor"
+    },
+    "description": "Leather wrappings tailored to the bizarre anatomy of a mi-go or similar extradimensional creature, covering major body surfaces.  You could put this on a friendly creature.",
+    "weight": "5 kg",
+    "volume": "10 L",
+    "price": "50 USD",
+    "price_postapoc": "20 USD",
+    "material": [
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "brown",
+    "material_thickness": 3,
+    "max_pet_vol": "1000 L",
+    "min_pet_vol": "50 L",
+    "pet_bodytype": "migo",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_migo_reinforced",
+    "name": {
+      "str": "reinforced mi-go creature armor"
+    },
+    "description": "Steel plates riveted onto leather wrappings, shaped to fit the alien geometry of mi-go and similar creatures.  Provides solid protection despite the unusual form.  You could put this on a friendly creature.",
+    "weight": "12 kg",
+    "volume": "20 L",
+    "price": "150 USD",
+    "price_postapoc": "40 USD",
+    "material": [
+      "steel",
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 5,
+    "max_pet_vol": "1000 L",
+    "min_pet_vol": "50 L",
+    "pet_bodytype": "migo",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_crab_simple",
+    "name": {
+      "str": "simple crustacean creature armor"
+    },
+    "description": "Leather plating fitted over the gaps between a crustacean's natural armor, reinforcing the joints and underbelly.  You could put this on a friendly creature.",
+    "weight": "1.5 kg",
+    "volume": "3 L",
+    "price": "50 USD",
+    "price_postapoc": "20 USD",
+    "material": [
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "brown",
+    "material_thickness": 3,
+    "max_pet_vol": "500 L",
+    "min_pet_vol": "80 ml",
+    "pet_bodytype": "crab",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_crab_reinforced",
+    "name": {
+      "str": "reinforced crustacean creature armor"
+    },
+    "description": "Steel bands and plates bolted to a leather backing, covering the joint gaps and underbelly of a crab-like creature for all-around protection.  You could put this on a friendly creature.",
+    "weight": "4 kg",
+    "volume": "6 L",
+    "price": "150 USD",
+    "price_postapoc": "40 USD",
+    "material": [
+      "steel",
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 5,
+    "max_pet_vol": "500 L",
+    "min_pet_vol": "80 ml",
+    "pet_bodytype": "crab",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_fish_simple",
+    "name": {
+      "str": "simple aquatic creature armor"
+    },
+    "description": "A flexible leather sleeve designed to slide over a fish-like creature, protecting the body while leaving the fins free.  You could put this on a friendly creature.",
+    "weight": "800 g",
+    "volume": "1.5 L",
+    "price": "50 USD",
+    "price_postapoc": "20 USD",
+    "material": [
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "brown",
+    "material_thickness": 3,
+    "max_pet_vol": "250 L",
+    "min_pet_vol": "80 ml",
+    "pet_bodytype": "fish",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_fish_reinforced",
+    "name": {
+      "str": "reinforced aquatic creature armor"
+    },
+    "description": "Articulated steel scales sewn onto a leather sleeve, forming a flexible mail coat for aquatic creatures.  You could put this on a friendly creature.",
+    "weight": "2 kg",
+    "volume": "3 L",
+    "price": "150 USD",
+    "price_postapoc": "40 USD",
+    "material": [
+      "steel",
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 5,
+    "max_pet_vol": "250 L",
+    "min_pet_vol": "80 ml",
+    "pet_bodytype": "fish",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_bear_simple",
+    "name": {
+      "str": "simple ursine creature armor"
+    },
+    "description": "A heavy leather vest and collar designed for bear-sized creatures, covering the chest, back, and neck.  You could put this on a friendly creature.",
+    "weight": "6 kg",
+    "volume": "12 L",
+    "price": "50 USD",
+    "price_postapoc": "20 USD",
+    "material": [
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "brown",
+    "material_thickness": 3,
+    "max_pet_vol": "500 L",
+    "min_pet_vol": "15 L",
+    "pet_bodytype": "bear",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_bear_reinforced",
+    "name": {
+      "str": "reinforced ursine creature armor"
+    },
+    "description": "A reinforced armor of steel plates over hardened leather, shaped for massive bear-like creatures. Covers the chest, back, neck, and shoulders.  You could put this on a friendly creature.",
+    "weight": "15 kg",
+    "volume": "25 L",
+    "price": "150 USD",
+    "price_postapoc": "40 USD",
+    "material": [
+      "steel",
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 5,
+    "max_pet_vol": "500 L",
+    "min_pet_vol": "15 L",
+    "pet_bodytype": "bear",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_bird_simple",
+    "name": {
+      "str": "simple avian creature armor"
+    },
+    "description": "A lightweight leather breast plate and back cover for bird-like creatures, shaped to allow full wing movement.  You could put this on a friendly creature.",
+    "weight": "600 g",
+    "volume": "1.2 L",
+    "price": "50 USD",
+    "price_postapoc": "20 USD",
+    "material": [
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "brown",
+    "material_thickness": 3,
+    "max_pet_vol": "250 L",
+    "min_pet_vol": "500 ml",
+    "pet_bodytype": "bird",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_bird_reinforced",
+    "name": {
+      "str": "reinforced avian creature armor"
+    },
+    "description": "Thin steel plates on a leather frame that protects a bird's breast and back while leaving the wings unencumbered.  You could put this on a friendly creature.",
+    "weight": "1.5 kg",
+    "volume": "2.5 L",
+    "price": "150 USD",
+    "price_postapoc": "40 USD",
+    "material": [
+      "steel",
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 5,
+    "max_pet_vol": "250 L",
+    "min_pet_vol": "500 ml",
+    "pet_bodytype": "bird",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_kangaroo_simple",
+    "name": {
+      "str": "simple macropod creature armor"
+    },
+    "description": "A leather torso wrap designed for large bipedal creatures with heavy tails, covering the chest and abdomen.  You could put this on a friendly creature.",
+    "weight": "3.5 kg",
+    "volume": "7 L",
+    "price": "50 USD",
+    "price_postapoc": "20 USD",
+    "material": [
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "brown",
+    "material_thickness": 3,
+    "max_pet_vol": "500 L",
+    "min_pet_vol": "30 L",
+    "pet_bodytype": "kangaroo",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "tac_armor_kangaroo_reinforced",
+    "name": {
+      "str": "reinforced macropod creature armor"
+    },
+    "description": "A reinforced steel-and-leather vest for heavy-tailed bipedal creatures, protecting the chest, abdomen, and upper legs.  You could put this on a friendly creature.",
+    "weight": "8.5 kg",
+    "volume": "14 L",
+    "price": "150 USD",
+    "price_postapoc": "40 USD",
+    "material": [
+      "steel",
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "light_gray",
+    "material_thickness": 5,
+    "max_pet_vol": "500 L",
+    "min_pet_vol": "30 L",
+    "pet_bodytype": "kangaroo",
+    "flags": [
+      "IS_PET_ARMOR"
+    ],
+    "subtypes": [
+      "PET_ARMOR"
+    ]
+  }
+]

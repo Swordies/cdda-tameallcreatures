@@ -1,12 +1,15 @@
 [
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "healing_incense_meat",
     "name": {
       "str": "meaty healing incense",
       "str_pl": "meaty healing incenses"
     },
-    "description": "A tightly packed bundle of medicinal herbs mixed with rendered animal fat and bone marrow extract.  Wield it and activate to light it, then throw it.  After a few seconds it starts filling the area with a huge cloud of warm, restorative vapor that lasts about three hours.  Anything standing in the cloud slowly heals up.  Good for setting up a recovery area near your tamed creatures.",
+    "description": "A tightly packed bundle of medicinal herbs mixed with rendered fat and bone marrow extract.  Wield it and activate to light it, then throw it.  After a few seconds it starts filling the area with a huge cloud of warm, restorative vapor that lasts about three hours.  Anything standing in the cloud slowly heals up.  Good for setting up a recovery area near your tamed creatures.",
     "weight": "400 g",
     "volume": "500 ml",
     "price": "30 USD",
@@ -23,19 +26,22 @@
       "GRENADE"
     ],
     "use_action": {
+      "type": "transform",
       "need_wielding": true,
       "target": "healing_incense_meat_act",
       "msg": "You activate the meaty healing incense.",
-      "target_timer": "180 minutes",
-      "menu_text": "Activate",
-      "type": "transform"
+      "target_timer": "3 hours",
+      "menu_text": "Activate"
     },
     "melee_damage": {
       "bash": 1
     }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "healing_incense_meat_act",
     "copy-from": "healing_incense_meat",
     "name": {
@@ -58,11 +64,13 @@
     "countdown_action": {
       "type": "explosion",
       "fields_radius": 0
-    },
-    "countdown_interval": 10800
+    }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "healing_incense_veggie",
     "name": {
       "str": "herbal healing incense",
@@ -84,19 +92,22 @@
       "GRENADE"
     ],
     "use_action": {
+      "type": "transform",
       "need_wielding": true,
       "target": "healing_incense_veggie_act",
       "msg": "You activate the herbal healing incense.",
-      "target_timer": "180 minutes",
-      "menu_text": "Activate",
-      "type": "transform"
+      "target_timer": "3 hours",
+      "menu_text": "Activate"
     },
     "melee_damage": {
       "bash": 1
     }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "healing_incense_veggie_act",
     "copy-from": "healing_incense_veggie",
     "name": {
@@ -119,11 +130,13 @@
     "countdown_action": {
       "type": "explosion",
       "fields_radius": 0
-    },
-    "countdown_interval": 10800
+    }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "healing_incense_tech",
     "name": {
       "str": "nanite repair canister"
@@ -145,19 +158,22 @@
       "GRENADE"
     ],
     "use_action": {
+      "type": "transform",
       "need_wielding": true,
       "target": "healing_incense_tech_act",
       "msg": "You activate the nanite repair canister.",
-      "target_timer": "180 minutes",
-      "menu_text": "Activate",
-      "type": "transform"
+      "target_timer": "3 hours",
+      "menu_text": "Activate"
     },
     "melee_damage": {
       "bash": 1
     }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "healing_incense_tech_act",
     "copy-from": "healing_incense_tech",
     "name": {
@@ -179,11 +195,13 @@
     "countdown_action": {
       "type": "explosion",
       "fields_radius": 0
-    },
-    "countdown_interval": 10800
+    }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "healing_incense_eldritch",
     "name": {
       "str": "eldritch mending censer"
@@ -205,19 +223,22 @@
       "GRENADE"
     ],
     "use_action": {
+      "type": "transform",
       "need_wielding": true,
       "target": "healing_incense_eldritch_act",
       "msg": "You activate the eldritch mending censer.",
-      "target_timer": "180 minutes",
-      "menu_text": "Activate",
-      "type": "transform"
+      "target_timer": "3 hours",
+      "menu_text": "Activate"
     },
     "melee_damage": {
       "bash": 1
     }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "healing_incense_eldritch_act",
     "copy-from": "healing_incense_eldritch",
     "name": {
@@ -239,11 +260,13 @@
     "countdown_action": {
       "type": "explosion",
       "fields_radius": 0
-    },
-    "countdown_interval": 10800
+    }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "healing_incense_universal",
     "name": {
       "str": "universal healing incense",
@@ -266,19 +289,22 @@
       "GRENADE"
     ],
     "use_action": {
+      "type": "transform",
       "need_wielding": true,
       "target": "healing_incense_universal_act",
       "msg": "You activate the universal healing incense.",
-      "target_timer": "180 minutes",
-      "menu_text": "Activate",
-      "type": "transform"
+      "target_timer": "3 hours",
+      "menu_text": "Activate"
     },
     "melee_damage": {
       "bash": 1
     }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
     "id": "healing_incense_universal_act",
     "copy-from": "healing_incense_universal",
     "name": {
@@ -301,7 +327,6 @@
     "countdown_action": {
       "type": "explosion",
       "fields_radius": 0
-    },
-    "countdown_interval": 10800
+    }
   }
 ]

@@ -1,12 +1,12 @@
 # Tame All Creatures
 
 **Author:** Swordie
-**Version:** 1.0.0 
-**Target:** Cataclysm: Dark Days Ahead 0.H (Herbert)
+**Version:** 1.2.0
+**Target:** Cataclysm: Dark Days Ahead 0.I
 
 ## Overview
 
-This mod lets you tame and befriend every creature in CDDA: zombies, mi-go, robots, nether beings, all of them! It adds craftable taming treats, a corpse-to-treat conversion system, throwable pacification bombs that deploy visible gas clouds for crowd control, throwable healing incense for patching up your tamed creatures, command items for ordering pets around, and 8 new taming-focused professions. Vanilla faction relationships are preserved; untamed creatures still fight, flee, or coexist with each other as normal.
+This mod lets you tame and befriend every creature in CDDA; zombies, mi-go, robots, nether beings, all of them. It adds craftable taming treats, a corpse-to-treat conversion system, throwable pacification bombs that deploy visible gas clouds for crowd control, throwable healing incense for patching up your tamed creatures, command items for ordering pets around, and 8 new taming-focused professions. Vanilla faction relationships are preserved; untamed creatures still fight, flee, or coexist with each other as normal.
 
 ## Features
 
@@ -34,7 +34,7 @@ A reusable crafting tool that converts butchered creature remains into taming tr
 5. The recipe will appear as long as you have the toolkit in your inventory and the required ingredients.
 6. Craft the treats. The toolkit is never consumed; you keep it forever.
 
-**Important:** The toolkit is a crafting tool, not an activatable item. You cannot activate it directly; it works through the crafting menu. Think of it like a soldering iron or sewing kit.
+**Important:** The toolkit is a crafting tool, not an activatable item. You can't activate it directly; it works through the crafting menu. Think of it like a soldering iron or sewing kit.
 
 | Input Material | Output Treat | Notes |
 |---------------|-------------|-------|
@@ -97,7 +97,7 @@ Five types of throwable items that release a sustained healing cloud:
 **Tip:** The healing cloud works on you too. Throw one at your base and you can recover alongside your pets.
 
 ### Command Items
-Five themed command items that toggle tamed creatures between passive and aggressive:
+Five themed command items that rally tamed creatures into a combat frenzy:
 
 | Item | Theme |
 |------|-------|
@@ -107,7 +107,89 @@ Five themed command items that toggle tamed creatures between passive and aggres
 | Eldritch Resonator | Dimensional crystal |
 | Universal Tamer's Whistle | Multi-frequency whistle |
 
-**Usage:** Activate to switch nearby tamed creatures between passive/aggressive behavior.
+**Usage:** Activate to trigger an adrenaline spike in ALL nearby tamed creatures.  For about two minutes, affected creatures deal more damage and move faster; afterwards they suffer a brief crash with reduced stats as the rush wears off.  The adrenaline crash lasts about 90 seconds longer than the spike, so time your rallies carefully.
+
+**Mechanical details:** Each command item casts a self-targeted AOE spell that applies both the Adrenaline Spike and Adrenaline Crash effects simultaneously.  The spike ends first, leaving the crash as a short vulnerability window.
+
+### Flesh Rope
+A craftable binding made from tanned hides, leather, and sinew.  Works as a standard rope for tying up creatures, restraining NPCs, or any other rope-based task.
+
+**Crafting:** Requires the taming treat toolkit, sinew, leather, fur, and tanned hide.  Produces 2 flesh ropes per craft.  Survival 3.
+
+### Creature Armor
+Craftable armor for tamed creatures in two tiers:
+
+| Tier | Material | Thickness | Skill | Time |
+|------|----------|-----------|-------|------|
+| Simple | Leather | 3 | Fabrication 3 | 60 min |
+| Reinforced | Steel + Leather | 5 | Fabrication 5 | 120 min |
+
+Armor is available for all 15 body types found in the mod's creature roster:
+
+| Body Type | Label | Example Creatures |
+|-----------|-------|-------------------|
+| dog | canine | dogs, wolves, cats, coyotes |
+| pig | stout | boars, large rodents |
+| insect | arthropod | giant ants, centipedes |
+| human | humanoid | zombies, feral humans |
+| snake | serpentine | snakes, worms, grubs |
+| flying insect | winged insect | wasps, bees, dragonflies |
+| blob | amorphous | blobs, shoggoths |
+| spider | arachnid | giant spiders |
+| horse | equine | horses, deer, moose |
+| migo | mi-go | mi-go and variants |
+| crab | crustacean | crabs, lobsters |
+| fish | aquatic | mutant fish |
+| bear | ursine | bears, large mammals |
+| bird | avian | birds, bats |
+| kangaroo | macropod | large bipedal creatures |
+
+**How to equip:** Walk up to a tamed creature, interact with it, and select "Equip with armor."  The game filters your inventory to show only armor that matches the creature's body type and size.
+
+**Crafting:** All creature armor recipes require the taming treat toolkit.  Simple armor uses leather, sinew, and fur.  Reinforced armor adds steel chunks.
+
+### Silent Tamed Creatures
+All creature overrides include the `SILENTMOVES` flag, which eliminates footstep noise from tamed creatures entirely.  This means your tamed army won't keep you awake at night just by walking around.  All taming professions also start with a pair of attached ear plugs for additional noise protection against creature vocalizations that can't be silenced through JSON.
+
+### Profession Morale Bonus
+Each taming profession trait grants a passive morale bonus of +10 ("Bond with tamed [specialty]").  The bonus is processed via the Effect on Condition system; the trait's `processed_eocs` field fires every ~5 in-game minutes and refreshes a 20-minute morale buff with a 10-minute decay start.  This represents the tamer's deep satisfaction and confidence that comes from their expertise with their chosen creature type.
+
+**Technical note:** The morale bonus is tied to having the profession trait, not to proximity of tamed creatures.  The CDDA engine doesn't expose a JSON-accessible way to count nearby friendly monsters; the bonus is designed as a passive reward for choosing a taming profession.
+
+### Mounting
+All creature overrides include the `PET_MOUNTABLE` flag, which lets you ride any tamed creature that meets the engine's size and weight requirements.  The game checks three things: the creature must be at least one size category larger than you, it must be friendly (tamed), and your weight must not exceed 20% of the creature's weight.  In practice, this means most large and huge creatures can be ridden, while smaller or lighter ones can't.  Heavier creatures like moose, bears, and hulks make reliable mounts; lighter ones like the antlered horror may reject riders who carry too much gear.  All taming professions start with Survival 4, which lets you ride without a saddle.
+
+### Starting Scenarios
+Seven custom scenarios, each paired with one taming profession, that spawn you alongside tamed creatures from your specialty:
+
+| Scenario | Profession | Starting Pets |
+|----------|-----------|---------------|
+| Beast Tamer's Menagerie | Beast Tamer | Dog + tabby cat |
+| Insect Handler's Nest | Insect Tamer | 2 small bees + small ant |
+| Dinosaur Wrangler's Camp | Dino Wrangler | Raptor |
+| Demonologist's Sanctum | Demonologist | Kreck |
+| Machine Whisperer's Workshop | Machine Whisperer | Manhack |
+| Mycologist's Grove | Mycologist | Young fungaloid + 2 spores |
+| Zombie Whisperer's Refuge | Zombie Whisperer | Zombie |
+
+Each scenario restricts profession selection to its paired profession and costs -2 to -3 character points.  Pets spawn pre-tamed and follow you from the first turn.
+
+**Note:** Scenarios aren't available in the Bright Nights build; BN doesn't support the scenario `pets` field.
+
+### Wandering Tamer NPC
+A unique NPC who appears in the game world and offers two sequential quests:
+
+**Quest 1: A Tamer's Errand**
+- Bring the tamer 5 pieces of cooked meat
+- Reward: a taming treat toolkit + the recipe to craft your own
+
+**Quest 2: The Universal Formula**
+- Bring the tamer 3 meaty taming treats
+- Reward: the universal taming treat recipe (the only way to learn it)
+
+The Wandering Tamer has a full dialogue tree that recognizes whether you have a taming profession trait.  Their dialogue covers the basics of taming; treat types, toolkit usage, and creature handling.
+
+**Important:** The universal taming treat and toolkit recipes are no longer autolearned.  You must complete the NPC quests to learn them, or play a taming profession that starts with both items already in your inventory.
 
 ### Professions
 Eight new professions, each starting with themed taming treats, a command item, a pacification bomb, healing incense, and a toolkit:
@@ -123,7 +205,7 @@ Eight new professions, each starting with themed taming treats, a command item, 
 | Zombie Whisperer | Undead | Meat |
 | Universal Tamer | All creatures | Universal |
 
-Each profession has a unique trait, themed gear, and a generous supply of taming treats (10+ of their specialty type).
+Each profession has a unique trait with a passive morale bonus, themed gear, a generous supply of taming treats (including 2 universal treats), medical supplies, and a pair of attached ear plugs for sleeping near tamed creatures.
 
 ## Installation
 
@@ -147,19 +229,29 @@ Each profession has a unique trait, themed gear, and a generous supply of taming
 | `healing_recipes.json` | 5 healing incense recipes |
 | `command_recipes.json` | 5 command item recipes |
 | `converter_items.json` | Taming treat toolkit item |
-| `converter_recipes.json` | 6 corpse-to-treat conversion recipes |
+| `0_spells.json` | 2 spells (adrenaline spike + crash for command items) |
+| `converter_recipes.json` | 15 converter recipes (6 treat + 4 bomb + 4 incense + 1 flesh rope) |
+| `pet_armor_items.json` | 30 creature armor items (15 bodytypes x 2 tiers) |
+| `pet_armor_recipes.json` | 30 creature armor crafting recipes |
+| `scenarios.json` | 7 custom starting scenarios with tamed pets |
+| `npc_tamer.json` | Wandering Tamer NPC class, item groups, and template |
+| `npc_tamer_dialogue.json` | 3 talk topics for the Wandering Tamer dialogue tree |
+| `npc_tamer_missions.json` | 2 mission definitions (toolkit quest + universal recipe quest) |
 | `item_extensions.json` | 13 vanilla item petfood extensions |
+| `morale_types.json` | 7 custom morale type definitions |
+| `morale_eocs.json` | 7 Effect on Condition definitions for morale processing |
 | `monster_overrides_1-6.json` | 1,121 monster overrides (petfood taming data) |
-| `professions.json` | 7 traits + 8 professions |
+| `professions.json` | 7 traits (with morale EOCs) + 8 professions (each starts with rope and ear plugs) |
 
 ## Known Limitations
 
 - **Taming is single-target.** Engine limitations mean treats have to be used one creature at a time. The pacification cloud workaround lets you daze groups first for easier sequential taming.
-- **Tamed zombies attack friendly NPCs.** This is a hardcoded engine limitation ([GitHub #78467](https://github.com/CleverRaven/Cataclysm-DDA/issues/78467)). The CDDA engine explicitly prevents zombie-species monsters from being friendly to NPCs, even when tamed. Only the ~86 monsters with the ZOMBIE species are affected; the other ~1,095 creatures (animals, insects, robots, mi-go, nether beings, mutants, etc.) behave correctly when tamed and will not attack friendly NPCs.
-- **Healing is area-based.** There's no way to heal one specific tamed monster. The healing cloud affects everything in the area, including wild creatures and you. In the 0.I version, the engine does not support enchantment-based regeneration; healing incense only heals the player character, not tamed monsters.
+- **Tamed zombies attack friendly NPCs.** This is a hardcoded engine limitation ([GitHub #78467](https://github.com/CleverRaven/Cataclysm-DDA/issues/78467)). The CDDA engine explicitly prevents zombie-species monsters from being friendly to NPCs, even when tamed. Only the ~86 monsters with the ZOMBIE species are affected; the other ~1,095 creatures (animals, insects, robots, mi-go, nether beings, mutants, etc.) behave correctly when tamed and won't attack friendly NPCs.
+- **Healing is area-based.** There's no way to heal one specific tamed monster. The healing cloud affects everything in the area, including wild creatures and you. Monster healing uses the REGEN_HP enchantment system; the cloud adds ~2 HP/turn to any creature standing in it.
 - **Pacification hits everyone.** The pacification cloud doesn't pick sides. You, your NPCs, and your tamed creatures all get affected if they walk into it.
 - **Clouds fade faster outdoors.** The `outdoor_age_speedup` mechanic means clouds last longest indoors.
-- **Toolkit is a crafting tool.** The toolkit cannot be activated directly on a corpse. You must first butcher the corpse for parts, then use the crafting menu (`&`) to make treats.
+- **Toolkit is a crafting tool.** The toolkit can't be activated directly on a corpse. You must first butcher the corpse for parts, then use the crafting menu (`&`) to make treats.
+- **Morale bonus is passive.** The profession morale bonus is tied to having the trait, not to proximity of tamed creatures.  The CDDA engine doesn't provide a JSON-accessible way to detect nearby friendly monsters.
 
 ## Changelog
 
@@ -175,4 +267,30 @@ Each profession has a unique trait, themed gear, and a generous supply of taming
 - 8 new taming-focused professions, each with specialty treats, a toolkit, bombs, incense, and command items
 - 2 custom effects (Pacified, Soothing Vapors); 10 custom field types; 20 emitters
 - Vanilla faction relationships preserved; untamed creatures behave naturally
-- 21 files (20 JSON + README) — 0.H backport
+
+### v1.1.0
+- Command items reworked: now trigger an adrenaline spike AOE instead of toggling docility; affected creatures get +30 speed, +3 STR, +2 DEX, and bonus melee damage for ~2 minutes, followed by a ~90-second crash with reduced stats
+- 8 new toolkit converter recipes: 4 corpse-to-bomb and 4 corpse-to-incense, using butchered remains and the toolkit (no extra ingredients)
+- Added flesh rope: a craftable binding item made from sinew, leather, fur, and tanned hide via the toolkit (yields 2 per craft)
+- All 8 professions now start with 3 lengths of rope
+- All creature overrides now include PET_MOUNTABLE; tamed creatures large enough to ride can be mounted
+- 30 new craftable creature armor items: simple (leather) and reinforced (steel+leather) for all 15 body types; crafted with the taming treat toolkit and equipped via the pet interaction menu
+- Each profession trait now grants a passive morale bonus (+10) via the EOC system; refreshes every ~5 in-game minutes with a 20-minute duration
+- Added 7 custom morale types (one per specialty) and 7 Effect on Condition definitions for morale processing
+- All creature overrides include the `SILENTMOVES` flag; tamed creatures no longer make footstep sounds
+- All taming professions start with attached ear plugs for additional noise protection against creature vocalizations
+- Added 0_spells.json for adrenaline spike/crash spell definitions
+- Replaced "animal" with "creature" throughout mod text where appropriate
+
+### v1.2.0
+- 7 custom starting scenarios (one per specialty profession); spawn alongside tamed creatures from the start
+- Wandering Tamer NPC with a full dialogue tree and two sequential quests:
+  - "A Tamer's Errand": bring 5 cooked meat to earn a taming treat toolkit and learn the toolkit crafting recipe
+  - "The Universal Formula": bring 3 meaty taming treats to learn the universal taming treat recipe
+- Universal taming treat and toolkit recipes changed from autolearn to NPC-taught
+- Profession balance pass: all 8 professions now start with equivalent medical supplies (3 bandages + 5 adhesive bandages) and 2 universal taming treats alongside their specialty treats
+- All taming professions now require Survival 4 (ride without a saddle from the start)
+- All creature overrides include `SILENTMOVES` for silent movement; tamed creatures no longer generate footstep noise
+- Fixed flavor text mismatches: fowler toad/tadpole no longer described with feathers; coyote-shark mutant no longer described with antennae; cellar spider moved to spider message group
+- Fixed "burrows through the food" phrasing on burrowing creatures
+- Minor punctuation, spacing, and code style cleanup across all files

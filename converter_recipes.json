@@ -13,8 +13,8 @@
       ]
     ],
     "difficulty": 3,
-    "time": "60 m",
-    "autolearn": true,
+    "time": "1 h",
+    "autolearn": false,
     "components": [
       [
         [
@@ -69,9 +69,9 @@
     ]
   },
   {
-    "//": "MEATY TREAT FROM FRESH MEAT - animals, dinosaurs, humans. Zombies only drop tainted meat; use the eldritch recipe for those.",
     "type": "recipe",
     "result": "taming_treat_meat",
+    "//": "MEATY TREAT FROM FRESH MEAT - animals, dinosaurs, humans. Zombies only drop tainted meat; use the eldritch recipe for those.",
     "id_suffix": "from_corpse",
     "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
@@ -143,9 +143,9 @@
     ]
   },
   {
-    "//": "VEGGIE TREAT FROM FRESH PLANT MATTER - fungi, insects, plants, herbivores",
     "type": "recipe",
     "result": "taming_treat_veggie",
+    "//": "VEGGIE TREAT FROM FRESH PLANT MATTER - fungi, insects, plants, herbivores",
     "id_suffix": "from_corpse",
     "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
@@ -197,9 +197,9 @@
     ]
   },
   {
-    "//": "TECH TREAT FROM ELECTRONIC PARTS - robots, cyborgs. Soldering iron still needed.",
     "type": "recipe",
     "result": "taming_treat_tech",
+    "//": "TECH TREAT FROM ELECTRONIC PARTS - robots, cyborgs. Soldering iron still needed.",
     "id_suffix": "from_corpse",
     "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ELECTRONIC",
@@ -245,9 +245,9 @@
     ]
   },
   {
-    "//": "ELDRITCH TREAT FROM TAINTED FLESH - nether creatures, mutants, and zombies. Zombie corpses produce tainted meat when butchered; this is their only treat path.",
     "type": "recipe",
     "result": "taming_treat_eldritch",
+    "//": "ELDRITCH TREAT FROM TAINTED FLESH - nether creatures, mutants, and zombies. Zombie corpses produce tainted meat when butchered; this is their only treat path.",
     "id_suffix": "from_corpse",
     "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
@@ -295,16 +295,16 @@
     ]
   },
   {
-    "//": "UNIVERSAL TREAT FROM ANY 2 SPECIALTY TREATS - this is a combo recipe, not a corpse conversion",
     "type": "recipe",
     "result": "taming_treat_universal",
+    "//": "UNIVERSAL TREAT FROM ANY 2 SPECIALTY TREATS - this is a combo recipe, not a corpse conversion",
     "id_suffix": "from_corpse",
     "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_OTHER",
     "skill_used": "cooking",
     "difficulty": 5,
-    "time": "60 m",
+    "time": "1 h",
     "autolearn": true,
     "result_mult": 2,
     "batch_time_factors": [
@@ -354,6 +354,497 @@
         [
           "taming_treat_eldritch",
           2
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "fragrant_treat_meat",
+    "//": "PACIFICATION BOMB FROM FRESH MEAT via toolkit. Requires more material than treats for balance.",
+    "id_suffix": "from_corpse",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": "1 h",
+    "autolearn": true,
+    "batch_time_factors": [
+      67,
+      5
+    ],
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "meat",
+          8
+        ],
+        [
+          "meat_cooked",
+          8
+        ],
+        [
+          "fish_cooked",
+          8
+        ],
+        [
+          "meat_smoked",
+          8
+        ],
+        [
+          "human_flesh",
+          8
+        ],
+        [
+          "mutant_meat",
+          8
+        ],
+        [
+          "mutant_meat_cooked",
+          8
+        ],
+        [
+          "mutant_human_flesh",
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "fragrant_treat_veggie",
+    "//": "PACIFICATION BOMB FROM PLANT MATTER via toolkit.",
+    "id_suffix": "from_corpse",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": "1 h",
+    "autolearn": true,
+    "batch_time_factors": [
+      67,
+      5
+    ],
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "veggy",
+          8
+        ],
+        [
+          "veggy_cooked",
+          8
+        ],
+        [
+          "dry_fruit",
+          8
+        ],
+        [
+          "birdfood",
+          8
+        ],
+        [
+          "cattlefodder",
+          8
+        ],
+        [
+          "wild_herbs",
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "fragrant_treat_tech",
+    "//": "PACIFICATION BOMB FROM ELECTRONIC PARTS via toolkit.",
+    "id_suffix": "from_corpse",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "difficulty": 5,
+    "time": "90 m",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ],
+      [
+        [
+          "soldering_iron",
+          20
+        ],
+        [
+          "toolset",
+          20
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "e_scrap",
+          12
+        ],
+        [
+          "processor",
+          6
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "fragrant_treat_eldritch",
+    "//": "PACIFICATION BOMB FROM TAINTED FLESH via toolkit.",
+    "id_suffix": "from_corpse",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "90 m",
+    "autolearn": true,
+    "batch_time_factors": [
+      67,
+      5
+    ],
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "meat_tainted",
+          8
+        ],
+        [
+          "veggy_tainted",
+          8
+        ],
+        [
+          "meat_mutant_tainted",
+          8
+        ],
+        [
+          "meat_mutant_tainted_cooked",
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "healing_incense_meat",
+    "//": "HEALING INCENSE FROM FRESH MEAT via toolkit. Higher cost for balance.",
+    "id_suffix": "from_corpse",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "cooking",
+    "skills_required": [
+      [
+        "firstaid",
+        2
+      ]
+    ],
+    "difficulty": 4,
+    "time": "1 h",
+    "autolearn": true,
+    "batch_time_factors": [
+      67,
+      5
+    ],
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "meat",
+          6
+        ],
+        [
+          "meat_cooked",
+          6
+        ],
+        [
+          "fish_cooked",
+          6
+        ],
+        [
+          "meat_smoked",
+          6
+        ],
+        [
+          "human_flesh",
+          6
+        ],
+        [
+          "mutant_meat",
+          6
+        ],
+        [
+          "mutant_meat_cooked",
+          6
+        ],
+        [
+          "mutant_human_flesh",
+          6
+        ]
+      ],
+      [
+        [
+          "bone",
+          3
+        ],
+        [
+          "bone_human",
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "healing_incense_veggie",
+    "//": "HEALING INCENSE FROM PLANT MATTER via toolkit.",
+    "id_suffix": "from_corpse",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "cooking",
+    "skills_required": [
+      [
+        "firstaid",
+        2
+      ]
+    ],
+    "difficulty": 4,
+    "time": "1 h",
+    "autolearn": true,
+    "batch_time_factors": [
+      67,
+      5
+    ],
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "veggy",
+          6
+        ],
+        [
+          "veggy_cooked",
+          6
+        ],
+        [
+          "dry_fruit",
+          6
+        ],
+        [
+          "birdfood",
+          6
+        ],
+        [
+          "cattlefodder",
+          6
+        ],
+        [
+          "wild_herbs",
+          6
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "healing_incense_tech",
+    "//": "NANITE REPAIR CANISTER FROM ELECTRONIC PARTS via toolkit.",
+    "id_suffix": "from_corpse",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [
+      [
+        "firstaid",
+        2
+      ]
+    ],
+    "difficulty": 5,
+    "time": "90 m",
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ],
+      [
+        [
+          "soldering_iron",
+          20
+        ],
+        [
+          "toolset",
+          20
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "e_scrap",
+          10
+        ],
+        [
+          "processor",
+          5
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "healing_incense_eldritch",
+    "//": "ELDRITCH MENDING CENSER FROM TAINTED FLESH via toolkit.",
+    "id_suffix": "from_corpse",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "cooking",
+    "skills_required": [
+      [
+        "firstaid",
+        2
+      ]
+    ],
+    "difficulty": 6,
+    "time": "90 m",
+    "autolearn": true,
+    "batch_time_factors": [
+      67,
+      5
+    ],
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "meat_tainted",
+          6
+        ],
+        [
+          "veggy_tainted",
+          6
+        ],
+        [
+          "meat_mutant_tainted",
+          6
+        ],
+        [
+          "meat_mutant_tainted_cooked",
+          6
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tac_flesh_rope",
+    "//": "FLESH ROPE from butchered remains. Braid sinew and hide scraps into a usable rope.",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "survival",
+    "difficulty": 2,
+    "time": "30 m",
+    "autolearn": true,
+    "result_mult": 2,
+    "batch_time_factors": [
+      67,
+      5
+    ],
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "sinew",
+          4
+        ],
+        [
+          "leather",
+          4
+        ],
+        [
+          "fur",
+          4
+        ],
+        [
+          "tanned_hide",
+          4
+        ],
+        [
+          "human_flesh",
+          4
+        ],
+        [
+          "mutant_human_flesh",
+          4
         ]
       ]
     ]

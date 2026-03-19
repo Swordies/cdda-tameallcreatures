@@ -1,0 +1,37 @@
+[
+  {
+    "type": "morale_type",
+    "id": "morale_tamer_beast_bond",
+    "text": "Bond with tamed beasts"
+  },
+  {
+    "type": "morale_type",
+    "id": "morale_tamer_insect_bond",
+    "text": "Bond with tamed insects"
+  },
+  {
+    "type": "morale_type",
+    "id": "morale_tamer_eldritch_bond",
+    "text": "Bond with tamed entities"
+  },
+  {
+    "type": "morale_type",
+    "id": "morale_tamer_machine_bond",
+    "text": "Bond with tamed machines"
+  },
+  {
+    "type": "morale_type",
+    "id": "morale_tamer_fungal_bond",
+    "text": "Bond with tamed fungi"
+  },
+  {
+    "type": "morale_type",
+    "id": "morale_tamer_dino_bond",
+    "text": "Bond with tamed dinosaurs"
+  },
+  {
+    "type": "morale_type",
+    "id": "morale_tamer_undead_bond",
+    "text": "Bond with tamed undead"
+  }
+]
