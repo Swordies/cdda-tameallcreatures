@@ -11,7 +11,7 @@ A mod for Cataclysm: Dark Days Ahead and its forks that lets you tame and befrie
 | Build | Folder | Monsters | Silent Moves | Starting Pet Scenarios |
 |-------|--------|----------|--------------|----------------------|
 | **DDA 0.H** | `TameAllCreatures_0H` | 974 | No (ear plugs only) | Scenarios included; no starting pets |
-| **DDA 0.I** | `TameAllCreatures` | 1,121 | Yes | Yes; 7 scenarios with pre-tamed pets |
+| **DDA 0.I** | `TameAllCreatures_0I` | 1,121 | Yes | Yes; 7 scenarios with pre-tamed pets |
 | **Bright Nights** | `TameAllCreatures_BN` | 1,121 | No (ear plugs only) | No scenario support |
 | **The Last Generation** | `TameAllCreatures_TLG` | 1,121 | Yes | Yes; 7 scenarios with pre-tamed pets |
 
