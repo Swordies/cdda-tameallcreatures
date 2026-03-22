@@ -1,6 +1,6 @@
 [
   {
-    "type": "ITEM",
+    "type": "COMESTIBLE",
     "id": "meat",
     "copy-from": "meat",
     "extend": {
@@ -11,12 +11,13 @@
     "use_action": [
       "PETFOOD"
     ],
-    "subtypes": [
-      "COMESTIBLE"
-    ]
+    "name": {
+      "str": "chunk of meat",
+      "str_pl": "chunks of meat"
+    }
   },
   {
-    "type": "ITEM",
+    "type": "COMESTIBLE",
     "id": "meat_cooked",
     "copy-from": "meat_cooked",
     "extend": {
@@ -27,12 +28,12 @@
     "use_action": [
       "PETFOOD"
     ],
-    "subtypes": [
-      "COMESTIBLE"
-    ]
+    "name": {
+      "str_sp": "cooked meat"
+    }
   },
   {
-    "type": "ITEM",
+    "type": "COMESTIBLE",
     "id": "meat_smoked",
     "copy-from": "meat_smoked",
     "extend": {
@@ -43,12 +44,12 @@
     "use_action": [
       "PETFOOD"
     ],
-    "subtypes": [
-      "COMESTIBLE"
-    ]
+    "name": {
+      "str_sp": "smoked meat"
+    }
   },
   {
-    "type": "ITEM",
+    "type": "COMESTIBLE",
     "id": "fish_cooked",
     "copy-from": "fish_cooked",
     "extend": {
@@ -59,12 +60,12 @@
     "use_action": [
       "PETFOOD"
     ],
-    "subtypes": [
-      "COMESTIBLE"
-    ]
+    "name": {
+      "str_sp": "cooked fish"
+    }
   },
   {
-    "type": "ITEM",
+    "type": "COMESTIBLE",
     "id": "meat_tainted",
     "copy-from": "meat_tainted",
     "name": {
@@ -78,13 +79,10 @@
     },
     "use_action": [
       "PETFOOD"
-    ],
-    "subtypes": [
-      "COMESTIBLE"
     ]
   },
   {
-    "type": "ITEM",
+    "type": "COMESTIBLE",
     "id": "veggy_tainted",
     "copy-from": "veggy_tainted",
     "name": {
@@ -97,13 +95,10 @@
     },
     "use_action": [
       "PETFOOD"
-    ],
-    "subtypes": [
-      "COMESTIBLE"
     ]
   },
   {
-    "type": "ITEM",
+    "type": "COMESTIBLE",
     "id": "human_flesh",
     "copy-from": "human_flesh",
     "extend": {
@@ -115,12 +110,12 @@
     "use_action": [
       "PETFOOD"
     ],
-    "subtypes": [
-      "COMESTIBLE"
-    ]
+    "name": {
+      "str_sp": "human flesh"
+    }
   },
   {
-    "type": "ITEM",
+    "type": "COMESTIBLE",
     "id": "dogfood",
     "copy-from": "dogfood",
     "name": {
@@ -130,13 +125,10 @@
       "petfood": [
         "TAMEFOOD_MEAT"
       ]
-    },
-    "subtypes": [
-      "COMESTIBLE"
-    ]
+    }
   },
   {
-    "type": "ITEM",
+    "type": "COMESTIBLE",
     "id": "dogfood_dry",
     "copy-from": "dogfood_dry",
     "name": {
@@ -146,13 +138,10 @@
       "petfood": [
         "TAMEFOOD_MEAT"
       ]
-    },
-    "subtypes": [
-      "COMESTIBLE"
-    ]
+    }
   },
   {
-    "type": "ITEM",
+    "type": "COMESTIBLE",
     "id": "catfood",
     "copy-from": "catfood",
     "name": {
@@ -162,13 +151,10 @@
       "petfood": [
         "TAMEFOOD_MEAT"
       ]
-    },
-    "subtypes": [
-      "COMESTIBLE"
-    ]
+    }
   },
   {
-    "type": "ITEM",
+    "type": "COMESTIBLE",
     "id": "catfood_dry",
     "copy-from": "catfood_dry",
     "name": {
@@ -178,13 +164,10 @@
       "petfood": [
         "TAMEFOOD_MEAT"
       ]
-    },
-    "subtypes": [
-      "COMESTIBLE"
-    ]
+    }
   },
   {
-    "type": "ITEM",
+    "type": "COMESTIBLE",
     "id": "birdfood",
     "copy-from": "birdfood",
     "extend": {
@@ -192,12 +175,12 @@
         "TAMEFOOD_VEGGIE"
       ]
     },
-    "subtypes": [
-      "COMESTIBLE"
-    ]
+    "name": {
+      "str_sp": "birdfood"
+    }
   },
   {
-    "type": "ITEM",
+    "type": "COMESTIBLE",
     "id": "cattlefodder",
     "copy-from": "cattlefodder",
     "extend": {
@@ -205,8 +188,8 @@
         "TAMEFOOD_VEGGIE"
       ]
     },
-    "subtypes": [
-      "COMESTIBLE"
-    ]
+    "name": {
+      "str_sp": "cattle fodder"
+    }
   }
 ]

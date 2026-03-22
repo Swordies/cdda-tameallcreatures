@@ -1,9 +1,6 @@
 [
   {
-    "type": "ITEM",
-    "subtypes": [
-      "COMESTIBLE"
-    ],
+    "type": "COMESTIBLE",
     "comestible_type": "FOOD",
     "id": "taming_treat_meat",
     "name": {
@@ -34,10 +31,7 @@
     ]
   },
   {
-    "type": "ITEM",
-    "subtypes": [
-      "COMESTIBLE"
-    ],
+    "type": "COMESTIBLE",
     "comestible_type": "FOOD",
     "id": "taming_treat_veggie",
     "name": {
@@ -67,10 +61,7 @@
     ]
   },
   {
-    "type": "ITEM",
-    "subtypes": [
-      "COMESTIBLE"
-    ],
+    "type": "COMESTIBLE",
     "comestible_type": "FOOD",
     "id": "taming_treat_tech",
     "name": {
@@ -99,10 +90,7 @@
     ]
   },
   {
-    "type": "ITEM",
-    "subtypes": [
-      "COMESTIBLE"
-    ],
+    "type": "COMESTIBLE",
     "comestible_type": "FOOD",
     "id": "taming_treat_eldritch",
     "name": {
@@ -132,10 +120,7 @@
     ]
   },
   {
-    "type": "ITEM",
-    "subtypes": [
-      "COMESTIBLE"
-    ],
+    "type": "COMESTIBLE",
     "comestible_type": "FOOD",
     "id": "taming_treat_universal",
     "name": {

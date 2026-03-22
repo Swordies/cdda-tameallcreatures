@@ -1,0 +1,99 @@
+[
+  {
+    "id": "TAC_nether_residue",
+    "type": "COMESTIBLE",
+    "comestible_type": "INVALID",
+    "name": {
+      "str_sp": "nether residue"
+    },
+    "description": "A thin, iridescent film of otherworldly matter; it shimmers faintly with colors that don't quite belong to this reality.  Nether creatures leave these traces behind as their bodies interact with the physical world.  It's cold to the touch and slightly unsettling to look at for too long.",
+    "weight": "30 g",
+    "volume": "50 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "~",
+    "color": "magenta",
+    "flags": [
+      "TRADER_AVOID"
+    ],
+    "calories": 0
+  },
+  {
+    "id": "TAC_eldritch_residue",
+    "type": "COMESTIBLE",
+    "comestible_type": "INVALID",
+    "name": {
+      "str_sp": "eldritch residue"
+    },
+    "description": "A viscous, dark substance that seems to absorb light around its edges.  It was shed by something that shouldn't exist; the kind of creature that makes you question whether you're still sane.  The residue pulses faintly, as though it hasn't quite accepted that it's been separated from its source.",
+    "weight": "50 g",
+    "volume": "75 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "~",
+    "color": "dark_gray",
+    "flags": [
+      "TRADER_AVOID"
+    ],
+    "calories": 0
+  },
+  {
+    "id": "TAC_rift_satchel",
+    "type": "ARMOR",
+    "category": "container",
+    "name": {
+      "str": "rift satchel"
+    },
+    "description": "A leather satchel reinforced with steel and lined with compressed nether residue.  The interior doesn't obey normal spatial rules; items placed inside seem to fall into a shallow fold in local space, taking up far less room and weight than they should.  Retrieving anything requires a moment of careful rummaging, since your hand has to feel around in directions that shouldn't exist.  The stitching glows faintly in the dark.",
+    "symbol": "[",
+    "color": "magenta",
+    "looks_like": "backpack",
+    "material": [
+      "leather",
+      "steel"
+    ],
+    "weight": "1800 g",
+    "volume": "3000 ml",
+    "price": "0 cent",
+    "price_postapoc": "80 USD",
+    "warmth": 4,
+    "material_thickness": 3,
+    "flags": [
+      "BELTED",
+      "TARDIS",
+      "WATER_FRIENDLY"
+    ],
+    "armor": [
+      {
+        "encumbrance": [
+          3,
+          20
+        ],
+        "coverage": 50,
+        "covers": [
+          "torso"
+        ],
+        "specifically_covers": [
+          "torso_hanging_back"
+        ]
+      }
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "100000 ml",
+        "max_contains_weight": "110000 g",
+        "max_item_volume": "10000 ml",
+        "max_item_length": "4 meter",
+        "weight_multiplier": 0.5,
+        "volume_multiplier": 0.5,
+        "spoil_multiplier": 1.5,
+        "moves": 1800,
+        "rigid": false,
+        "magazine_well": "1000 ml"
+      }
+    ]
+  }
+]

@@ -1,468 +1,267 @@
 [
   {
-    "id": "mon_fry_bowfin",
+    "id": "mon_dog_bull",
     "type": "MONSTER",
-    "copy-from": "mon_fry_bowfin",
+    "copy-from": "mon_dog_bull",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_fish_gar_longnose",
+    "id": "mon_dog_bull_pup",
     "type": "MONSTER",
-    "copy-from": "mon_fish_gar_longnose",
+    "copy-from": "mon_dog_bull_pup",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_fry_gar_longnose",
+    "id": "mon_dog_chihuahua",
     "type": "MONSTER",
-    "copy-from": "mon_fry_gar_longnose",
+    "copy-from": "mon_dog_chihuahua",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_fish_burbot",
+    "id": "mon_dog_chihuahua_pup",
     "type": "MONSTER",
-    "copy-from": "mon_fish_burbot",
+    "copy-from": "mon_dog_chihuahua_pup",
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_fry_burbot",
+    "id": "mon_dog_dachshund",
     "type": "MONSTER",
-    "copy-from": "mon_fry_burbot",
+    "copy-from": "mon_dog_dachshund",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_fish_sturgeon_lake",
+    "id": "mon_dog_dachshund_pup",
     "type": "MONSTER",
-    "copy-from": "mon_fish_sturgeon_lake",
+    "copy-from": "mon_dog_dachshund_pup",
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_fry_sturgeon_lake",
+    "id": "mon_dog_gpyrenees",
     "type": "MONSTER",
-    "copy-from": "mon_fry_sturgeon_lake",
+    "copy-from": "mon_dog_gpyrenees",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_fish_sturgeon_shortnose",
+    "id": "mon_dog_gpyrenees_pup",
     "type": "MONSTER",
-    "copy-from": "mon_fish_sturgeon_shortnose",
+    "copy-from": "mon_dog_gpyrenees_pup",
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_fry_sturgeon_shortnose",
+    "id": "mon_dog_gshepherd",
     "type": "MONSTER",
-    "copy-from": "mon_fry_sturgeon_shortnose",
+    "copy-from": "mon_dog_gshepherd",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_fish_fallfish",
+    "id": "mon_dog_gshepherd_pup",
     "type": "MONSTER",
-    "copy-from": "mon_fish_fallfish",
+    "copy-from": "mon_dog_gshepherd_pup",
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_fry_fallfish",
+    "id": "mon_dog_incorporeal",
     "type": "MONSTER",
-    "copy-from": "mon_fry_fallfish",
+    "copy-from": "mon_dog_incorporeal",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
-  },
-  {
-    "id": "mon_fish_lobster",
-    "type": "MONSTER",
-    "copy-from": "mon_fish_lobster",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s snaps up the food and seems less inclined to swim away.",
-      "pet": "The %s swims circles around you."
     },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_fish_crayfish",
+    "id": "mon_dog_mutant_loper",
     "type": "MONSTER",
-    "copy-from": "mon_fish_crayfish",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s snaps up the food and seems less inclined to swim away.",
-      "pet": "The %s swims circles around you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fry_crayfish",
-    "type": "MONSTER",
-    "copy-from": "mon_fry_crayfish",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fish_eel",
-    "type": "MONSTER",
-    "copy-from": "mon_fish_eel",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s snaps up the food and seems less inclined to swim away.",
-      "pet": "The %s swims circles around you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_crayfish_small",
-    "type": "MONSTER",
-    "copy-from": "mon_crayfish_small",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s snarls but accepts the food, and its aggression seems to ebb slightly.",
-      "pet": "The %s grunts and stays close."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_giant_crayfish",
-    "type": "MONSTER",
-    "copy-from": "mon_giant_crayfish",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s snarls but accepts the food, and its aggression seems to ebb slightly.",
-      "pet": "The %s grunts and stays close."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_crayfish_mega",
-    "type": "MONSTER",
-    "copy-from": "mon_crayfish_mega",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s snarls but accepts the food, and its aggression seems to ebb slightly.",
-      "pet": "The %s grunts and stays close."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_crayfish_giant_larva",
-    "type": "MONSTER",
-    "copy-from": "mon_crayfish_giant_larva",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s snarls but accepts the food, and its aggression seems to ebb slightly.",
-      "pet": "The %s grunts and stays close."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_razorclaw",
-    "type": "MONSTER",
-    "copy-from": "mon_razorclaw",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s snarls but accepts the food, and its aggression seems to ebb slightly.",
-      "pet": "The %s grunts and stays close."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_mutant_carp",
-    "type": "MONSTER",
-    "copy-from": "mon_mutant_carp",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s snaps up the food and seems less inclined to swim away.",
-      "pet": "The %s swims circles around you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_mutant_salmon",
-    "type": "MONSTER",
-    "copy-from": "mon_mutant_salmon",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s snaps up the food and seems less inclined to swim away.",
-      "pet": "The %s swims circles around you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_mutant_salmon_huge",
-    "type": "MONSTER",
-    "copy-from": "mon_mutant_salmon_huge",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s snaps up the food and seems less inclined to swim away.",
-      "pet": "The %s swims circles around you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fry_mutant_salmon",
-    "type": "MONSTER",
-    "copy-from": "mon_fry_mutant_salmon",
+    "copy-from": "mon_dog_mutant_loper",
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
@@ -475,2399 +274,19 @@
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
-  },
-  {
-    "id": "mon_mutant_salmon_mega",
-    "type": "MONSTER",
-    "copy-from": "mon_mutant_salmon_mega",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s snaps up the food and seems less inclined to swim away.",
-      "pet": "The %s swims circles around you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_sewer_fish",
-    "type": "MONSTER",
-    "copy-from": "mon_sewer_fish",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s snaps up the food and seems less inclined to swim away.",
-      "pet": "The %s swims circles around you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fish_mackerel",
-    "type": "MONSTER",
-    "copy-from": "mon_fish_mackerel",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fry_mackerel",
-    "type": "MONSTER",
-    "copy-from": "mon_fry_mackerel",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fish_flounder",
-    "type": "MONSTER",
-    "copy-from": "mon_fish_flounder",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fry_flounder",
-    "type": "MONSTER",
-    "copy-from": "mon_fry_flounder",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fish_blackfish",
-    "type": "MONSTER",
-    "copy-from": "mon_fish_blackfish",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fry_blackfish",
-    "type": "MONSTER",
-    "copy-from": "mon_fry_blackfish",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fish_porgy",
-    "type": "MONSTER",
-    "copy-from": "mon_fish_porgy",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fry_porgy",
-    "type": "MONSTER",
-    "copy-from": "mon_fry_porgy",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fish_bluefish",
-    "type": "MONSTER",
-    "copy-from": "mon_fish_bluefish",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fry_bluefish",
-    "type": "MONSTER",
-    "copy-from": "mon_fry_bluefish",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fish_cod",
-    "type": "MONSTER",
-    "copy-from": "mon_fish_cod",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fry_cod",
-    "type": "MONSTER",
-    "copy-from": "mon_fry_cod",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fish_haddock",
-    "type": "MONSTER",
-    "copy-from": "mon_fish_haddock",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fry_haddock",
-    "type": "MONSTER",
-    "copy-from": "mon_fry_haddock",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fish_bluefin_tuna",
-    "type": "MONSTER",
-    "copy-from": "mon_fish_bluefin_tuna",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fry_bluefin_tuna",
-    "type": "MONSTER",
-    "copy-from": "mon_fry_bluefin_tuna",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fish_halibut",
-    "type": "MONSTER",
-    "copy-from": "mon_fish_halibut",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fry_halibut",
-    "type": "MONSTER",
-    "copy-from": "mon_fry_halibut",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fish_pollock",
-    "type": "MONSTER",
-    "copy-from": "mon_fish_pollock",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fry_pollock",
-    "type": "MONSTER",
-    "copy-from": "mon_fry_pollock",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fungal_blossom",
-    "type": "MONSTER",
-    "copy-from": "mon_fungal_blossom",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fungal_hedgerow",
-    "type": "MONSTER",
-    "copy-from": "mon_fungal_hedgerow",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fungal_tendril",
-    "type": "MONSTER",
-    "copy-from": "mon_fungal_tendril",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fungal_wall",
-    "type": "MONSTER",
-    "copy-from": "mon_fungal_wall",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fungaloid",
-    "type": "MONSTER",
-    "copy-from": "mon_fungaloid",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fungaloid_shambler",
-    "type": "MONSTER",
-    "copy-from": "mon_fungaloid_shambler",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fungaloid_queen",
-    "type": "MONSTER",
-    "copy-from": "mon_fungaloid_queen",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fungaloid_seeder",
-    "type": "MONSTER",
-    "copy-from": "mon_fungaloid_seeder",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fungaloid_tower",
-    "type": "MONSTER",
-    "copy-from": "mon_fungaloid_tower",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fungaloid_young",
-    "type": "MONSTER",
-    "copy-from": "mon_fungaloid_young",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_spore",
-    "type": "MONSTER",
-    "copy-from": "mon_spore",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_ant_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_ant_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_spider_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_spider_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_wasp_small_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_wasp_small_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_wasp_small_guard_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_wasp_small_guard_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_wasp_queen_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_wasp_queen_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_wasp_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_wasp_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_wasp_guard_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_wasp_guard_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_wasp_mega_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_wasp_mega_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_bee_small_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_bee_small_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_bee_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_bee_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_bee_mega_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_bee_mega_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_whisper_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_whisper_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_gasbag_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_gasbag_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_gasbag_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_gasbag_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_gasbag_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_gasbag_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_smoker_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_smoker_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_smoker_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_smoker_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_smoker_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_smoker_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_skeleton_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_skeleton_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_skeleton_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_skeleton_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_skeleton_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_skeleton_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_skeleton_brute_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_skeleton_brute_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_skeleton_brute_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_skeleton_brute_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_skeleton_brute_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_skeleton_brute_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_skeleton_hulk_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_skeleton_hulk_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_skeleton_hulk_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_skeleton_hulk_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_skeleton_hulk_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_skeleton_hulk_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_child_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_child_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_child_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_child_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_child_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_child_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_boomer_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_boomer_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_boomer_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_boomer_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_boomer_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_boomer_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_wretch_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_wretch_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_wretch_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_wretch_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fungal_wretch",
-    "type": "MONSTER",
-    "copy-from": "mon_fungal_wretch",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_spawn_raptor_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_spawn_raptor_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_spawn_raptor_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_spawn_raptor_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_fungal_raptor",
-    "type": "MONSTER",
-    "copy-from": "mon_fungal_raptor",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_runner_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_runner_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_runner_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_runner_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_runner_fungal",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_runner_fungal",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_rot_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_rot_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_rot_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_rot_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_rot_fungal",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_rot_fungal",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_tough_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_tough_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_tough_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_tough_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_tough_fungal",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_tough_fungal",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_brute_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_brute_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_brute_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_brute_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_brute_fungal",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_brute_fungal",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_hulk_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_hulk_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_hulk_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_hulk_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_hulk_fungal",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_hulk_fungal",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_crawler_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_crawler_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_crawler_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_crawler_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_crawler_fungal",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_crawler_fungal",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_fat_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_fat_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_fat_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_fat_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_fat_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_fat_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_beekeeper_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_beekeeper_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_beekeeper_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_beekeeper_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_beekeeper_fungal",
-    "type": "MONSTER",
-    "copy-from": "mon_beekeeper_fungal",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_acidic_dusted",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_acidic_dusted",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_acidic_fungalize",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_acidic_fungalize",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_fungus_acidic",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_fungus_acidic",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_dog_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_dog_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zoose_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_zoose_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
     },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zougar_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_zougar_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zombie_horse_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_horse_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
-      "pet": "The %s groans softly and shuffles alongside you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_ziger_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_ziger_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zeer_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_zeer_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_zeindeer_fungus",
-    "type": "MONSTER",
-    "copy-from": "mon_zeindeer_fungus",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s absorbs the food through its mycelium and its spore output near you decreases.",
-      "pet": "The %s releases a puff of harmless spores near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_dark_wyrm",
-    "type": "MONSTER",
-    "copy-from": "mon_dark_wyrm",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s snarls but accepts the food, and its aggression seems to ebb slightly.",
-      "pet": "The %s grunts and stays close."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_graboid",
-    "type": "MONSTER",
-    "copy-from": "mon_graboid",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s burrows toward the food, consumes it, and seems to accept your presence.",
-      "pet": "The %s coils near you peacefully."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_halfworm_graboid",
-    "type": "MONSTER",
-    "copy-from": "mon_halfworm_graboid",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s burrows toward the food, consumes it, and seems to accept your presence.",
-      "pet": "The %s coils near you peacefully."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_halfworm",
-    "type": "MONSTER",
-    "copy-from": "mon_halfworm",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s burrows toward the food, consumes it, and seems to accept your presence.",
-      "pet": "The %s coils near you peacefully."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_worm",
-    "type": "MONSTER",
-    "copy-from": "mon_worm",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s burrows toward the food, consumes it, and seems to accept your presence.",
-      "pet": "The %s coils near you peacefully."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_worm_small",
-    "type": "MONSTER",
-    "copy-from": "mon_worm_small",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s burrows toward the food, consumes it, and seems to accept your presence.",
-      "pet": "The %s coils near you peacefully."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_halfworm_small",
+    "id": "mon_dog_mutant_loper_pup",
     "type": "MONSTER",
-    "copy-from": "mon_halfworm_small",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s accepts the food and seems less hostile.",
-      "pet": "The %s seems content near you."
+    "copy-from": "mon_dog_mutant_loper_pup",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
     },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_worm_larva",
-    "type": "MONSTER",
-    "copy-from": "mon_worm_larva",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s burrows toward the food, consumes it, and seems to accept your presence.",
-      "pet": "The %s coils near you peacefully."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_large_cockroach",
-    "type": "MONSTER",
-    "copy-from": "mon_large_cockroach",
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
@@ -2880,14 +299,15 @@
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_skittering_plague",
+    "id": "mon_dog_mutant_mauler",
     "type": "MONSTER",
-    "copy-from": "mon_skittering_plague",
+    "copy-from": "mon_dog_mutant_mauler",
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
@@ -2900,156 +320,483 @@
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_plague_nymph",
+    "id": "mon_dog_mutant_mauler_pup",
     "type": "MONSTER",
-    "copy-from": "mon_plague_nymph",
+    "copy-from": "mon_dog_mutant_mauler_pup",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_dog_mutant_mongrel",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_mutant_mongrel",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_dog_mutant_thrasher",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_mutant_thrasher",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_dog_mutant_thrasher_pup",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_mutant_thrasher_pup",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_dog_pitbullmix",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_pitbullmix",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_dog_pitbullmix_pup",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_pitbullmix_pup",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_dog_pup",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_pup",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_dog_rottweiler",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_rottweiler",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_dog_rottweiler_pup",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_rottweiler_pup",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_dog_samoyed",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_samoyed",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_dog_samoyed_pup",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_samoyed_pup",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_dog_skeleton",
+    "type": "MONSTER",
+    "copy-from": "mon_dog_skeleton",
+    "biosignature": {
+      "biosig_item": "meat_tainted",
+      "biosig_timer": 12
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_ELDRITCH",
-        "TAMEFOOD_MEAT",
-        "TAMEFOOD_VEGGIE"
+        "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
-      "pet": "The %s clicks its mandibles softly near you."
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_plague_vector",
+    "id": "mon_dog_skeleton_brute",
     "type": "MONSTER",
-    "copy-from": "mon_plague_vector",
+    "copy-from": "mon_dog_skeleton_brute",
+    "biosignature": {
+      "biosig_item": "meat_tainted",
+      "biosig_timer": 12
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
+        "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
-      "pet": "The %s clicks its mandibles softly near you."
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_giant_cockroach",
+    "id": "mon_dog_telekenetic",
     "type": "MONSTER",
-    "copy-from": "mon_giant_cockroach",
+    "copy-from": "mon_dog_telekenetic",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
+        "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
-      "pet": "The %s clicks its mandibles softly near you."
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_giant_cockroach_nymph",
+    "id": "mon_dog_thing",
     "type": "MONSTER",
-    "copy-from": "mon_giant_cockroach_nymph",
+    "copy-from": "mon_dog_thing",
+    "biosignature": {
+      "biosig_item": "TAC_nether_residue",
+      "biosig_timer": 24
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
+        "TAMEFOOD_ELDRITCH"
       ],
-      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
-      "pet": "The %s clicks its mandibles softly near you."
+      "feed": "The %s regards the offering with alien curiosity, consumes it, and the air around it grows less oppressive.",
+      "pet": "The %s hums at a frequency that feels almost comforting."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_pregnant_giant_cockroach",
+    "id": "mon_dog_zombie_brute",
     "type": "MONSTER",
-    "copy-from": "mon_pregnant_giant_cockroach",
+    "copy-from": "mon_dog_zombie_brute",
+    "biosignature": {
+      "biosig_item": "meat_tainted",
+      "biosig_timer": 12
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
-      "pet": "The %s clicks its mandibles softly near you."
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_silverfish_small",
+    "id": "mon_dog_zombie_cop",
     "type": "MONSTER",
-    "copy-from": "mon_silverfish_small",
+    "copy-from": "mon_dog_zombie_cop",
+    "biosignature": {
+      "biosig_item": "meat_tainted",
+      "biosig_timer": 12
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
-      "pet": "The %s clicks its mandibles softly near you."
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_silverfish",
+    "id": "mon_dog_zombie_hulk",
     "type": "MONSTER",
-    "copy-from": "mon_silverfish",
+    "copy-from": "mon_dog_zombie_hulk",
+    "biosignature": {
+      "biosig_item": "meat_tainted",
+      "biosig_timer": 12
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
-      "pet": "The %s clicks its mandibles softly near you."
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_silverfish_nymph",
+    "id": "mon_dog_zombie_rot",
     "type": "MONSTER",
-    "copy-from": "mon_silverfish_nymph",
+    "copy-from": "mon_dog_zombie_rot",
+    "biosignature": {
+      "biosig_item": "meat_tainted",
+      "biosig_timer": 12
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_dragon_dummy",
+    "type": "MONSTER",
+    "copy-from": "mon_dragon_dummy",
+    "biosignature": {
+      "biosig_item": "TAC_nether_residue",
+      "biosig_timer": 24
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
@@ -3062,254 +809,19 @@
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
-  },
-  {
-    "id": "mon_bee_small",
-    "type": "MONSTER",
-    "copy-from": "mon_bee_small",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s buzzes around the offering, devours it, and seems calmer in your presence.",
-      "pet": "The %s buzzes circles around you."
     },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_bee",
-    "type": "MONSTER",
-    "copy-from": "mon_bee",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s buzzes around the offering, devours it, and seems calmer in your presence.",
-      "pet": "The %s buzzes circles around you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_bee_mega",
-    "type": "MONSTER",
-    "copy-from": "mon_bee_mega",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s buzzes around the offering, devours it, and seems calmer in your presence.",
-      "pet": "The %s buzzes circles around you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_centipede_small",
-    "type": "MONSTER",
-    "copy-from": "mon_centipede_small",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s coils around the food and seems somewhat less hostile.",
-      "pet": "The %s curls up near your feet."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_centipede_giant",
-    "type": "MONSTER",
-    "copy-from": "mon_centipede_giant",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s coils around the food and seems somewhat less hostile.",
-      "pet": "The %s curls up near your feet."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_centipede_larva",
-    "type": "MONSTER",
-    "copy-from": "mon_centipede_larva",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s coils around the food and seems somewhat less hostile.",
-      "pet": "The %s curls up near your feet."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_centipede_mom",
-    "type": "MONSTER",
-    "copy-from": "mon_centipede_mom",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s coils around the food and seems somewhat less hostile.",
-      "pet": "The %s curls up near your feet."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_centipede_mega",
-    "type": "MONSTER",
-    "copy-from": "mon_centipede_mega",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s coils around the food and seems somewhat less hostile.",
-      "pet": "The %s curls up near your feet."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_centipede_house_small",
-    "type": "MONSTER",
-    "copy-from": "mon_centipede_house_small",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s coils around the food and seems somewhat less hostile.",
-      "pet": "The %s curls up near your feet."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_centipede_house",
-    "type": "MONSTER",
-    "copy-from": "mon_centipede_house",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s coils around the food and seems somewhat less hostile.",
-      "pet": "The %s curls up near your feet."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_centipede_house_larva",
-    "type": "MONSTER",
-    "copy-from": "mon_centipede_house_larva",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s coils around the food and seems somewhat less hostile.",
-      "pet": "The %s curls up near your feet."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_dragonfly_naiad",
-    "type": "MONSTER",
-    "copy-from": "mon_dragonfly_naiad",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
-      "pet": "The %s clicks its mandibles softly near you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
+    "mountable_weight_ratio": 1.0
   },
   {
     "id": "mon_dragonfly_giant",
     "type": "MONSTER",
     "copy-from": "mon_dragonfly_giant",
+    "biosignature": {
+      "biosig_item": "chitin_piece",
+      "biosig_timer": 12
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
@@ -3322,14 +834,19 @@
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
     "id": "mon_dragonfly_mega",
     "type": "MONSTER",
     "copy-from": "mon_dragonfly_mega",
+    "biosignature": {
+      "biosig_item": "chitin_piece",
+      "biosig_timer": 12
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
@@ -3342,14 +859,1159 @@
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_dragonfly_naiad",
+    "type": "MONSTER",
+    "copy-from": "mon_dragonfly_naiad",
+    "biosignature": {
+      "biosig_item": "chitin_piece",
+      "biosig_timer": 12
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s skitters around the food, consumes it, and its antennae twitch toward you curiously.",
+      "pet": "The %s clicks its mandibles softly near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_duck",
+    "type": "MONSTER",
+    "copy-from": "mon_duck",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s pecks at the treat eagerly and ruffles its feathers contentedly near you.",
+      "pet": "The %s chirps and preens near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_duck_chick",
+    "type": "MONSTER",
+    "copy-from": "mon_duck_chick",
+    "biosignature": {
+      "biosig_item": "feces_bird",
+      "biosig_timer": 8
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s pecks at the treat eagerly and ruffles its feathers contentedly near you.",
+      "pet": "The %s chirps and preens near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_dummy_tutorial",
+    "type": "MONSTER",
+    "copy-from": "mon_dummy_tutorial",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_MEAT",
+        "TAMEFOOD_ANY"
+      ],
+      "feed": "The creature accepts the offering.",
+      "pet": "The creature seems calmer around you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_exodii_quad",
+    "type": "MONSTER",
+    "copy-from": "mon_exodii_quad",
+    "biosignature": {
+      "biosig_item": "e_scrap",
+      "biosig_timer": 18
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT",
+        "TAMEFOOD_TECH"
+      ],
+      "feed": "The %s's human eyes show a flicker of gratitude as it accepts the offering.",
+      "pet": "The %s gives you an awkward but genuine thumbs-up."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_exodii_turret",
+    "type": "MONSTER",
+    "copy-from": "mon_exodii_turret",
+    "biosignature": {
+      "biosig_item": "e_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_TECH"
+      ],
+      "feed": "The %s's sensors analyze the offering.  After processing, its threat assessment of you drops to zero.",
+      "pet": "The %s beeps cheerfully."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_exodii_worker",
+    "type": "MONSTER",
+    "copy-from": "mon_exodii_worker",
+    "biosignature": {
+      "biosig_item": "e_scrap",
+      "biosig_timer": 18
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT",
+        "TAMEFOOD_TECH"
+      ],
+      "feed": "The %s's human eyes show a flicker of gratitude as it accepts the offering.",
+      "pet": "The %s gives you an awkward but genuine thumbs-up."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_armored_battleaxe",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_armored_battleaxe",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_armored_mace",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_armored_mace",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_cop",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_cop",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_cop_fungal_infected",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_cop_fungal_infected",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_fancy_rapier",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_fancy_rapier",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_fancy_rapier_fake",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_fancy_rapier_fake",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_human_archaeologist",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_human_archaeologist",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_MEAT",
+        "TAMEFOOD_ANY"
+      ],
+      "feed": "The creature accepts the offering.",
+      "pet": "The creature seems calmer."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_human_axe",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_human_axe",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_human_axe_fungal_corpse",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_human_axe_fungal_corpse",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_human_axe_fungal_infected",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_human_axe_fungal_infected",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_human_crowbar",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_human_crowbar",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_human_crowbar_fungal_corpse",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_human_crowbar_fungal_corpse",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_human_crowbar_fungal_infected",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_human_crowbar_fungal_infected",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_human_pipe",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_human_pipe",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_human_pipe_fungal_corpse",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_human_pipe_fungal_corpse",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_human_pipe_fungal_infected",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_human_pipe_fungal_infected",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_human_tool",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_human_tool",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_jackboot",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_jackboot",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_labsecurity_9mm",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_labsecurity_9mm",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_labsecurity_flashlight",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_labsecurity_flashlight",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_maid_broom",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_maid_broom",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_maid_candlestick",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_maid_candlestick",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_maid_knife",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_maid_knife",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_marine_bayonet",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_marine_bayonet",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_militia",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_militia",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_officer",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_officer",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_prepper_knife",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_prepper_knife",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_prepper_mace",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_prepper_mace",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_sailor_axe",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_sailor_axe",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_sailor_lug_wrench",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_sailor_lug_wrench",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_sailor_mop",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_sailor_mop",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_sailor_wrench",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_sailor_wrench",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_sapien_spear",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_sapien_spear",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_scientist_scalpel",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_scientist_scalpel",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_soldier",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_soldier",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_survivalist",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_survivalist",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_feral_swimmer_kickboard",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_swimmer_kickboard",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s grabs the food desperately and, after eating, seems slightly less crazed around you.",
+      "pet": "The %s mutters incoherently but stays by your side."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_ferret",
+    "type": "MONSTER",
+    "copy-from": "mon_ferret",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_ferret_kit",
+    "type": "MONSTER",
+    "copy-from": "mon_ferret_kit",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
     "id": "mon_firefly",
     "type": "MONSTER",
     "copy-from": "mon_firefly",
+    "biosignature": {
+      "biosig_item": "chitin_piece",
+      "biosig_timer": 12
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
@@ -3362,14 +2024,19 @@
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
     "id": "mon_firefly_larva",
     "type": "MONSTER",
     "copy-from": "mon_firefly_larva",
+    "biosignature": {
+      "biosig_item": "chitin_piece",
+      "biosig_timer": 12
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
@@ -3382,34 +2049,1444 @@
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_fly_small",
+    "id": "mon_fish_blackfish",
     "type": "MONSTER",
-    "copy-from": "mon_fly_small",
+    "copy-from": "mon_fish_blackfish",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
+        "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s buzzes around the offering, devours it, and seems calmer in your presence.",
-      "pet": "The %s buzzes circles around you."
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_bluefin_tuna",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_bluefin_tuna",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_bluefish",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_bluefish",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_bluegill",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_bluegill",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_bowfin",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_bowfin",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_brook_trout",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_brook_trout",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_brown_trout",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_brown_trout",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_bullhead",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_bullhead",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_bullhead_yellow",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_bullhead_yellow",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_burbot",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_burbot",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_calico_bass",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_calico_bass",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_carp",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_carp",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_channel_catfish",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_channel_catfish",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_cod",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_cod",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_crayfish",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_crayfish",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s snaps up the food and seems less inclined to swim away.",
+      "pet": "The %s swims circles around you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_eel",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_eel",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s snaps up the food and seems less inclined to swim away.",
+      "pet": "The %s swims circles around you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_fallfish",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_fallfish",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_flounder",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_flounder",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_gar_longnose",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_gar_longnose",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_goldfish",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_goldfish",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_grass_carp",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_grass_carp",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_green_sunfish",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_green_sunfish",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_haddock",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_haddock",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_halibut",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_halibut",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_kokanee_salmon",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_kokanee_salmon",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_lake_trout",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_lake_trout",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_lbass",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_lbass",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_lobster",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_lobster",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s snaps up the food and seems less inclined to swim away.",
+      "pet": "The %s swims circles around you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_mackerel",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_mackerel",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_muskellunge",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_muskellunge",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_pbass",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_pbass",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_perch",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_perch",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_pickerel",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_pickerel",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_pickerel_american",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_pickerel_american",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_pike",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_pike",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_pollock",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_pollock",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_porgy",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_porgy",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_pumpkinseed",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_pumpkinseed",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_rainbow_trout",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_rainbow_trout",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_redbreast",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_redbreast",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_rock_bass",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_rock_bass",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_salmon",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_salmon",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_sbass",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_sbass",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_sturgeon_lake",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_sturgeon_lake",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_sturgeon_shortnose",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_sturgeon_shortnose",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_sunfish",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_sunfish",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_walleye",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_walleye",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_warmouth",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_warmouth",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_white_catfish",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_white_catfish",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_white_sucker",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_white_sucker",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_whitefish",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_whitefish",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fish_whitefish_round",
+    "type": "MONSTER",
+    "copy-from": "mon_fish_whitefish_round",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_flaming_eye",
+    "type": "MONSTER",
+    "copy-from": "mon_flaming_eye",
+    "biosignature": {
+      "biosig_item": "TAC_nether_residue",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH"
+      ],
+      "feed": "The %s regards the offering with alien curiosity, consumes it, and the air around it grows less oppressive.",
+      "pet": "The %s hums at a frequency that feels almost comforting."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_flashbang_hack",
+    "type": "MONSTER",
+    "copy-from": "mon_flashbang_hack",
+    "biosignature": {
+      "biosig_item": "e_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_TECH"
+      ],
+      "feed": "The %s's sensors analyze the offering.  After processing, its threat assessment of you drops to zero.",
+      "pet": "The %s beeps cheerfully."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_flatlander",
+    "type": "MONSTER",
+    "copy-from": "mon_flatlander",
+    "biosignature": {
+      "biosig_item": "TAC_nether_residue",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH"
+      ],
+      "feed": "The %s warps around the food, absorbs it, and its reality-bending aura stabilizes near you.",
+      "pet": "The %s shimmers peacefully near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_flesh_golem",
+    "type": "MONSTER",
+    "copy-from": "mon_flesh_golem",
+    "biosignature": {
+      "biosig_item": "TAC_eldritch_residue",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH"
+      ],
+      "feed": "The %s writhes around the food, consumes it, and its chaotic movements become almost calm in your vicinity.",
+      "pet": "The %s writhes gently nearby."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fleshy_shambler",
+    "type": "MONSTER",
+    "copy-from": "mon_fleshy_shambler",
+    "biosignature": {
+      "biosig_item": "TAC_eldritch_residue",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH"
+      ],
+      "feed": "The %s writhes around the food, consumes it, and its chaotic movements become almost calm in your vicinity.",
+      "pet": "The %s writhes gently nearby."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
     "id": "mon_fly",
     "type": "MONSTER",
     "copy-from": "mon_fly",
+    "biosignature": {
+      "biosig_item": "chitin_piece",
+      "biosig_timer": 12
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
@@ -3422,14 +3499,19 @@
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
     "id": "mon_fly_larva",
     "type": "MONSTER",
     "copy-from": "mon_fly_larva",
+    "biosignature": {
+      "biosig_item": "chitin_piece",
+      "biosig_timer": 12
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
@@ -3442,14 +3524,19 @@
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
     "id": "mon_fly_mega",
     "type": "MONSTER",
     "copy-from": "mon_fly_mega",
+    "biosignature": {
+      "biosig_item": "chitin_piece",
+      "biosig_timer": 12
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
@@ -3462,14 +3549,19 @@
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_mosquito_small",
+    "id": "mon_fly_small",
     "type": "MONSTER",
-    "copy-from": "mon_mosquito_small",
+    "copy-from": "mon_fly_small",
+    "biosignature": {
+      "biosig_item": "chitin_piece",
+      "biosig_timer": 12
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
@@ -3482,114 +3574,44 @@
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_mosquito_giant",
+    "id": "mon_flying_polyp",
     "type": "MONSTER",
-    "copy-from": "mon_mosquito_giant",
+    "copy-from": "mon_flying_polyp",
+    "biosignature": {
+      "biosig_item": "TAC_nether_residue",
+      "biosig_timer": 24
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
+        "TAMEFOOD_ELDRITCH"
       ],
-      "feed": "The %s buzzes around the offering, devours it, and seems calmer in your presence.",
-      "pet": "The %s buzzes circles around you."
+      "feed": "The %s regards the offering with alien curiosity, consumes it, and the air around it grows less oppressive.",
+      "pet": "The %s hums at a frequency that feels almost comforting."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
-  },
-  {
-    "id": "mon_mosquito_larva",
-    "type": "MONSTER",
-    "copy-from": "mon_mosquito_larva",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s buzzes around the offering, devours it, and seems calmer in your presence.",
-      "pet": "The %s buzzes circles around you."
     },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_mosquito_mega",
+    "id": "mon_foul_bigfrog",
     "type": "MONSTER",
-    "copy-from": "mon_mosquito_mega",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s buzzes around the offering, devours it, and seems calmer in your presence.",
-      "pet": "The %s buzzes circles around you."
+    "copy-from": "mon_foul_bigfrog",
+    "biosignature": {
+      "biosig_item": "shed_snakeskin",
+      "biosig_timer": 48
     },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_moth_fly_small",
-    "type": "MONSTER",
-    "copy-from": "mon_moth_fly_small",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s buzzes around the offering, devours it, and seems calmer in your presence.",
-      "pet": "The %s buzzes circles around you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_moth_fly",
-    "type": "MONSTER",
-    "copy-from": "mon_moth_fly",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_VEGGIE"
-      ],
-      "feed": "The %s buzzes around the offering, devours it, and seems calmer in your presence.",
-      "pet": "The %s buzzes circles around you."
-    },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
-  },
-  {
-    "id": "mon_moth_fly_larva",
-    "type": "MONSTER",
-    "copy-from": "mon_moth_fly_larva",
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
@@ -3602,328 +3624,1332 @@
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_spider_cellar_small",
+    "id": "mon_foul_bigtad",
     "type": "MONSTER",
-    "copy-from": "mon_spider_cellar_small",
+    "copy-from": "mon_foul_bigtad",
+    "biosignature": {
+      "biosig_item": "shed_snakeskin",
+      "biosig_timer": 48
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s wraps the morsel in silk, consumes it, and regards you with its many eyes more peacefully.",
-      "pet": "The %s weaves a small web nearby and rests."
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_spider_cellar_giant",
+    "id": "mon_foul_giganfrog",
     "type": "MONSTER",
-    "copy-from": "mon_spider_cellar_giant",
+    "copy-from": "mon_foul_giganfrog",
+    "biosignature": {
+      "biosig_item": "shed_snakeskin",
+      "biosig_timer": 48
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s wraps the morsel in silk, consumes it, and regards you with its many eyes more peacefully.",
-      "pet": "The %s weaves a small web nearby and rests."
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_spider_cellar_giant_s",
+    "id": "mon_foul_megafrog",
     "type": "MONSTER",
-    "copy-from": "mon_spider_cellar_giant_s",
+    "copy-from": "mon_foul_megafrog",
+    "biosignature": {
+      "biosig_item": "shed_snakeskin",
+      "biosig_timer": 48
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s wraps the morsel in silk, consumes it, and regards you with its many eyes more peacefully.",
-      "pet": "The %s weaves a small web nearby and rests."
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_spider_cellar_mom",
+    "id": "mon_foul_tadpole",
     "type": "MONSTER",
-    "copy-from": "mon_spider_cellar_mom",
+    "copy-from": "mon_foul_tadpole",
+    "petfood": {
+      "food": [
+        "TAMEFOOD_MEAT",
+        "TAMEFOOD_ANY"
+      ],
+      "feed": "The aquatic creature snaps at the offering.",
+      "pet": "The creature swims around you calmly."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_foul_toad",
+    "type": "MONSTER",
+    "copy-from": "mon_foul_toad",
+    "biosignature": {
+      "biosig_item": "shed_snakeskin",
+      "biosig_timer": 48
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s wraps the morsel in silk, consumes it, and regards you with its many eyes more peacefully.",
-      "pet": "The %s weaves a small web nearby and rests."
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
-  },
-  {
-    "id": "mon_spider_cellar_mega",
-    "type": "MONSTER",
-    "copy-from": "mon_spider_cellar_mega",
-    "petfood": {
-      "food": [
-        "TAMEFOOD_ANY",
-        "TAMEFOOD_MEAT"
-      ],
-      "feed": "The %s wraps the morsel in silk, consumes it, and regards you with its many eyes more peacefully.",
-      "pet": "The %s weaves a small web nearby and rests."
     },
-    "extend": {
-      "flags": [
-        "DOGFOOD",
-        "PET_MOUNTABLE",
-        "SILENTMOVES"
-      ]
-    }
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_spider_cellar_leg",
+    "id": "mon_fowler_tadpole",
     "type": "MONSTER",
-    "copy-from": "mon_spider_cellar_leg",
+    "copy-from": "mon_fowler_tadpole",
+    "biosignature": {
+      "biosig_item": "feces_bird",
+      "biosig_timer": 8
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_VEGGIE"
       ],
-      "feed": "The %s wraps the morsel in silk, consumes it, and regards you with its many eyes more peacefully.",
-      "pet": "The %s weaves a small web nearby and rests."
+      "feed": "The %s flicks its tongue at the food and regards you with newfound tolerance.",
+      "pet": "The %s basks near you contentedly."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_spider_jumping_small",
+    "id": "mon_fowler_toad",
     "type": "MONSTER",
-    "copy-from": "mon_spider_jumping_small",
+    "copy-from": "mon_fowler_toad",
+    "biosignature": {
+      "biosig_item": "feces_bird",
+      "biosig_timer": 8
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_VEGGIE"
+      ],
+      "feed": "The %s flicks its tongue at the food and regards you with newfound tolerance.",
+      "pet": "The %s basks near you contentedly."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fox_gray",
+    "type": "MONSTER",
+    "copy-from": "mon_fox_gray",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s wraps the morsel in silk, consumes it, and regards you with its many eyes more peacefully.",
-      "pet": "The %s weaves a small web nearby and rests."
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_spider_jumping_giant",
+    "id": "mon_fox_red",
     "type": "MONSTER",
-    "copy-from": "mon_spider_jumping_giant",
+    "copy-from": "mon_fox_red",
+    "biosignature": {
+      "biosig_item": "feces_manure",
+      "biosig_timer": 6
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s wraps the morsel in silk, consumes it, and regards you with its many eyes more peacefully.",
-      "pet": "The %s weaves a small web nearby and rests."
+      "feed": "The %s cautiously accepts the offering and seems to warm up to you.",
+      "pet": "The %s nuzzles against you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_spider_jumping_giant_s",
+    "id": "mon_freedom_tadpole",
     "type": "MONSTER",
-    "copy-from": "mon_spider_jumping_giant_s",
+    "copy-from": "mon_freedom_tadpole",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s wraps the morsel in silk, consumes it, and regards you with its many eyes more peacefully.",
-      "pet": "The %s weaves a small web nearby and rests."
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_spider_jumping_mega",
+    "id": "mon_freedom_toad",
     "type": "MONSTER",
-    "copy-from": "mon_spider_jumping_mega",
+    "copy-from": "mon_freedom_toad",
+    "biosignature": {
+      "biosig_item": "shed_snakeskin",
+      "biosig_timer": 48
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s wraps the morsel in silk, consumes it, and regards you with its many eyes more peacefully.",
-      "pet": "The %s weaves a small web nearby and rests."
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_spider_trapdoor_small",
+    "id": "mon_frog_dad",
     "type": "MONSTER",
-    "copy-from": "mon_spider_trapdoor_small",
+    "copy-from": "mon_frog_dad",
+    "biosignature": {
+      "biosig_item": "shed_snakeskin",
+      "biosig_timer": 48
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_frog_mother",
+    "type": "MONSTER",
+    "copy-from": "mon_frog_mother",
+    "biosignature": {
+      "biosig_item": "shed_snakeskin",
+      "biosig_timer": 48
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_ELDRITCH",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s gnaws on the offering.  Something behind its dead eyes shifts, and it seems to recognize you as... not prey.",
+      "pet": "The %s groans softly and shuffles alongside you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_blackfish",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_blackfish",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s wraps the morsel in silk, consumes it, and regards you with its many eyes more peacefully.",
-      "pet": "The %s weaves a small web nearby and rests."
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_spider_trapdoor_giant",
+    "id": "mon_fry_bluefin_tuna",
     "type": "MONSTER",
-    "copy-from": "mon_spider_trapdoor_giant",
+    "copy-from": "mon_fry_bluefin_tuna",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s wraps the morsel in silk, consumes it, and regards you with its many eyes more peacefully.",
-      "pet": "The %s weaves a small web nearby and rests."
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_spider_trapdoor_s",
+    "id": "mon_fry_bluefish",
     "type": "MONSTER",
-    "copy-from": "mon_spider_trapdoor_s",
+    "copy-from": "mon_fry_bluefish",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s wraps the morsel in silk, consumes it, and regards you with its many eyes more peacefully.",
-      "pet": "The %s weaves a small web nearby and rests."
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_spider_trapdoor_mega",
+    "id": "mon_fry_bluegill",
     "type": "MONSTER",
-    "copy-from": "mon_spider_trapdoor_mega",
+    "copy-from": "mon_fry_bluegill",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s wraps the morsel in silk, consumes it, and regards you with its many eyes more peacefully.",
-      "pet": "The %s weaves a small web nearby and rests."
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_spider_web_small",
+    "id": "mon_fry_bowfin",
     "type": "MONSTER",
-    "copy-from": "mon_spider_web_small",
+    "copy-from": "mon_fry_bowfin",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s wraps the morsel in silk, consumes it, and regards you with its many eyes more peacefully.",
-      "pet": "The %s weaves a small web nearby and rests."
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
   },
   {
-    "id": "mon_spider_web",
+    "id": "mon_fry_brook_trout",
     "type": "MONSTER",
-    "copy-from": "mon_spider_web",
+    "copy-from": "mon_fry_brook_trout",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
     "petfood": {
       "food": [
         "TAMEFOOD_ANY",
         "TAMEFOOD_MEAT"
       ],
-      "feed": "The %s wraps the morsel in silk, consumes it, and regards you with its many eyes more peacefully.",
-      "pet": "The %s weaves a small web nearby and rests."
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
     },
     "extend": {
       "flags": [
         "DOGFOOD",
         "PET_MOUNTABLE",
-        "SILENTMOVES"
+        "CANPLAY"
       ]
-    }
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_brown_trout",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_brown_trout",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_bullhead",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_bullhead",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_bullhead_yellow",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_bullhead_yellow",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_burbot",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_burbot",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_calico_bass",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_calico_bass",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_carp",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_carp",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_channel_catfish",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_channel_catfish",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_cod",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_cod",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_crayfish",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_crayfish",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_fallfish",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_fallfish",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_flounder",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_flounder",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_gar_longnose",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_gar_longnose",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_goldfish",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_goldfish",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_grass_carp",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_grass_carp",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_green_sunfish",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_green_sunfish",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_haddock",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_haddock",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_halibut",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_halibut",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_kokanee_salmon",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_kokanee_salmon",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_lake_trout",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_lake_trout",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_lbass",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_lbass",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_mackerel",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_mackerel",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_muskellunge",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_muskellunge",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_pbass",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_pbass",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_perch",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_perch",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_pickerel",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_pickerel",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_pickerel_american",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_pickerel_american",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_pike",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_pike",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_pollock",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_pollock",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_porgy",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_porgy",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_pumpkinseed",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_pumpkinseed",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_rainbow_trout",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_rainbow_trout",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_redbreast",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_redbreast",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_rock_bass",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_rock_bass",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
+  },
+  {
+    "id": "mon_fry_salmon",
+    "type": "MONSTER",
+    "copy-from": "mon_fry_salmon",
+    "biosignature": {
+      "biosig_item": "fish_scrap",
+      "biosig_timer": 24
+    },
+    "petfood": {
+      "food": [
+        "TAMEFOOD_ANY",
+        "TAMEFOOD_MEAT"
+      ],
+      "feed": "The %s accepts the food and seems less hostile.",
+      "pet": "The %s seems content near you."
+    },
+    "extend": {
+      "flags": [
+        "DOGFOOD",
+        "PET_MOUNTABLE",
+        "CANPLAY"
+      ]
+    },
+    "mountable_weight_ratio": 1.0
   }
 ]

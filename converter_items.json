@@ -1,9 +1,6 @@
 [
   {
-    "type": "ITEM",
-    "subtypes": [
-      "TOOL"
-    ],
+    "type": "TOOL",
     "id": "taming_toolkit",
     "name": {
       "str": "taming treat toolkit"
@@ -25,10 +22,7 @@
     ]
   },
   {
-    "type": "ITEM",
-    "subtypes": [
-      "GENERIC"
-    ],
+    "type": "GENERIC",
     "id": "tac_flesh_rope",
     "name": {
       "str": "flesh rope"

@@ -1,9 +1,6 @@
 [
   {
-    "type": "ITEM",
-    "subtypes": [
-      "TOOL"
-    ],
+    "type": "TOOL",
     "id": "healing_incense_meat",
     "name": {
       "str": "meaty healing incense",
@@ -38,10 +35,7 @@
     }
   },
   {
-    "type": "ITEM",
-    "subtypes": [
-      "TOOL"
-    ],
+    "type": "TOOL",
     "id": "healing_incense_meat_act",
     "copy-from": "healing_incense_meat",
     "name": {
@@ -67,10 +61,7 @@
     }
   },
   {
-    "type": "ITEM",
-    "subtypes": [
-      "TOOL"
-    ],
+    "type": "TOOL",
     "id": "healing_incense_veggie",
     "name": {
       "str": "herbal healing incense",
@@ -104,10 +95,7 @@
     }
   },
   {
-    "type": "ITEM",
-    "subtypes": [
-      "TOOL"
-    ],
+    "type": "TOOL",
     "id": "healing_incense_veggie_act",
     "copy-from": "healing_incense_veggie",
     "name": {
@@ -133,10 +121,7 @@
     }
   },
   {
-    "type": "ITEM",
-    "subtypes": [
-      "TOOL"
-    ],
+    "type": "TOOL",
     "id": "healing_incense_tech",
     "name": {
       "str": "nanite repair canister"
@@ -170,10 +155,7 @@
     }
   },
   {
-    "type": "ITEM",
-    "subtypes": [
-      "TOOL"
-    ],
+    "type": "TOOL",
     "id": "healing_incense_tech_act",
     "copy-from": "healing_incense_tech",
     "name": {
@@ -198,10 +180,7 @@
     }
   },
   {
-    "type": "ITEM",
-    "subtypes": [
-      "TOOL"
-    ],
+    "type": "TOOL",
     "id": "healing_incense_eldritch",
     "name": {
       "str": "eldritch mending censer"
@@ -235,10 +214,7 @@
     }
   },
   {
-    "type": "ITEM",
-    "subtypes": [
-      "TOOL"
-    ],
+    "type": "TOOL",
     "id": "healing_incense_eldritch_act",
     "copy-from": "healing_incense_eldritch",
     "name": {
@@ -263,10 +239,7 @@
     }
   },
   {
-    "type": "ITEM",
-    "subtypes": [
-      "TOOL"
-    ],
+    "type": "TOOL",
     "id": "healing_incense_universal",
     "name": {
       "str": "universal healing incense",
@@ -301,10 +274,7 @@
     }
   },
   {
-    "type": "ITEM",
-    "subtypes": [
-      "TOOL"
-    ],
+    "type": "TOOL",
     "id": "healing_incense_universal_act",
     "copy-from": "healing_incense_universal",
     "name": {

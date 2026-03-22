@@ -848,5 +848,125 @@
         ]
       ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "TAC_rift_satchel",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [
+      [
+        "tailor",
+        4
+      ]
+    ],
+    "difficulty": 6,
+    "time": "6 h",
+    "autolearn": false,
+    "book_learn": [],
+    "using": [
+      [
+        "sewing_standard",
+        20
+      ]
+    ],
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "id_suffix": "eldritch",
+    "//": "Crafted from concentrated eldritch residue shed by tamed horrors, combined with a leather bag, steel reinforcement, and sinew stitching.",
+    "components": [
+      [
+        [
+          "TAC_eldritch_residue",
+          24
+        ]
+      ],
+      [
+        [
+          "leather",
+          12
+        ]
+      ],
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "sinew",
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "TAC_rift_satchel",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [
+      [
+        "tailor",
+        4
+      ]
+    ],
+    "difficulty": 6,
+    "time": "6 h",
+    "autolearn": false,
+    "book_learn": [],
+    "using": [
+      [
+        "sewing_standard",
+        20
+      ]
+    ],
+    "tools": [
+      [
+        [
+          "taming_toolkit",
+          -1
+        ]
+      ]
+    ],
+    "id_suffix": "nether",
+    "//": "Crafted from accumulated nether residue shed by tamed nether creatures, combined with a leather bag, steel reinforcement, and sinew stitching.",
+    "components": [
+      [
+        [
+          "TAC_nether_residue",
+          48
+        ]
+      ],
+      [
+        [
+          "leather",
+          12
+        ]
+      ],
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "sinew",
+          8
+        ]
+      ]
+    ]
   }
 ]

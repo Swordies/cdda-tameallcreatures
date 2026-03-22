@@ -1,9 +1,6 @@
 [
   {
-    "type": "ITEM",
-    "subtypes": [
-      "TOOL"
-    ],
+    "type": "TOOL",
     "id": "tamer_horn_beast",
     "name": {
       "str": "beast commander's horn"
@@ -33,10 +30,7 @@
     ]
   },
   {
-    "type": "ITEM",
-    "subtypes": [
-      "TOOL"
-    ],
+    "type": "TOOL",
     "id": "tamer_vial_insect",
     "name": {
       "str": "insect pheromone vial"
@@ -65,10 +59,7 @@
     ]
   },
   {
-    "type": "ITEM",
-    "subtypes": [
-      "TOOL"
-    ],
+    "type": "TOOL",
     "id": "tamer_signal_tech",
     "name": {
       "str": "tech override signal"
@@ -97,10 +88,7 @@
     ]
   },
   {
-    "type": "ITEM",
-    "subtypes": [
-      "TOOL"
-    ],
+    "type": "TOOL",
     "id": "tamer_resonator_eldritch",
     "name": {
       "str": "eldritch resonator"
@@ -129,10 +117,7 @@
     ]
   },
   {
-    "type": "ITEM",
-    "subtypes": [
-      "TOOL"
-    ],
+    "type": "TOOL",
     "id": "tamer_whistle_universal",
     "name": {
       "str": "universal tamer's whistle"

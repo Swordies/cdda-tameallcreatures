@@ -9,16 +9,6 @@
     "professions": [
       "beast_tamer"
     ],
-    "pets": [
-      {
-        "name": "mon_dog",
-        "amount": 1
-      },
-      {
-        "name": "mon_cat_tabby",
-        "amount": 1
-      }
-    ],
     "flags": [
       "LONE_START"
     ],
@@ -35,16 +25,6 @@
     "start_name": "Wilderness",
     "professions": [
       "insect_tamer"
-    ],
-    "pets": [
-      {
-        "name": "mon_bee_small",
-        "amount": 2
-      },
-      {
-        "name": "mon_ant_small",
-        "amount": 1
-      }
     ],
     "flags": [
       "LONE_START"
@@ -63,12 +43,6 @@
     "professions": [
       "dino_wrangler"
     ],
-    "pets": [
-      {
-        "name": "mon_spawn_raptor",
-        "amount": 1
-      }
-    ],
     "flags": [
       "LONE_START"
     ],
@@ -86,12 +60,6 @@
     "professions": [
       "demonologist"
     ],
-    "pets": [
-      {
-        "name": "mon_kreck",
-        "amount": 1
-      }
-    ],
     "flags": [
       "LONE_START"
     ],
@@ -108,12 +76,6 @@
     "start_name": "Garage",
     "professions": [
       "machine_whisperer"
-    ],
-    "pets": [
-      {
-        "name": "mon_manhack",
-        "amount": 1
-      }
     ],
     "flags": [
       "CITY_START",
@@ -133,16 +95,6 @@
     "professions": [
       "mycologist_tamer"
     ],
-    "pets": [
-      {
-        "name": "mon_fungaloid_young",
-        "amount": 1
-      },
-      {
-        "name": "mon_spore",
-        "amount": 2
-      }
-    ],
     "flags": [
       "LONE_START"
     ],
@@ -159,12 +111,6 @@
     "start_name": "Shelter",
     "professions": [
       "zombie_whisperer"
-    ],
-    "pets": [
-      {
-        "name": "mon_zombie",
-        "amount": 1
-      }
     ],
     "flags": [
       "LONE_START"
